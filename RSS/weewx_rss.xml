@@ -7,44 +7,44 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 24 Jan 2018 20:00:00 CET</pubDate>
+      <pubDate>Mi, 24 Jan 2018 20:12:00 CET</pubDate>
 
-      <lastBuildDate>Mi, 24 Jan 2018 20:00:00 CET</lastBuildDate>
+      <lastBuildDate>Mi, 24 Jan 2018 20:12:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 24.01.2018 20:00:00</title>
+         <title>Weather Conditions at 24.01.2018 20:12:00</title>
          <link></link>
          <description>
            Outside temperature: 9,8&#176;C; 
            Barometer: 1015 mbar; 
-           Wind: 1,5 m/s from 344&#176;; 
+           Wind: 1,9 m/s from 77&#176;; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,3&#176;C
          </description>
-         <pubDate>Mi, 24 Jan 2018 20:00:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 20:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                24.01.2018 20:00:00<br/>
+             Time:                24.01.2018 20:12:00<br/>
              Outside Temperature: 9,8&#176;C<br/>
              Inside Temperature:  21,3&#176;C<br/>
-             Wind Chill:          9,4&#176;C<br/>
+             Wind Chill:          9,1&#176;C<br/>
              Heat Index:          9,8&#176;C<br/>
              Dewpoint:            5,6&#176;C<br/>
              Humidity:            75%<br/>
              Barometer:           1015 mbar<br/>
-             Wind:                1,5 m/s from 344&#176;<br/>
+             Wind:                1,9 m/s from 77&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 24.01.2018 20:00:00</title>
+         <title>Daily Weather Summary as of 24.01.2018 20:12:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 5,6&#176;C at 00:00:01;
@@ -56,7 +56,7 @@
             Max wind :               5,1 m/s from    N/A at 14:09:29;
             Rain today:              0,9 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 20:00:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 20:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 24.01.2018 20:00:00</title>
+         <title>Monthly Weather Summary as of 24.01.2018 20:12:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    45,3 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 20:00:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 20:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 24.01.2018 20:00:00</title>
+         <title>Yearly Weather Summary as of 24.01.2018 20:12:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     45,3 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 20:00:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 20:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
