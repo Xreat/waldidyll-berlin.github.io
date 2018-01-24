@@ -7,56 +7,56 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 24 Jan 2018 01:48:00 CET</pubDate>
+      <pubDate>Mi, 24 Jan 2018 02:00:00 CET</pubDate>
 
-      <lastBuildDate>Mi, 24 Jan 2018 01:48:00 CET</lastBuildDate>
+      <lastBuildDate>Mi, 24 Jan 2018 02:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 24.01.2018 01:48:00</title>
+         <title>Weather Conditions at 24.01.2018 02:00:00</title>
          <link></link>
          <description>
            Outside temperature: 5,6&#176;C; 
            Barometer: 1020 mbar; 
-           Wind: 1,0 m/s from 45&#176;; 
+           Wind: 0,7 m/s from 270&#176;; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,4&#176;C
          </description>
-         <pubDate>Mi, 24 Jan 2018 01:48:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 02:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                24.01.2018 01:48:00<br/>
+             Time:                24.01.2018 02:00:00<br/>
              Outside Temperature: 5,6&#176;C<br/>
              Inside Temperature:  21,4&#176;C<br/>
              Wind Chill:          5,6&#176;C<br/>
              Heat Index:          5,6&#176;C<br/>
-             Dewpoint:            3,4&#176;C<br/>
-             Humidity:            86%<br/>
+             Dewpoint:            3,6&#176;C<br/>
+             Humidity:            87%<br/>
              Barometer:           1020 mbar<br/>
-             Wind:                1,0 m/s from 45&#176;<br/>
+             Wind:                0,7 m/s from 270&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 24.01.2018 01:48:00</title>
+         <title>Daily Weather Summary as of 24.01.2018 02:00:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 5,6&#176;C at 00:00:01;
          	Max outside temperature: 5,9&#176;C at 00:50:17;
 	        Min inside temperature:  21,4&#176;C at 01:40:30;
 	        Max inside temperature:  21,6&#176;C at 00:00:01;
-	        Min barometer:           1020 mbar at 01:40:30;
+	        Min barometer:           1020 mbar at 01:55:39;
 	        Max barometer:           1021 mbar at 00:00:01;
             Max wind :               4,1 m/s from    N/A at 00:05:03;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 01:48:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 02:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -66,7 +66,7 @@
 	         Max Outside Temperature: 5,9&#176;C at 00:50:17<br/>
 	         Min Inside Temperature:  21,4&#176;C at 01:40:30<br/>
 	         Max Inside Temperature:  21,6&#176;C at 00:00:01<br/>
-	         Min Barometer:           1020 mbar at 01:40:30<br/>
+	         Min Barometer:           1020 mbar at 01:55:39<br/>
 	         Max Barometer:           1021 mbar at 00:00:01<br/>
              Max Wind :               4,1 m/s from    N/A at 00:05:03<br/>
              Rain today:              0,3 mm<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 24.01.2018 01:48:00</title>
+         <title>Monthly Weather Summary as of 24.01.2018 02:00:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    44,7 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 01:48:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 02:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 24.01.2018 01:48:00</title>
+         <title>Yearly Weather Summary as of 24.01.2018 02:00:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     44,7 mm
          </description>
-         <pubDate>Mi, 24 Jan 2018 01:48:00 CET</pubDate>
+         <pubDate>Mi, 24 Jan 2018 02:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
