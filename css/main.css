@@ -711,7 +711,6 @@ header {
   display: inline-block; }
 
 footer {
-  text-align: center; /*added by Lennart Wenke*/
   width: 100%;
   background: #00bcec;
   color: #fff;
