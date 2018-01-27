@@ -7,36 +7,36 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 27 Jan 2018 10:12:00 CET</pubDate>
+      <pubDate>Sa, 27 Jan 2018 10:24:00 CET</pubDate>
 
-      <lastBuildDate>Sa, 27 Jan 2018 10:12:00 CET</lastBuildDate>
+      <lastBuildDate>Sa, 27 Jan 2018 10:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 27.01.2018 10:12:00</title>
+         <title>Weather Conditions at 27.01.2018 10:24:00</title>
          <link></link>
          <description>
-           Outside temperature: 6,6&#176;C; 
-           Barometer: 1031 mbar; 
+           Outside temperature: 6,5&#176;C; 
+           Barometer: 1032 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,6&#176;C
          </description>
-         <pubDate>Sa, 27 Jan 2018 10:12:00 CET</pubDate>
+         <pubDate>Sa, 27 Jan 2018 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                27.01.2018 10:12:00<br/>
-             Outside Temperature: 6,6&#176;C<br/>
+             Time:                27.01.2018 10:24:00<br/>
+             Outside Temperature: 6,5&#176;C<br/>
              Inside Temperature:  21,6&#176;C<br/>
-             Wind Chill:          6,6&#176;C<br/>
-             Heat Index:          6,6&#176;C<br/>
-             Dewpoint:            5,4&#176;C<br/>
+             Wind Chill:          6,5&#176;C<br/>
+             Heat Index:          6,5&#176;C<br/>
+             Dewpoint:            5,3&#176;C<br/>
              Humidity:            92%<br/>
-             Barometer:           1031 mbar<br/>
+             Barometer:           1032 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
@@ -44,7 +44,7 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 27.01.2018 10:12:00</title>
+         <title>Daily Weather Summary as of 27.01.2018 10:24:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 6,1&#176;C at 08:23:54;
@@ -52,11 +52,11 @@
 	        Min inside temperature:  21,5&#176;C at 03:32:50;
 	        Max inside temperature:  21,9&#176;C at 00:02:06;
 	        Min barometer:           1026 mbar at 00:07:07;
-	        Max barometer:           1032 mbar at 09:59:13;
+	        Max barometer:           1032 mbar at 10:19:18;
             Max wind :               1,0 m/s from    N/A at 02:32:39;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Sa, 27 Jan 2018 10:12:00 CET</pubDate>
+         <pubDate>Sa, 27 Jan 2018 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -67,7 +67,7 @@
 	         Min Inside Temperature:  21,5&#176;C at 03:32:50<br/>
 	         Max Inside Temperature:  21,9&#176;C at 00:02:06<br/>
 	         Min Barometer:           1026 mbar at 00:07:07<br/>
-	         Max Barometer:           1032 mbar at 09:59:13<br/>
+	         Max Barometer:           1032 mbar at 10:19:18<br/>
              Max Wind :               1,0 m/s from    N/A at 02:32:39<br/>
              Rain today:              0,3 mm<br/>
         </p>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 27.01.2018 10:12:00</title>
+         <title>Monthly Weather Summary as of 27.01.2018 10:24:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    54,0 mm
          </description>
-         <pubDate>Sa, 27 Jan 2018 10:12:00 CET</pubDate>
+         <pubDate>Sa, 27 Jan 2018 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 27.01.2018 10:12:00</title>
+         <title>Yearly Weather Summary as of 27.01.2018 10:24:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     54,0 mm
          </description>
-         <pubDate>Sa, 27 Jan 2018 10:12:00 CET</pubDate>
+         <pubDate>Sa, 27 Jan 2018 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
