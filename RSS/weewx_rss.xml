@@ -7,56 +7,56 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mo, 29 Jan 2018 09:36:00 CET</pubDate>
+      <pubDate>Mo, 29 Jan 2018 09:48:00 CET</pubDate>
 
-      <lastBuildDate>Mo, 29 Jan 2018 09:36:00 CET</lastBuildDate>
+      <lastBuildDate>Mo, 29 Jan 2018 09:48:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 29.01.2018 09:36:00</title>
+         <title>Weather Conditions at 29.01.2018 09:48:00</title>
          <link></link>
          <description>
-           Outside temperature: 10,1&#176;C; 
-           Barometer: 1021 mbar; 
-           Wind: 2,6 m/s from 56&#176;; 
+           Outside temperature: 10,2&#176;C; 
+           Barometer: 1020 mbar; 
+           Wind: 2,4 m/s from 95&#176;; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,6&#176;C
          </description>
-         <pubDate>Mo, 29 Jan 2018 09:36:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 09:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                29.01.2018 09:36:00<br/>
-             Outside Temperature: 10,1&#176;C<br/>
+             Time:                29.01.2018 09:48:00<br/>
+             Outside Temperature: 10,2&#176;C<br/>
              Inside Temperature:  21,6&#176;C<br/>
-             Wind Chill:          10,1&#176;C<br/>
-             Heat Index:          10,1&#176;C<br/>
+             Wind Chill:          10,2&#176;C<br/>
+             Heat Index:          10,2&#176;C<br/>
              Dewpoint:            7,3&#176;C<br/>
-             Humidity:            83%<br/>
-             Barometer:           1021 mbar<br/>
-             Wind:                2,6 m/s from 56&#176;<br/>
+             Humidity:            82%<br/>
+             Barometer:           1020 mbar<br/>
+             Wind:                2,4 m/s from 95&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 29.01.2018 09:36:00</title>
+         <title>Daily Weather Summary as of 29.01.2018 09:48:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 9,1&#176;C at 00:02:31;
          	Max outside temperature: 10,2&#176;C at 09:34:28;
 	        Min inside temperature:  21,6&#176;C at 09:14:23;
 	        Max inside temperature:  22,1&#176;C at 00:02:31;
-	        Min barometer:           1021 mbar at 09:34:28;
+	        Min barometer:           1020 mbar at 09:39:29;
 	        Max barometer:           1024 mbar at 00:32:40;
             Max wind :               6,1 m/s from    N/A at 08:54:18;
             Rain today:              0,9 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 09:36:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 09:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -66,7 +66,7 @@
 	         Max Outside Temperature: 10,2&#176;C at 09:34:28<br/>
 	         Min Inside Temperature:  21,6&#176;C at 09:14:23<br/>
 	         Max Inside Temperature:  22,1&#176;C at 00:02:31<br/>
-	         Min Barometer:           1021 mbar at 09:34:28<br/>
+	         Min Barometer:           1020 mbar at 09:39:29<br/>
 	         Max Barometer:           1024 mbar at 00:32:40<br/>
              Max Wind :               6,1 m/s from    N/A at 08:54:18<br/>
              Rain today:              0,9 mm<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 29.01.2018 09:36:00</title>
+         <title>Monthly Weather Summary as of 29.01.2018 09:48:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    56,7 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 09:36:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 09:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 29.01.2018 09:36:00</title>
+         <title>Yearly Weather Summary as of 29.01.2018 09:48:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     56,7 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 09:36:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 09:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
