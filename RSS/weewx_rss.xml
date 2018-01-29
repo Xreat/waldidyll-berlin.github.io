@@ -7,29 +7,29 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mo, 29 Jan 2018 05:00:00 CET</pubDate>
+      <pubDate>Mo, 29 Jan 2018 05:12:00 CET</pubDate>
 
-      <lastBuildDate>Mo, 29 Jan 2018 05:00:00 CET</lastBuildDate>
+      <lastBuildDate>Mo, 29 Jan 2018 05:12:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 29.01.2018 05:00:00</title>
+         <title>Weather Conditions at 29.01.2018 05:12:00</title>
          <link></link>
          <description>
            Outside temperature: 9,9&#176;C; 
            Barometer: 1022 mbar; 
-           Wind: 2,5 m/s from 89&#176;; 
+           Wind: 2,4 m/s from 63&#176;; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,7&#176;C
          </description>
-         <pubDate>Mo, 29 Jan 2018 05:00:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 05:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                29.01.2018 05:00:00<br/>
+             Time:                29.01.2018 05:12:00<br/>
              Outside Temperature: 9,9&#176;C<br/>
              Inside Temperature:  21,7&#176;C<br/>
              Wind Chill:          8,8&#176;C<br/>
@@ -37,14 +37,14 @@
              Dewpoint:            8,3&#176;C<br/>
              Humidity:            90%<br/>
              Barometer:           1022 mbar<br/>
-             Wind:                2,5 m/s from 89&#176;<br/>
+             Wind:                2,4 m/s from 63&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 29.01.2018 05:00:00</title>
+         <title>Daily Weather Summary as of 29.01.2018 05:12:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 9,1&#176;C at 00:02:31;
@@ -56,7 +56,7 @@
             Max wind :               5,8 m/s from    N/A at 00:37:40;
             Rain today:              0,9 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 05:00:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 05:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 29.01.2018 05:00:00</title>
+         <title>Monthly Weather Summary as of 29.01.2018 05:12:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    56,7 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 05:00:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 05:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 29.01.2018 05:00:00</title>
+         <title>Yearly Weather Summary as of 29.01.2018 05:12:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     56,7 mm
          </description>
-         <pubDate>Mo, 29 Jan 2018 05:00:00 CET</pubDate>
+         <pubDate>Mo, 29 Jan 2018 05:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
