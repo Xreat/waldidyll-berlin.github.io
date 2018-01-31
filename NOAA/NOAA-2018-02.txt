@@ -1,0 +1,45 @@
+                   MONTHLY CLIMATOLOGICAL SUMMARY for Feb 2018
+
+
+NAME: Tegel-Süd, Berlin, Germany                  
+ELEV: 48 meter    LAT: 52-34.35 N    LONG: 013-16.03 E
+
+
+                   TEMPERATURE (°C), RAIN (mm), WIND SPEED (m/s)
+
+                                         HEAT   COOL         AVG
+      MEAN                               DEG    DEG          WIND                   DOM
+DAY   TEMP   HIGH   TIME    LOW   TIME   DAYS   DAYS   RAIN  SPEED   HIGH   TIME    DIR
+---------------------------------------------------------------------------------------
+ 01    6,1    6,2  00:02    6,0  00:07   12,2    0,0    0,0    1,4    2,7  00:07    330
+ 02
+ 03
+ 04
+ 05
+ 06
+ 07
+ 08
+ 09
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+---------------------------------------------------------------------------------------
+       6,1    6,2     01    6,0     01   12,2    0,0    0,0    1,4    2,7     01    330
+    
+
