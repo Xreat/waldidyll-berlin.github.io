@@ -7,34 +7,34 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 31 Jan 2018 01:24:00 CET</pubDate>
+      <pubDate>Mi, 31 Jan 2018 01:36:00 CET</pubDate>
 
-      <lastBuildDate>Mi, 31 Jan 2018 01:24:00 CET</lastBuildDate>
+      <lastBuildDate>Mi, 31 Jan 2018 01:36:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 31.01.2018 01:24:00</title>
+         <title>Weather Conditions at 31.01.2018 01:36:00</title>
          <link></link>
          <description>
-           Outside temperature: 3,5&#176;C; 
+           Outside temperature: 3,3&#176;C; 
            Barometer: 1023 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,6&#176;C
          </description>
-         <pubDate>Mi, 31 Jan 2018 01:24:00 CET</pubDate>
+         <pubDate>Mi, 31 Jan 2018 01:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                31.01.2018 01:24:00<br/>
-             Outside Temperature: 3,5&#176;C<br/>
+             Time:                31.01.2018 01:36:00<br/>
+             Outside Temperature: 3,3&#176;C<br/>
              Inside Temperature:  21,6&#176;C<br/>
-             Wind Chill:          3,5&#176;C<br/>
-             Heat Index:          3,5&#176;C<br/>
-             Dewpoint:            -0,9&#176;C<br/>
+             Wind Chill:          3,3&#176;C<br/>
+             Heat Index:          3,3&#176;C<br/>
+             Dewpoint:            -1,1&#176;C<br/>
              Humidity:            73%<br/>
              Barometer:           1023 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
@@ -44,29 +44,29 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 31.01.2018 01:24:00</title>
+         <title>Daily Weather Summary as of 31.01.2018 01:36:00</title>
          <link></link>
          <description>
-	        Min outside temperature: 3,4&#176;C at 01:23:05;
+	        Min outside temperature: 3,2&#176;C at 01:33:06;
          	Max outside temperature: 3,7&#176;C at 00:52:58;
-	        Min inside temperature:  21,6&#176;C at 00:27:52;
+	        Min inside temperature:  21,5&#176;C at 01:33:06;
 	        Max inside temperature:  21,7&#176;C at 00:02:48;
-	        Min barometer:           1023 mbar at 01:18:04;
+	        Min barometer:           1023 mbar at 01:28:05;
 	        Max barometer:           1024 mbar at 00:02:48;
             Max wind :               1,0 m/s from    N/A at 00:32:53;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Mi, 31 Jan 2018 01:24:00 CET</pubDate>
+         <pubDate>Mi, 31 Jan 2018 01:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     31 Jan 2018<br/>
-	         Min Outside Temperature: 3,4&#176;C at 01:23:05<br/>
+	         Min Outside Temperature: 3,2&#176;C at 01:33:06<br/>
 	         Max Outside Temperature: 3,7&#176;C at 00:52:58<br/>
-	         Min Inside Temperature:  21,6&#176;C at 00:27:52<br/>
+	         Min Inside Temperature:  21,5&#176;C at 01:33:06<br/>
 	         Max Inside Temperature:  21,7&#176;C at 00:02:48<br/>
-	         Min Barometer:           1023 mbar at 01:18:04<br/>
+	         Min Barometer:           1023 mbar at 01:28:05<br/>
 	         Max Barometer:           1024 mbar at 00:02:48<br/>
              Max Wind :               1,0 m/s from    N/A at 00:32:53<br/>
              Rain today:              0,0 mm<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 31.01.2018 01:24:00</title>
+         <title>Monthly Weather Summary as of 31.01.2018 01:36:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -87,7 +87,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for month:    60,0 mm
          </description>
-         <pubDate>Mi, 31 Jan 2018 01:24:00 CET</pubDate>
+         <pubDate>Mi, 31 Jan 2018 01:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 31.01.2018 01:24:00</title>
+         <title>Yearly Weather Summary as of 31.01.2018 01:36:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     60,0 mm
          </description>
-         <pubDate>Mi, 31 Jan 2018 01:24:00 CET</pubDate>
+         <pubDate>Mi, 31 Jan 2018 01:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
