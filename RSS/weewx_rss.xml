@@ -7,44 +7,44 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 01 Feb 2018 18:24:00 CET</pubDate>
+      <pubDate>Do, 01 Feb 2018 18:36:00 CET</pubDate>
 
-      <lastBuildDate>Do, 01 Feb 2018 18:24:00 CET</lastBuildDate>
+      <lastBuildDate>Do, 01 Feb 2018 18:36:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 01.02.2018 18:24:00</title>
+         <title>Weather Conditions at 01.02.2018 18:36:00</title>
          <link></link>
          <description>
-           Outside temperature: 5,0&#176;C; 
+           Outside temperature: 4,7&#176;C; 
            Barometer: 1003 mbar; 
-           Wind: 1,1 m/s from 265&#176;; 
+           Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,6&#176;C
          </description>
-         <pubDate>Do, 01 Feb 2018 18:24:00 CET</pubDate>
+         <pubDate>Do, 01 Feb 2018 18:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                01.02.2018 18:24:00<br/>
-             Outside Temperature: 5,0&#176;C<br/>
+             Time:                01.02.2018 18:36:00<br/>
+             Outside Temperature: 4,7&#176;C<br/>
              Inside Temperature:  21,6&#176;C<br/>
-             Wind Chill:          4,5&#176;C<br/>
-             Heat Index:          5,0&#176;C<br/>
-             Dewpoint:            -1,7&#176;C<br/>
+             Wind Chill:          4,7&#176;C<br/>
+             Heat Index:          4,7&#176;C<br/>
+             Dewpoint:            -2,0&#176;C<br/>
              Humidity:            62%<br/>
              Barometer:           1003 mbar<br/>
-             Wind:                1,1 m/s from 265&#176;<br/>
+             Wind:                0,0 m/s from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 01.02.2018 18:24:00</title>
+         <title>Daily Weather Summary as of 01.02.2018 18:36:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 3,4&#176;C at 08:35:32;
@@ -52,11 +52,11 @@
 	        Min inside temperature:  21,5&#176;C at 00:12:47;
 	        Max inside temperature:  21,7&#176;C at 07:35:19;
 	        Min barometer:           1000 mbar at 00:02:44;
-	        Max barometer:           1003 mbar at 18:18:50;
+	        Max barometer:           1003 mbar at 18:33:56;
             Max wind :               4,1 m/s from    N/A at 11:16:10;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Do, 01 Feb 2018 18:24:00 CET</pubDate>
+         <pubDate>Do, 01 Feb 2018 18:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -67,7 +67,7 @@
 	         Min Inside Temperature:  21,5&#176;C at 00:12:47<br/>
 	         Max Inside Temperature:  21,7&#176;C at 07:35:19<br/>
 	         Min Barometer:           1000 mbar at 00:02:44<br/>
-	         Max Barometer:           1003 mbar at 18:18:50<br/>
+	         Max Barometer:           1003 mbar at 18:33:56<br/>
              Max Wind :               4,1 m/s from    N/A at 11:16:10<br/>
              Rain today:              0,3 mm<br/>
         </p>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 01.02.2018 18:24:00</title>
+         <title>Monthly Weather Summary as of 01.02.2018 18:36:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: 3,4&#176;C at 01.02.2018 08:35:32;
@@ -83,11 +83,11 @@
 	        Min inside temperature:  21,5&#176;C at 01.02.2018 00:12:47;
 	        Max inside temperature:  21,7&#176;C at 01.02.2018 07:35:19;
 	        Min barometer:           1000 mbar at 01.02.2018 00:02:44;
-	        Max barometer:           1003 mbar at 01.02.2018 18:18:50;
+	        Max barometer:           1003 mbar at 01.02.2018 18:33:56;
             Max wind :               4,1 m/s from    N/A at 01.02.2018 11:16:10;
             Rain total for month:    0,3 mm
          </description>
-         <pubDate>Do, 01 Feb 2018 18:24:00 CET</pubDate>
+         <pubDate>Do, 01 Feb 2018 18:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -96,7 +96,7 @@
 	         Max Inside Temperature:  21,7&#176;C at 01.02.2018 07:35:19<br/>
 	         Min Inside Temperature:  21,5&#176;C at 01.02.2018 00:12:47<br/>
 	         Min Barometer:           1000 mbar at 01.02.2018 00:02:44<br/>
-	         Max Barometer:           1003 mbar at 01.02.2018 18:18:50<br/>
+	         Max Barometer:           1003 mbar at 01.02.2018 18:33:56<br/>
              Max Wind :               4,1 m/s from    N/A at 01.02.2018 11:16:10<br/>
              Rain total for month:    0,3 mm<br/>
         </p>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 01.02.2018 18:24:00</title>
+         <title>Yearly Weather Summary as of 01.02.2018 18:36:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     67,5 mm
          </description>
-         <pubDate>Do, 01 Feb 2018 18:24:00 CET</pubDate>
+         <pubDate>Do, 01 Feb 2018 18:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
