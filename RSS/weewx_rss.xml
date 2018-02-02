@@ -7,44 +7,44 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fr, 02 Feb 2018 02:00:00 CET</pubDate>
+      <pubDate>Fr, 02 Feb 2018 02:12:00 CET</pubDate>
 
-      <lastBuildDate>Fr, 02 Feb 2018 02:00:00 CET</lastBuildDate>
+      <lastBuildDate>Fr, 02 Feb 2018 02:12:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 02.02.2018 02:00:00</title>
+         <title>Weather Conditions at 02.02.2018 02:12:00</title>
          <link></link>
          <description>
-           Outside temperature: 2,8&#176;C; 
-           Barometer: 1004 mbar; 
-           Wind: 0,7 m/s from 0&#176;; 
+           Outside temperature:    N/A; 
+           Barometer:    N/A; 
+           Wind:    N/A from    N/A; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 22,1&#176;C
          </description>
-         <pubDate>Fr, 02 Feb 2018 02:00:00 CET</pubDate>
+         <pubDate>Fr, 02 Feb 2018 02:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                02.02.2018 02:00:00<br/>
-             Outside Temperature: 2,8&#176;C<br/>
+             Time:                02.02.2018 02:12:00<br/>
+             Outside Temperature:    N/A<br/>
              Inside Temperature:  22,1&#176;C<br/>
-             Wind Chill:          2,8&#176;C<br/>
-             Heat Index:          2,8&#176;C<br/>
-             Dewpoint:            -3,1&#176;C<br/>
-             Humidity:            65%<br/>
-             Barometer:           1004 mbar<br/>
-             Wind:                0,7 m/s from 0&#176;<br/>
+             Wind Chill:             N/A<br/>
+             Heat Index:             N/A<br/>
+             Dewpoint:               N/A<br/>
+             Humidity:               N/A<br/>
+             Barometer:              N/A<br/>
+             Wind:                   N/A from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 02.02.2018 02:00:00</title>
+         <title>Daily Weather Summary as of 02.02.2018 02:12:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 2,8&#176;C at 01:36:07;
@@ -56,7 +56,7 @@
             Max wind :               3,1 m/s from    N/A at 00:10:49;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Fr, 02 Feb 2018 02:00:00 CET</pubDate>
+         <pubDate>Fr, 02 Feb 2018 02:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 02.02.2018 02:00:00</title>
+         <title>Monthly Weather Summary as of 02.02.2018 02:12:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: 2,6&#176;C at 01.02.2018 22:10:09;
@@ -87,7 +87,7 @@
             Max wind :               4,1 m/s from    N/A at 01.02.2018 11:16:10;
             Rain total for month:    0,3 mm
          </description>
-         <pubDate>Fr, 02 Feb 2018 02:00:00 CET</pubDate>
+         <pubDate>Fr, 02 Feb 2018 02:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 02.02.2018 02:00:00</title>
+         <title>Yearly Weather Summary as of 02.02.2018 02:12:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 08.01.2018 08:36:00;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     67,5 mm
          </description>
-         <pubDate>Fr, 02 Feb 2018 02:00:00 CET</pubDate>
+         <pubDate>Fr, 02 Feb 2018 02:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
