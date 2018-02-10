@@ -7,48 +7,48 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 10 Feb 2018 12:00:00 CET</pubDate>
+      <pubDate>Sa, 10 Feb 2018 12:12:00 CET</pubDate>
 
-      <lastBuildDate>Sa, 10 Feb 2018 12:00:00 CET</lastBuildDate>
+      <lastBuildDate>Sa, 10 Feb 2018 12:12:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 10.02.2018 12:00:00</title>
+         <title>Weather Conditions at 10.02.2018 12:12:00</title>
          <link></link>
          <description>
-           Outside temperature: 1,7&#176;C; 
+           Outside temperature: 1,8&#176;C; 
            Barometer: 1018 mbar; 
-           Wind: 0,0 m/s from    N/A; 
+           Wind: 0,5 m/s from 16&#176;; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,5&#176;C
          </description>
-         <pubDate>Sa, 10 Feb 2018 12:00:00 CET</pubDate>
+         <pubDate>Sa, 10 Feb 2018 12:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                10.02.2018 12:00:00<br/>
-             Outside Temperature: 1,7&#176;C<br/>
+             Time:                10.02.2018 12:12:00<br/>
+             Outside Temperature: 1,8&#176;C<br/>
              Inside Temperature:  21,5&#176;C<br/>
-             Wind Chill:          1,7&#176;C<br/>
-             Heat Index:          1,7&#176;C<br/>
-             Dewpoint:            -3,2&#176;C<br/>
+             Wind Chill:          1,8&#176;C<br/>
+             Heat Index:          1,8&#176;C<br/>
+             Dewpoint:            -3,1&#176;C<br/>
              Humidity:            70%<br/>
              Barometer:           1018 mbar<br/>
-             Wind:                0,0 m/s from    N/A<br/>
+             Wind:                0,5 m/s from 16&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 10.02.2018 12:00:00</title>
+         <title>Daily Weather Summary as of 10.02.2018 12:12:00</title>
          <link></link>
          <description>
 	        Min outside temperature: 0,0&#176;C at 03:54:54;
-         	Max outside temperature: 1,7&#176;C at 11:51:34;
+         	Max outside temperature: 1,9&#176;C at 12:11:40;
 	        Min inside temperature:  21,4&#176;C at 10:56:22;
 	        Max inside temperature:  22,0&#176;C at 00:49:11;
 	        Min barometer:           1018 mbar at 04:29:58;
@@ -56,14 +56,14 @@
             Max wind :               1,7 m/s from    N/A at 11:31:31;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Sa, 10 Feb 2018 12:00:00 CET</pubDate>
+         <pubDate>Sa, 10 Feb 2018 12:12:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     10 Feb 2018<br/>
 	         Min Outside Temperature: 0,0&#176;C at 03:54:54<br/>
-	         Max Outside Temperature: 1,7&#176;C at 11:51:34<br/>
+	         Max Outside Temperature: 1,9&#176;C at 12:11:40<br/>
 	         Min Inside Temperature:  21,4&#176;C at 10:56:22<br/>
 	         Max Inside Temperature:  22,0&#176;C at 00:49:11<br/>
 	         Min Barometer:           1018 mbar at 04:29:58<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 10.02.2018 12:00:00</title>
+         <title>Monthly Weather Summary as of 10.02.2018 12:12:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -87,7 +87,7 @@
             Max wind :               5,1 m/s from    N/A at 02.02.2018 14:20:06;
             Rain total for month:    1,5 mm
          </description>
-         <pubDate>Sa, 10 Feb 2018 12:00:00 CET</pubDate>
+         <pubDate>Sa, 10 Feb 2018 12:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 10.02.2018 12:00:00</title>
+         <title>Yearly Weather Summary as of 10.02.2018 12:12:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     68,7 mm
          </description>
-         <pubDate>Sa, 10 Feb 2018 12:00:00 CET</pubDate>
+         <pubDate>Sa, 10 Feb 2018 12:12:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
