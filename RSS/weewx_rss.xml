@@ -7,35 +7,35 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Di, 13 Feb 2018 17:48:00 CET</pubDate>
+      <pubDate>Di, 13 Feb 2018 18:00:00 CET</pubDate>
 
-      <lastBuildDate>Di, 13 Feb 2018 17:48:00 CET</lastBuildDate>
+      <lastBuildDate>Di, 13 Feb 2018 18:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 13.02.2018 17:48:00</title>
+         <title>Weather Conditions at 13.02.2018 18:00:00</title>
          <link></link>
          <description>
-           Outside temperature: 3,3&#176;C; 
+           Outside temperature: 3,0&#176;C; 
            Barometer: 1017 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
            Inside temperature: 21,3&#176;C
          </description>
-         <pubDate>Di, 13 Feb 2018 17:48:00 CET</pubDate>
+         <pubDate>Di, 13 Feb 2018 18:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                13.02.2018 17:48:00<br/>
-             Outside Temperature: 3,3&#176;C<br/>
+             Time:                13.02.2018 18:00:00<br/>
+             Outside Temperature: 3,0&#176;C<br/>
              Inside Temperature:  21,3&#176;C<br/>
-             Wind Chill:          3,3&#176;C<br/>
-             Heat Index:          3,3&#176;C<br/>
+             Wind Chill:          3,0&#176;C<br/>
+             Heat Index:          3,0&#176;C<br/>
              Dewpoint:            -5,2&#176;C<br/>
-             Humidity:            53%<br/>
+             Humidity:            54%<br/>
              Barometer:           1017 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
@@ -44,7 +44,7 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 13.02.2018 17:48:00</title>
+         <title>Daily Weather Summary as of 13.02.2018 18:00:00</title>
          <link></link>
          <description>
 	        Min outside temperature: -1,0&#176;C at 07:26:47;
@@ -56,7 +56,7 @@
             Max wind :               2,7 m/s from    N/A at 12:07:51;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Di, 13 Feb 2018 17:48:00 CET</pubDate>
+         <pubDate>Di, 13 Feb 2018 18:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 13.02.2018 17:48:00</title>
+         <title>Monthly Weather Summary as of 13.02.2018 18:00:00</title>
          <link>/month.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -87,7 +87,7 @@
             Max wind :               5,4 m/s from    N/A at 12.02.2018 13:42:46;
             Rain total for month:    3,0 mm
          </description>
-         <pubDate>Di, 13 Feb 2018 17:48:00 CET</pubDate>
+         <pubDate>Di, 13 Feb 2018 18:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 13.02.2018 17:48:00</title>
+         <title>Yearly Weather Summary as of 13.02.2018 18:00:00</title>
          <link>/year.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -116,7 +116,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     70,2 mm
          </description>
-         <pubDate>Di, 13 Feb 2018 17:48:00 CET</pubDate>
+         <pubDate>Di, 13 Feb 2018 18:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
