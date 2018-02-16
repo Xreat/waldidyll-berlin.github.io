@@ -299,6 +299,8 @@ var Gauge = function (config) {
      */
     this.setValue = function (val) {
 
+	val = parseFloat(val);
+
         fromValue = config.animation ? value : val;
 
         var dv = (config.maxValue - config.minValue) / 100;
