@@ -581,10 +581,10 @@ header {
   font-weight: 300;
   padding: 1em 0 0 0; }
   header a {
-    color: #fff533;
+    color: #95D7E8;
     transition: all 0.2s; }
   header a:hover {
-    color: #fffcc2; }
+    color: #95D7E8; }
   header h1 {
     font-size: 1.8em;
     font-weight: normal;
@@ -649,10 +649,6 @@ header {
       border-bottom: 3px solid #fff533; }
       header nav li.active a {
         color: #fff; }
-
-canvas {
-    margin: 2em 0;
-}
 
 .container {
   display: inline-block;
