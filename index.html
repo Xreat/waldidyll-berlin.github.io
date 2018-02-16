@@ -17,7 +17,7 @@
 
         <!-- Icons -->
         <link rel="icon" href="favicon.ico" type="image/png">
-		<link rel="apple-touch-icon" href="touch-icon.png"/>
+	<link rel="apple-touch-icon" href="touch-icon.png"/>
         
         <!-- Styles -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -26,6 +26,7 @@
         
         <!-- Skripte -->
         <script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/gauge.js"></script>
         
         <script type="text/javascript">
             function openNoaaFile(date)
@@ -46,16 +47,15 @@
                 <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
                 <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
                 <h2>Aktuelles Wetter</h2>
-                <p><i class="fa fa-clock-o" ></i> 16.02.2018 12:24:00</p>
+                <p><i class="fa fa-clock-o" ></i> 16.02.2018 12:36:00</p>
                 </div>
                 
                 <div class="h-right" >
                     <table>
                         <tr><td><b>Station:</b></td><td>WS1080</td></tr>
                         <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
-                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 14 Stunden, 25 Minuten</td></tr>
-                        <tr><td><b>Laufzeit Server:</b></td><td>9 Tage, 13 Stunden, 43 Minuten</td></tr>
-		<!--	<tr><td><b>Meine Homepage:</b></td><td><a href="http://paddysblog.ddns.net" target="_blank" >Paddy's Blog // Rund ums Horn</a></td></tr> -->
+                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 14 Stunden, 41 Minuten</td></tr>
+                        <tr><td><b>Laufzeit Server:</b></td><td>9 Tage, 13 Stunden, 59 Minuten</td></tr>
                     </table>
                 </div>
 
@@ -85,6 +85,7 @@
                                     <option value="2017">2017</option>
                                     <option value="2018">2018</option>
                             </select></li>
+			<li><a href="index-protected.html">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -98,15 +99,15 @@
                 <div class="card" >
                     <h1><i class="fa fa-sun-o m-orange" ></i> Aktuelles Wetter</h1>
                     <table class="tablespacer">
-                        <tr><td>Temperatur außen</td><td>6,5&#176;C</td></tr>
+                        <tr><td>Temperatur außen</td><td>6,4&#176;C</td></tr>
                         <tr><td>Temperatur innen</td><td>21,3&#176;C</td></tr>
-                        <tr><td>Windchill</td><td>5,7&#176;C</td></tr>
-                        <tr><td>Hitze-Index</td><td>6,5&#176;C</td></tr>
-                        <tr><td>Taupunkt</td><td>0,6&#176;C</td></tr>
-                        <tr><td>Luftfeuchte</td><td>66%</td></tr>
+                        <tr><td>Windchill</td><td>6,4&#176;C</td></tr>
+                        <tr><td>Hitze-Index</td><td>6,4&#176;C</td></tr>
+                        <tr><td>Taupunkt</td><td>0,2&#176;C</td></tr>
+                        <tr><td>Luftfeuchte</td><td>64%</td></tr>
                         <tr><td>Luftdruck</td><td>1024 mbar</td></tr>
-                        <tr><td>Luftdruck Trend (3 Stunden)</td><td>2 mbar</td></tr>
-                        <tr><td>Wind</td><td>1,2 m/s O (88&#176;)</td></tr>
+                        <tr><td>Luftdruck Trend (3 Stunden)</td><td>1 mbar</td></tr>
+                        <tr><td>Wind</td><td>1,0 m/s ONO (56&#176;)</td></tr>
                         <tr><td>Regen-Rate</td><td>0,0 mm/h</td></tr>
                     </table>
                 </div>
@@ -124,7 +125,7 @@
                         <tr><td>Niedrigster Taupunkt</td><td>-1,1&#176;C</td><td>00:01:53</td></tr>
                         <tr><td>Höchste Luftfeuchte</td><td>83%</td><td>01:57:01</td></tr>
                         <tr><td>Niedrigste Luftfeuchte</td><td>64%</td><td>11:14:57</td></tr>
-                        <tr><td>Höchster Luftdruck</td><td>1024 mbar</td><td>12:15:16</td></tr>
+                        <tr><td>Höchster Luftdruck</td><td>1024 mbar</td><td>12:35:58</td></tr>
                         <tr><td>Niedrigster Luftdruck</td><td>1017 mbar</td><td>01:00:59</td></tr>
                         <tr><td>Heutiger Regenfall</td><td>0,0 mm</td><td></td></tr>
                         <tr><td>Max. Regen-Rate</td><td>0,0 mm/h</td><td>00:01:53</td></tr>
@@ -171,8 +172,23 @@
             </div>
             
             <div class="right" >
-
-                <div class="card" >
+                
+                <div class="card cc graphs" >
+                    <h1><i class="fa fa-line-chart m-gruen" ></i> Grafiken</h1>
+                    
+                    <img src="daytempdew.png" alt="temperatures" /></a>
+                    <img src="dayinside.png" alt="Inside" /></a>
+                    <img src="daybarometer.png" alt="barometer"/></a>
+		    <img src="dayhumidity.png" alt="humidity"/></a>
+                    <img src="dayrain.png" alt="rain" /></a>
+                    <img src="daytempchill.png" alt="heatchill" /></a>
+                    <img src="daywind.png" alt="wind" /></a>
+                    <img src="daywinddir.png" alt="Hi Wind" /></a>
+                    <img src="daywindvec.png" alt="Wind Vector" /></a>
+                    <img src="dayrx.png" alt="day rx percent"/></a>
+                </div>
+                
+		<div class="card" >
                     <h1><i class="fa fa-star-o m-rot" ></i> Jahrbuch / Kalender / Almanac</h1>
                     <table>
                         <tr><td>Sonnenaufgang:</td><td>07:21:00</td></tr>
@@ -180,22 +196,7 @@
                         <tr><td>Mond Phase:</td><td>Neumond<br/>(0% voll)</td></tr>
                     </table>
                 </div>
-                
-                <div class="card cc graphs" >
-                    <h1><i class="fa fa-line-chart m-gruen" ></i> Grafiken</h1>
-                    
-                    <img src="daytempdew.png" alt="temperatures" />
-                    <img src="dayinside.png" alt="Inside" />
-                    <img src="daybarometer.png" alt="barometer"/>
-		    <img src="dayhumidity.png" althumidity" />
-                    <img src="dayrain.png" alt="rain" />
-                    <img src="daytempchill.png" alt="heatchill" />
-                    <img src="daywind.png" alt="wind" />
-                    <img src="daywinddir.png" alt="Hi Wind" />
-                    <img src="daywindvec.png" alt="Wind Vector" />
-                    <img src="dayrx.png" alt="day rx percent"/>
-                </div>
-                
+
             </div>
         </div>
         </div>
