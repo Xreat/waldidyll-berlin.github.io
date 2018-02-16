@@ -7,75 +7,75 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fri, 16 Feb 2018 14:36:00 CET</pubDate>
+      <pubDate>Fri, 16 Feb 2018 15:00:00 CET</pubDate>
 
-      <lastBuildDate>Fri, 16 Feb 2018 14:36:00 CET</lastBuildDate>
+      <lastBuildDate>Fri, 16 Feb 2018 15:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12.000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 16/02/18 14:36:00</title>
+         <title>Weather Conditions at 16/02/18 15:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 7.4&#176;C; 
+           Outside temperature: 7.2&#176;C; 
            Barometer: 1024 mbar; 
-           Wind: 0.7 m/s from 338&#176;; 
-           Rain rate: 0.0 mm/hr; 
+           Wind: 2.0 m/s from 360&#176;; 
+           Rain rate: 0.0 mm/h; 
            Inside temperature: 21.3&#176;C
          </description>
-         <pubDate>Fri, 16 Feb 2018 14:36:00 CET</pubDate>
+         <pubDate>Fri, 16 Feb 2018 15:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                16/02/18 14:36:00<br/>
-             Outside Temperature: 7.4&#176;C<br/>
+             Time:                16/02/18 15:00:00<br/>
+             Outside Temperature: 7.2&#176;C<br/>
              Inside Temperature:  21.3&#176;C<br/>
-             Wind Chill:          7.4&#176;C<br/>
-             Heat Index:          7.4&#176;C<br/>
-             Dewpoint:            -0.5&#176;C<br/>
-             Humidity:            58%<br/>
+             Wind Chill:          6.0&#176;C<br/>
+             Heat Index:          7.2&#176;C<br/>
+             Dewpoint:            -0.9&#176;C<br/>
+             Humidity:            56%<br/>
              Barometer:           1024 mbar<br/>
-             Wind:                0.7 m/s from 338&#176;<br/>
-             Rain Rate:           0.0 mm/hr<br/>
+             Wind:                2.0 m/s from 360&#176;<br/>
+             Rain Rate:           0.0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 16/02/18 14:36:00</title>
+         <title>Daily Weather Summary as of 16/02/18 15:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 1.6&#176;C at 07:48:51;
-         	Max outside temperature: 7.5&#176;C at 14:35:58;
+         	Max outside temperature: 7.6&#176;C at 14:50:54;
 	        Min inside temperature:  21.3&#176;C at 04:58:09;
 	        Max inside temperature:  21.6&#176;C at 00:01:53;
 	        Min barometer:           1017 mbar at 01:00:59;
-	        Max barometer:           1024 mbar at 14:26:59;
-            Max wind :               4.1 m/s from    N/A at 13:16:02;
+	        Max barometer:           1024 mbar at 14:59:10;
+            Max wind :               4.8 m/s from    N/A at 14:54:10;
             Rain today:              0.0 mm
          </description>
-         <pubDate>Fri, 16 Feb 2018 14:36:00 CET</pubDate>
+         <pubDate>Fri, 16 Feb 2018 15:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     16 Feb 2018<br/>
 	         Min Outside Temperature: 1.6&#176;C at 07:48:51<br/>
-	         Max Outside Temperature: 7.5&#176;C at 14:35:58<br/>
+	         Max Outside Temperature: 7.6&#176;C at 14:50:54<br/>
 	         Min Inside Temperature:  21.3&#176;C at 04:58:09<br/>
 	         Max Inside Temperature:  21.6&#176;C at 00:01:53<br/>
 	         Min Barometer:           1017 mbar at 01:00:59<br/>
-	         Max Barometer:           1024 mbar at 14:26:59<br/>
-             Max Wind :               4.1 m/s from    N/A at 13:16:02<br/>
+	         Max Barometer:           1024 mbar at 14:59:10<br/>
+             Max Wind :               4.8 m/s from    N/A at 14:54:10<br/>
              Rain today:              0.0 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 16/02/18 14:36:00</title>
+         <title>Monthly Weather Summary as of 16/02/18 15:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -4.8&#176;C at 08/02/18 07:35:01;
@@ -87,7 +87,7 @@
             Max wind :               5.4 m/s from    N/A at 12/02/18 13:42:46;
             Rain total for month:    3.0 mm
          </description>
-         <pubDate>Fri, 16 Feb 2018 14:36:00 CET</pubDate>
+         <pubDate>Fri, 16 Feb 2018 15:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   February 2018<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 16/02/18 14:36:00</title>
+         <title>Yearly Weather Summary as of 16/02/18 15:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -4.8&#176;C at 08/02/18 07:35:01;
@@ -116,7 +116,7 @@
             Max wind :               11.6 m/s from    N/A at 01/01/18 07:35:20;
             Rain total for year:     70.2 mm
          </description>
-         <pubDate>Fri, 16 Feb 2018 14:36:00 CET</pubDate>
+         <pubDate>Fri, 16 Feb 2018 15:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
