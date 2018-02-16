@@ -47,16 +47,15 @@
                 <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
                 <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
                 <h2>Aktuelles Wetter</h2>
-                <p><i class="fa fa-clock-o" ></i> 16.02.2018 13:48:00</p>
+                <p><i class="fa fa-clock-o" ></i> 16.02.2018 14:00:00</p>
                 </div>
                 
                 <div class="h-right" >
                     <table>
                         <tr><td><b>Station:</b></td><td>WS1080</td></tr>
                         <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
-                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 15 Stunden, 51 Minuten</td></tr>
-                        <tr><td><b>Laufzeit Server:</b></td><td>9 Tage, 15 Stunden, 9 Minuten</td></tr>
-			<tr><td><b>Batteriestatus:</b></td><td>0,000000</td></tr>
+                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 16 Stunden, 1 Minute</td></tr>
+                        <tr><td><b>Laufzeit Server:</b></td><td>9 Tage, 15 Stunden, 19 Minuten</td></tr>
                     </table>
                 </div>
 
@@ -110,23 +109,7 @@
 		data-colors-needle="#f00 #0ff"
 		data-valuebox-visible="false"
 		data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue(6,8&#176;C);}, 1000);"
-		></canvas> 
-		
-		<canvas id="gauge2"
-		data-type="canv-gauge"
-		data-title="Innentemp."
-		data-min-value="-20"
-		data-max-value="50"
-		data-major-ticks="-20 -10 0 10 20 30 40 50"
-		data-stroke-ticks="true"
-		data-units="&deg;C"
-		data-value-format="1.1"
-		data-glow="true"
-		data-colors-needle="#f00 #0ff"
-		data-valuebox-visible="false"
-		data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge2').setValue(21,3&#176;C);}, 1000);"
+		data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue(6,7&#176;C);}, 1000);"
 		></canvas> 
 		
 		<canvas id="gauge3"
@@ -143,22 +126,6 @@
 		data-valuebox-visible="false"
 		data-highlights="900 940 #eee, 940 980 #ccc, 980 1020 #aaa, 1020 1060 #eaa"
 		data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue(1024 mbar);}, 1000);"
-		></canvas> 
-		
-		<canvas id="gauge4"
-		data-type="canv-gauge"
-		data-title="Luftfeuchte In"
-		data-min-value="0"
-		data-max-value="100"
-		data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
-		data-stroke-ticks="true"
-		data-units="%"
-		data-value-format="1.0"
-		data-glow="true"
-		data-colors-needle="#f00 #0ff"
-		data-valuebox-visible="false"
-		data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge4').setValue(64%);}, 1000);"
 		></canvas> 
 		
 		<canvas id="gauge5"
@@ -206,41 +173,39 @@
 		data-colors-needle="#f00 #0ff"
 		data-valuebox-visible="false"
 		data-highlights="0 10 #eee, 10 20 #ccc, 20 30 #aaa, 30 50 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge7').setValue(64%);}, 1000);"
+		data-onready="setInterval( function() { Gauge.Collection.get('gauge7').setValue(1,6 m/s);}, 1000);"
 		></canvas>  
-
-                <!-- <div class="card" >
-                    <h1><i class="fa fa-sun-o m-orange" ></i> Aktuelles Wetter</h1>
-                    <table class="tablespacer">
-                        <tr><td>Temperatur außen</td><td>6,8&#176;C</td></tr>
-                        <tr><td>Temperatur innen</td><td>21,3&#176;C</td></tr>
-                        <tr><td>Windchill</td><td>6,2&#176;C</td></tr>
-                        <tr><td>Hitze-Index</td><td>6,8&#176;C</td></tr>
-                        <tr><td>Taupunkt</td><td>0,4&#176;C</td></tr>
-                        <tr><td>Luftfeuchte außen</td><td>64%</td></tr>
-                        <tr><td>Luftfeuchte innen</td><td>42%</td></tr>
-                        <tr><td>Luftdruck</td><td>1024 mbar</td></tr>
-                        <tr><td>Luftdruck Trend (3 Stunden)</td><td>1 mbar</td></tr>
-                        <tr><td>Wind</td><td>1,4 m/s WSW (242&#176;)</td></tr>
-                        <tr><td>Regen-Rate</td><td>0,0 mm/h</td></tr>
-                    </table>
-                </div> -->
+		
+		<canvas id="gauge8"
+		data-type="canv-gauge"
+		data-title="Windrichtung"
+		data-colors-valuetext-foreground="rgba(0, 0, 0, 0)"
+		data-min-value="0"
+		data-max-value="360
+		data-major-ticks="S SW W NW N NO O SO S"
+		data-stroke-ticks="true"
+		data-value-format="1.0"
+		data-glow="true"
+		data-colors-needle="#f00 #0ff"
+		data-valuebox-visible="false"
+		data-highlights="false"
+		data-minor-ticks="2"
+		data-ticks-angle="360"
+		data-start-angle="180"
+		data-onready="setInterval( function() { Gauge.Collection.get('gauge8').setValue(37&#176;);}, 1000);"
+		></canvas> 
 
                 <div class="card" >
                     <h1><i class="fa fa-moon-o m-grau" ></i> Höchst- und Tiefstwerte des Tages</h1>
                     <table class="tablespacer">
                         <tr><td>Höchste Temperatur außen</td><td>7,0&#176;C</td><td>13:31:11</td></tr>
                         <tr><td>Niedrigste Temperatur außen</td><td>1,6&#176;C</td><td>07:48:51</td></tr>
-                        <tr><td>Höchste Temperatur innen</td><td>21,6&#176;C</td><td>00:01:53</td></tr>
-                        <tr><td>Niedrigste Temperatur innen</td><td>21,3&#176;C</td><td>04:58:09</td></tr>
                         <tr><td>Höchster Hitze-Index</td><td>7,0&#176;C</td><td>13:31:11</td></tr>
                         <tr><td>Niedrigste Windchill</td><td>-0,1&#176;C</td><td>07:43:50</td></tr>
                         <tr><td>Höchster Taupunkt</td><td>0,8&#176;C</td><td>13:16:02</td></tr>
                         <tr><td>Niedrigster Taupunkt</td><td>-1,1&#176;C</td><td>00:01:53</td></tr>
                         <tr><td>Höchste Luftfeuchte außen</td><td>83%</td><td>01:57:01</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte außen</td><td>63%</td><td>13:46:15</td></tr>
-			<tr><td>Höchste Luftfeuchte innen</td><td>42%</td><td>01:57:01</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte innen</td><td>40%</td><td>13:46:15</td></tr>
+                        <tr><td>Niedrigste Luftfeuchte außen</td><td>62%</td><td>13:56:17</td></tr>
                         <tr><td>Höchster Luftdruck</td><td>1024 mbar</td><td>13:41:13</td></tr>
                         <tr><td>Niedrigster Luftdruck</td><td>1017 mbar</td><td>01:00:59</td></tr>
                         <tr><td>Heutiger Regenfall</td><td>0,0 mm</td><td></td></tr>
@@ -287,15 +252,12 @@
                     <h1><i class="fa fa-line-chart m-gruen" ></i> Grafiken</h1>
                     
                     <a href="daytempdew.png"><img src="daytempdew.png" alt="temperatures" /></a>
-                    <a href="dayinside.png"><img src="dayinside.png" alt="Inside" /></a>
                     <a href="daybarometer.png"><img src="daybarometer.png" alt="barometer"/></a>
 		    <a href="dayouthumidity.png"><img src="dayouthumidity.png" alt="humidity outside"/></a>
-		    <a href="dayinhumidity.png"><img src="dayinhumidity.png" alt="humidity inside"/></a>
                     <a href="daytrain.png"><img src="dayrain.png" alt="rain" /></a>
                     <a href="daytempchill.png"><img src="daytempchill.png" alt="heatchill" /></a>
                     <a href="daydaywind.png"><img src="daywind.png" alt="wind" /></a>
                     <a href="daywinddir.png"><img src="daywinddir.png" alt="Hi Wind" /></a>
-                    <a href="dayrx.png"><img src="dayrx.png" alt="day rx percent"/></a>
                 </div>
                 
 		<div class="card" >
