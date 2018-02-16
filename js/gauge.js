@@ -299,6 +299,7 @@ var Gauge = function (config) {
      */
     this.setValue = function (val) {
 
+	val = val.replace(",", ".");
 	val = parseFloat(val);
 
         fromValue = config.animation ? value : val;
