@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fr, 23 Feb 2018 14:12:00 CET</pubDate>
+      <pubDate>Fr, 23 Feb 2018 14:24:00 CET</pubDate>
 
-      <lastBuildDate>Fr, 23 Feb 2018 14:12:00 CET</lastBuildDate>
+      <lastBuildDate>Fr, 23 Feb 2018 14:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 23.02.2018 14:12:00</title>
+         <title>Weather Conditions at 23.02.2018 14:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 2,6&#176;C; 
            Barometer: 1028 mbar; 
-           Wind: 0,2 m/s from 180&#176;; 
+           Wind: 0,9 m/s from 124&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Fr, 23 Feb 2018 14:12:00 CET</pubDate>
+         <pubDate>Fr, 23 Feb 2018 14:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                23.02.2018 14:12:00<br/>
+             Time:                23.02.2018 14:24:00<br/>
              Outside Temperature: 2,6&#176;C<br/>
-             Wind Chill:          2,6&#176;C<br/>
+             Wind Chill:          2,2&#176;C<br/>
              Heat Index:          2,6&#176;C<br/>
-             Dewpoint:            -10,9&#176;C<br/>
+             Dewpoint:            -11,1&#176;C<br/>
              Humidity:            36%<br/>
              Barometer:           1028 mbar<br/>
-             Wind:                0,2 m/s from 180&#176;<br/>
+             Wind:                0,9 m/s from 124&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 23.02.2018 14:12:00</title>
+         <title>Daily Weather Summary as of 23.02.2018 14:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: -3,0&#176;C at 08:18:10;
@@ -52,7 +52,7 @@
             Max wind :               3,1 m/s from    N/A at 10:23:37;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Fr, 23 Feb 2018 14:12:00 CET</pubDate>
+         <pubDate>Fr, 23 Feb 2018 14:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 23.02.2018 14:12:00</title>
+         <title>Monthly Weather Summary as of 23.02.2018 14:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -79,7 +79,7 @@
             Max wind :               5,4 m/s from    N/A at 12.02.2018 13:42:46;
             Rain total for month:    3,0 mm
          </description>
-         <pubDate>Fr, 23 Feb 2018 14:12:00 CET</pubDate>
+         <pubDate>Fr, 23 Feb 2018 14:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 23.02.2018 14:12:00</title>
+         <title>Yearly Weather Summary as of 23.02.2018 14:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -4,8&#176;C at 08.02.2018 07:35:01;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     70,2 mm
          </description>
-         <pubDate>Fr, 23 Feb 2018 14:12:00 CET</pubDate>
+         <pubDate>Fr, 23 Feb 2018 14:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
