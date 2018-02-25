@@ -7,60 +7,60 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>So, 25 Feb 2018 12:24:00 CET</pubDate>
+      <pubDate>So, 25 Feb 2018 12:36:00 CET</pubDate>
 
-      <lastBuildDate>So, 25 Feb 2018 12:24:00 CET</lastBuildDate>
+      <lastBuildDate>So, 25 Feb 2018 12:36:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 25.02.2018 12:24:00</title>
+         <title>Weather Conditions at 25.02.2018 12:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 0,8&#176;C; 
            Barometer: 1033 mbar; 
-           Wind: 0,4 m/s from 269&#176;; 
+           Wind: 0,8 m/s from 234&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>So, 25 Feb 2018 12:24:00 CET</pubDate>
+         <pubDate>So, 25 Feb 2018 12:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                25.02.2018 12:24:00<br/>
+             Time:                25.02.2018 12:36:00<br/>
              Outside Temperature: 0,8&#176;C<br/>
              Wind Chill:          0,8&#176;C<br/>
              Heat Index:          0,8&#176;C<br/>
-             Dewpoint:            -12,6&#176;C<br/>
-             Humidity:            36%<br/>
+             Dewpoint:            -12,3&#176;C<br/>
+             Humidity:            37%<br/>
              Barometer:           1033 mbar<br/>
-             Wind:                0,4 m/s from 269&#176;<br/>
+             Wind:                0,8 m/s from 234&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 25.02.2018 12:24:00</title>
+         <title>Daily Weather Summary as of 25.02.2018 12:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: -6,1&#176;C at 06:52:09;
-         	Max outside temperature: 0,9&#176;C at 12:12:54;
-	        Min barometer:           1033 mbar at 12:07:53;
+         	Max outside temperature: 1,0&#176;C at 12:32:58;
+	        Min barometer:           1033 mbar at 12:32:58;
 	        Max barometer:           1035 mbar at 00:56:08;
             Max wind :               1,7 m/s from    N/A at 10:22:39;
             Rain today:              0,0 mm
          </description>
-         <pubDate>So, 25 Feb 2018 12:24:00 CET</pubDate>
+         <pubDate>So, 25 Feb 2018 12:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     25 Feb 2018<br/>
 	         Min Outside Temperature: -6,1&#176;C at 06:52:09<br/>
-	         Max Outside Temperature: 0,9&#176;C at 12:12:54<br/>
-	         Min Barometer:           1033 mbar at 12:07:53<br/>
+	         Max Outside Temperature: 1,0&#176;C at 12:32:58<br/>
+	         Min Barometer:           1033 mbar at 12:32:58<br/>
 	         Max Barometer:           1035 mbar at 00:56:08<br/>
              Max Wind :               1,7 m/s from    N/A at 10:22:39<br/>
              Rain today:              0,0 mm<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 25.02.2018 12:24:00</title>
+         <title>Monthly Weather Summary as of 25.02.2018 12:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -6,1&#176;C at 25.02.2018 06:52:09;
@@ -79,7 +79,7 @@
             Max wind :               5,8 m/s from    N/A at 24.02.2018 14:59:09;
             Rain total for month:    3,0 mm
          </description>
-         <pubDate>So, 25 Feb 2018 12:24:00 CET</pubDate>
+         <pubDate>So, 25 Feb 2018 12:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 25.02.2018 12:24:00</title>
+         <title>Yearly Weather Summary as of 25.02.2018 12:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -6,1&#176;C at 25.02.2018 06:52:09;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     70,2 mm
          </description>
-         <pubDate>So, 25 Feb 2018 12:24:00 CET</pubDate>
+         <pubDate>So, 25 Feb 2018 12:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
