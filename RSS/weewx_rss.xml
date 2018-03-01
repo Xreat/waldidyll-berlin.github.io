@@ -7,60 +7,60 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 01 M&#228;r 2018 02:24:00 CET</pubDate>
+      <pubDate>Do, 01 M&#228;r 2018 02:36:00 CET</pubDate>
 
-      <lastBuildDate>Do, 01 M&#228;r 2018 02:24:00 CET</lastBuildDate>
+      <lastBuildDate>Do, 01 M&#228;r 2018 02:36:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 01.03.2018 02:24:00</title>
+         <title>Weather Conditions at 01.03.2018 02:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: -7,3&#176;C; 
+           Outside temperature: -7,4&#176;C; 
            Barometer: 1027 mbar; 
-           Wind: 0,6 m/s from 353&#176;; 
+           Wind: 0,2 m/s from 300&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Do, 01 M&#228;r 2018 02:24:00 CET</pubDate>
+         <pubDate>Do, 01 M&#228;r 2018 02:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                01.03.2018 02:24:00<br/>
-             Outside Temperature: -7,3&#176;C<br/>
-             Wind Chill:          -7,3&#176;C<br/>
-             Heat Index:          -7,3&#176;C<br/>
-             Dewpoint:            -17,2&#176;C<br/>
+             Time:                01.03.2018 02:36:00<br/>
+             Outside Temperature: -7,4&#176;C<br/>
+             Wind Chill:          -7,4&#176;C<br/>
+             Heat Index:          -7,4&#176;C<br/>
+             Dewpoint:            -17,3&#176;C<br/>
              Humidity:            45%<br/>
              Barometer:           1027 mbar<br/>
-             Wind:                0,6 m/s from 353&#176;<br/>
+             Wind:                0,2 m/s from 300&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 01.03.2018 02:24:00</title>
+         <title>Daily Weather Summary as of 01.03.2018 02:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: -7,4&#176;C at 02:20:16;
+	        Min outside temperature: -7,5&#176;C at 02:35:19;
          	Max outside temperature: -6,4&#176;C at 00:04:47;
-	        Min barometer:           1027 mbar at 02:15:15;
+	        Min barometer:           1027 mbar at 02:30:19;
 	        Max barometer:           1029 mbar at 00:14:48;
             Max wind :               3,1 m/s from    N/A at 02:00:12;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Do, 01 M&#228;r 2018 02:24:00 CET</pubDate>
+         <pubDate>Do, 01 M&#228;r 2018 02:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     01 M&#228;r 2018<br/>
-	         Min Outside Temperature: -7,4&#176;C at 02:20:16<br/>
+	         Min Outside Temperature: -7,5&#176;C at 02:35:19<br/>
 	         Max Outside Temperature: -6,4&#176;C at 00:04:47<br/>
-	         Min Barometer:           1027 mbar at 02:15:15<br/>
+	         Min Barometer:           1027 mbar at 02:30:19<br/>
 	         Max Barometer:           1029 mbar at 00:14:48<br/>
              Max Wind :               3,1 m/s from    N/A at 02:00:12<br/>
              Rain today:              0,0 mm<br/>
@@ -69,23 +69,23 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 01.03.2018 02:24:00</title>
+         <title>Monthly Weather Summary as of 01.03.2018 02:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
-	        Min outside temperature: -7,4&#176;C at 01.03.2018 02:20:16;
+	        Min outside temperature: -7,5&#176;C at 01.03.2018 02:35:19;
          	Max outside temperature: -6,4&#176;C at 01.03.2018 00:04:47;
-	        Min barometer:           1027 mbar at 01.03.2018 02:15:15;
+	        Min barometer:           1027 mbar at 01.03.2018 02:30:19;
 	        Max barometer:           1029 mbar at 01.03.2018 00:14:48;
             Max wind :               3,1 m/s from    N/A at 01.03.2018 02:00:12;
             Rain total for month:    0,0 mm
          </description>
-         <pubDate>Do, 01 M&#228;r 2018 02:24:00 CET</pubDate>
+         <pubDate>Do, 01 M&#228;r 2018 02:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2018<br/>
 	         Max Outside Temperature: -6,4&#176;C at 01.03.2018 00:04:47<br/>
-	         Min Outside Temperature: -7,4&#176;C at 01.03.2018 02:20:16<br/>
-	         Min Barometer:           1027 mbar at 01.03.2018 02:15:15<br/>
+	         Min Outside Temperature: -7,5&#176;C at 01.03.2018 02:35:19<br/>
+	         Min Barometer:           1027 mbar at 01.03.2018 02:30:19<br/>
 	         Max Barometer:           1029 mbar at 01.03.2018 00:14:48<br/>
              Max Wind :               3,1 m/s from    N/A at 01.03.2018 02:00:12<br/>
              Rain total for month:    0,0 mm<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 01.03.2018 02:24:00</title>
+         <title>Yearly Weather Summary as of 01.03.2018 02:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -8,9&#176;C at 27.02.2018 06:41:24;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     70,2 mm
          </description>
-         <pubDate>Do, 01 M&#228;r 2018 02:24:00 CET</pubDate>
+         <pubDate>Do, 01 M&#228;r 2018 02:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
