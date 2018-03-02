@@ -7,58 +7,58 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fr, 02 M&#228;r 2018 06:48:00 CET</pubDate>
+      <pubDate>Fr, 02 M&#228;r 2018 07:00:00 CET</pubDate>
 
-      <lastBuildDate>Fr, 02 M&#228;r 2018 06:48:00 CET</lastBuildDate>
+      <lastBuildDate>Fr, 02 M&#228;r 2018 07:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 02.03.2018 06:48:00</title>
+         <title>Weather Conditions at 02.03.2018 07:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: -9,8&#176;C; 
            Barometer: 1012 mbar; 
-           Wind: 0,3 m/s from 342&#176;; 
+           Wind: 0,5 m/s from 90&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Fr, 02 M&#228;r 2018 06:48:00 CET</pubDate>
+         <pubDate>Fr, 02 M&#228;r 2018 07:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                02.03.2018 06:48:00<br/>
+             Time:                02.03.2018 07:00:00<br/>
              Outside Temperature: -9,8&#176;C<br/>
              Wind Chill:          -9,8&#176;C<br/>
              Heat Index:          -9,8&#176;C<br/>
-             Dewpoint:            -18,2&#176;C<br/>
+             Dewpoint:            -18,3&#176;C<br/>
              Humidity:            50%<br/>
              Barometer:           1012 mbar<br/>
-             Wind:                0,3 m/s from 342&#176;<br/>
+             Wind:                0,5 m/s from 90&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 02.03.2018 06:48:00</title>
+         <title>Daily Weather Summary as of 02.03.2018 07:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: -9,8&#176;C at 06:25:57;
+	        Min outside temperature: -9,9&#176;C at 06:56:06;
          	Max outside temperature: -8,0&#176;C at 00:04:39;
 	        Min barometer:           1012 mbar at 06:36:00;
 	        Max barometer:           1016 mbar at 00:09:39;
             Max wind :               3,7 m/s from    N/A at 00:19:40;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Fr, 02 M&#228;r 2018 06:48:00 CET</pubDate>
+         <pubDate>Fr, 02 M&#228;r 2018 07:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     02 M&#228;r 2018<br/>
-	         Min Outside Temperature: -9,8&#176;C at 06:25:57<br/>
+	         Min Outside Temperature: -9,9&#176;C at 06:56:06<br/>
 	         Max Outside Temperature: -8,0&#176;C at 00:04:39<br/>
 	         Min Barometer:           1012 mbar at 06:36:00<br/>
 	         Max Barometer:           1016 mbar at 00:09:39<br/>
@@ -69,22 +69,22 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 02.03.2018 06:48:00</title>
+         <title>Monthly Weather Summary as of 02.03.2018 07:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
-	        Min outside temperature: -9,8&#176;C at 02.03.2018 06:25:57;
+	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
          	Max outside temperature: -2,2&#176;C at 01.03.2018 15:12:50;
 	        Min barometer:           1012 mbar at 02.03.2018 06:36:00;
 	        Max barometer:           1029 mbar at 01.03.2018 00:14:48;
             Max wind :               4,4 m/s from    N/A at 01.03.2018 13:22:33;
             Rain total for month:    0,0 mm
          </description>
-         <pubDate>Fr, 02 M&#228;r 2018 06:48:00 CET</pubDate>
+         <pubDate>Fr, 02 M&#228;r 2018 07:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2018<br/>
 	         Max Outside Temperature: -2,2&#176;C at 01.03.2018 15:12:50<br/>
-	         Min Outside Temperature: -9,8&#176;C at 02.03.2018 06:25:57<br/>
+	         Min Outside Temperature: -9,9&#176;C at 02.03.2018 06:56:06<br/>
 	         Min Barometer:           1012 mbar at 02.03.2018 06:36:00<br/>
 	         Max Barometer:           1029 mbar at 01.03.2018 00:14:48<br/>
              Max Wind :               4,4 m/s from    N/A at 01.03.2018 13:22:33<br/>
@@ -94,22 +94,22 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 02.03.2018 06:48:00</title>
+         <title>Yearly Weather Summary as of 02.03.2018 07:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
-	        Min outside temperature: -9,8&#176;C at 02.03.2018 06:25:57;
+	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
          	Max outside temperature: 12,0&#176;C at 01.01.2018 00:08:41;
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1036 mbar at 08.01.2018 08:36:44;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     70,2 mm
          </description>
-         <pubDate>Fr, 02 M&#228;r 2018 06:48:00 CET</pubDate>
+         <pubDate>Fr, 02 M&#228;r 2018 07:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
 	         Max Outside Temperature: 12,0&#176;C at 01.01.2018 00:08:41<br/>
-	         Min Outside Temperature: -9,8&#176;C at 02.03.2018 06:25:57<br/>
+	         Min Outside Temperature: -9,9&#176;C at 02.03.2018 06:56:06<br/>
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1036 mbar at 08.01.2018 08:36:44<br/>
              Max Wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20<br/>
