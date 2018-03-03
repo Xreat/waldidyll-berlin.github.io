@@ -650,7 +650,7 @@ header {
       header nav li.active a {
         color: #fff; }
 
-canvas {
+canvas.no-card {
     margin: 2em 0;
 }
 
@@ -762,7 +762,7 @@ table.tablespacer tr:not(:last-child) {
   .container {
     width: 1200px !important; }
     .container .left {
-      width: 450px !important;
+      width: 460px !important;
       margin-right: 0.8em !important; }
     .container .right {
       width: 700px !important; }
