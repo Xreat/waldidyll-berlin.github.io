@@ -575,7 +575,7 @@ body {
   width: 100%; }
 
 header {
-  background: #00bcec;
+  background-image: url("Wolken.png");
   width: 100%;
   color: #fff;
   font-weight: 300;
@@ -654,6 +654,15 @@ canvas.no-card {
     margin: 2em 0;
 }
 
+select, option {
+    font-family: "Lato", Helvetica, Arial, sans-serif !important;
+    background: transparent !important;
+}
+
+#hidden {
+    display: none;
+}
+
 .container {
   display: inline-block;
   width: 1500px; }
@@ -716,7 +725,7 @@ canvas.no-card {
 
 footer {
   width: 100%;
-  background: #00bcec;
+  background: #5A96D5;
   color: #fff;
   padding: 1.5em 0; }
   footer a {
