@@ -23,10 +23,12 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/password.css">
         
         <!-- Skripte -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/gauge.js"></script>
+	<script src="login.js"></script>
         
         <script type="text/javascript">
             function openNoaaFile(date)
@@ -56,15 +58,16 @@
                         <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
                         <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 1 Stunde, 46 Minuten</td></tr>
                         <tr><td><b>Laufzeit Server:</b></td><td>0 Tage, 1 Stunde, 16 Minuten</td></tr>
+			<tr><td><b>Batteriestatus:</b></td><td>0,000000</td></tr>
                     </table>
                 </div>
 
                 <nav>
                     <ul>
-                        <li class="active" ><a href="index.html" >Aktuell</a></li>
-                        <li><a href="week.html" >Woche</a></li>
-                        <li><a href="month.html" >Monat</a></li>
-                        <li><a href="year.html" >Jahr</a></li>
+                        <li class="active"><a href="#" >Aktuell</a></li>
+                        <li><a href="week-protected.html" >Woche</a></li>
+                        <li><a href="month-protected.html" >Monat</a></li>
+                        <li><a href="year-protected.html" >Jahr</a></li>
                         <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
                                 <option>Monatliche Übersicht</option>
@@ -86,7 +89,6 @@
                                     <option value="2017">2017</option>
                                     <option value="2018">2018</option>
                             </select></li>
-			<li><a href="private/index.html" style="color:#666">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -96,116 +98,179 @@
         <div class="container" >
             
             <div class="left" >
+            	<div class="card cc">
+            		<h1><i class="fa fa-home m-grau></i> Innen</h1>
+
+			<canvas id="gauge2"
+			data-type="canv-gauge"
+			data-title="Innentemp."
+			data-min-value="-20"
+			data-max-value="50"
+			data-major-ticks="-20 -10 0 10 20 30 40 50"
+			data-stroke-ticks="true"
+			data-units="&deg;C"
+			data-value-format="1.1"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge2').setValue('21,5&#176;C');}, 1000);"
+			></canvas> 
+			
+			<canvas id="gauge4"
+			data-type="canv-gauge"
+			data-title="Luftfeuchte"
+			data-min-value="0"
+			data-max-value="100"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
+			data-stroke-ticks="true"
+			data-units="%"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge4').setValue('50%');}, 1000);"
+			></canvas>
+			
+            	</div>
+
+		<div class="card cc">
+            		<h1><i class="fa fa-sun-o m-orange></i> Außen</h1>
+
+			<canvas id="gauge1"
+			data-type="canv-gauge"
+			data-title="Temperatur"
+			data-min-value="-20"
+			data-max-value="50"
+			data-major-ticks="-20 -10 0 10 20 30 40 50"
+			data-stroke-ticks="true"
+			data-units="&deg;C"
+			data-value-format="1.1"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue('8,6&#176;C');}, 1000);"
+			></canvas> 
+
+			<canvas id="gauge5"
+			data-type="canv-gauge"
+			data-title="Hygro out"
+			data-min-value="0"
+			data-max-value="100"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
+			data-stroke-ticks="true"
+			data-units="%"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge5').setValue('81%');}, 1000);"
+			></canvas>
+			
+            	</div>
                 
-		<canvas id="gauge1" class="no-card"
-		data-type="canv-gauge"
-		data-title="Temperatur"
-		data-min-value="-20"
-		data-max-value="50"
-		data-major-ticks="-20 -10 0 10 20 30 40 50"
-		data-stroke-ticks="true"
-		data-units="&deg;C"
-		data-value-format="1.1"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue('8,6&#176;C');}, 1000);"
-		></canvas> 
-		
-		<canvas id="gauge3" class="no-card"
-		data-type="canv-gauge"
-		data-title="Luftdruck"
-		data-min-value="900"
-		data-max-value="1060"
-		data-major-ticks="900 920 940 960 980 1000 1020 1040 1060"
-		data-stroke-ticks="true"
-		data-units="mbar"
-		data-value-format="1.0"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="900 940 #eee, 940 980 #ccc, 980 1020 #aaa, 1020 1060 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue('1006 mbar');}, 1000);"
-		></canvas> 
-		
-		<canvas id="gauge5" class="no-card"
-		data-type="canv-gauge"
-		data-title="Luftfeuchte"
-		data-min-value="0"
-		data-max-value="100"
-		data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
-		data-stroke-ticks="true"
-		data-units="%"
-		data-value-format="1.0"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge5').setValue('81%');}, 1000);"
-		></canvas>
-		
-		<canvas id="gauge6" class="no-card"
-		data-type="canv-gauge"
-		data-title="Regen"
-		data-min-value="0"
-		data-max-value="90"
-		data-major-ticks="0 10 20 30 40 50 60 70 80 90"
-		data-stroke-ticks="true"
-		data-units="mm/h"
-		data-value-format="1.1"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="0 20 #eee, 20 40 #ccc, 40 60 #aaa, 60 90 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge6').setValue('0,0 mm/h');}, 1000);"
-		></canvas> 
-		
-		<canvas id="gauge7" class="no-card"
-		data-type="canv-gauge"
-		data-title="Windgeschw."
-		data-min-value="0"
-		data-max-value="50"
-		data-major-ticks="0 10 20 30 40 50"
-		data-stroke-ticks="true"
-		data-units="m/s"
-		data-value-format="1.0"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="0 10 #eee, 10 20 #ccc, 20 30 #aaa, 30 50 #eaa"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge7').setValue('0,0 m/s');}, 1000);"
-		></canvas>  
-		
-		<canvas id="gauge8" class="no-card"
-		data-type="canv-gauge"
-		data-title="Windrichtung"
-		data-colors-valuetext-foreground="rgba(0, 0, 0, 0)"
-		data-min-value="0"
-		data-max-value="360"
-		data-major-ticks="N NO O SO S SW W NW N"
-		data-value-format="1.0"
-		data-glow="true"
-		data-colors-needle="#f00 #00f"
-		data-valuebox-visible="false"
-		data-highlights="false"
-		data-minor-ticks="2"
-		data-ticksangle="360"
-		data-startangle="180"
-		data-onready="setInterval( function() { Gauge.Collection.get('gauge8').setValue('   N/A');}, 1000);"
-		></canvas> 
+		<!--	<canvas id="gauge3"
+			data-type="canv-gauge"
+			data-title="Luftdruck"
+			data-min-value="900"
+			data-max-value="1060"
+			data-major-ticks="900 920 940 960 980 1000 1020 1040 1060"
+			data-stroke-ticks="true"
+			data-units="mbar"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="900 940 #eee, 940 980 #ccc, 980 1020 #aaa, 1020 1060 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue('1006 mbar');}, 1000);"
+			></canvas> 
+			
+			<canvas id="gauge6"
+			data-type="canv-gauge"
+			data-title="Regen"
+			data-min-value="0"
+			data-max-value="90"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90"
+			data-stroke-ticks="true"
+			data-units="mm/h"
+			data-value-format="1.1"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="0 20 #eee, 20 40 #ccc, 40 60 #aaa, 60 90 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge6').setValue('0,0 mm/h');}, 1000);"
+			></canvas> 
+			
+			<canvas id="gauge7"
+			data-type="canv-gauge"
+			data-title="Windgeschw."
+			data-min-value="0"
+			data-max-value="50"
+			data-major-ticks="0 10 20 30 40 50"
+			data-stroke-ticks="true"
+			data-units="m/s"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="0 10 #eee, 10 20 #ccc, 20 30 #aaa, 30 50 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge7').setValue('0,0 m/s');}, 1000);"
+			></canvas>  
+			
+			<canvas id="gauge8"
+			data-type="canv-gauge"
+			data-title="Windrichtung"
+			data-colors-valuetext-foreground="rgba(0, 0, 0, 0)"
+			data-min-value="0"
+			data-max-value="360"
+			data-major-ticks="S SW W NW N NO O SO S"
+			data-stroke-ticks="true"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="false"
+			data-minor-ticks="2"
+			data-ticks-angle="360"
+			data-start-angle="180"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge8').setValue('   N/A');}, 1000);"
+			></canvas> -->
+
+                <!-- <div class="card" >
+                    <h1><i class="fa fa-sun-o m-orange" ></i> Aktuelles Wetter</h1>
+                    <table class="tablespacer">
+                        <tr><td>Temperatur außen</td><td>8,6&#176;C</td></tr>
+                        <tr><td>Temperatur innen</td><td>21,5&#176;C</td></tr>
+                        <tr><td>Windchill</td><td>8,6&#176;C</td></tr>
+                        <tr><td>Hitze-Index</td><td>8,6&#176;C</td></tr>
+                        <tr><td>Taupunkt</td><td>5,6&#176;C</td></tr>
+                        <tr><td>Luftfeuchte außen</td><td>81%</td></tr>
+                        <tr><td>Luftfeuchte innen</td><td>50%</td></tr>
+                        <tr><td>Luftdruck</td><td>1006 mbar</td></tr>
+                        <tr><td>Luftdruck Trend (3 Stunden)</td><td>-0 mbar</td></tr>
+                        <tr><td>Wind</td><td>0,0 m/s N/A (   N/A)</td></tr>
+                        <tr><td>Regen-Rate</td><td>0,0 mm/h</td></tr>
+                    </table>
+                </div> -->
 
                 <div class="card" >
                     <h1><i class="fa fa-moon-o m-grau" ></i> Höchst- und Tiefstwerte des Tages</h1>
                     <table class="tablespacer">
                         <tr><td>Höchste Temperatur außen</td><td>10,0&#176;C</td><td>15:05:49</td></tr>
                         <tr><td>Niedrigste Temperatur außen</td><td>1,7&#176;C</td><td>01:33:07</td></tr>
+                        <tr><td>Höchste Temperatur innen</td><td>21,9&#176;C</td><td>13:25:27</td></tr>
+                        <tr><td>Niedrigste Temperatur innen</td><td>20,5&#176;C</td><td>17:48:27</td></tr>
                         <tr><td>Höchster Hitze-Index</td><td>10,0&#176;C</td><td>15:05:49</td></tr>
                         <tr><td>Niedrigste Windchill</td><td>1,7&#176;C</td><td>01:33:07</td></tr>
                         <tr><td>Höchster Taupunkt</td><td>5,6&#176;C</td><td>18:53:43</td></tr>
                         <tr><td>Niedrigster Taupunkt</td><td>-2,3&#176;C</td><td>01:08:00</td></tr>
                         <tr><td>Höchste Luftfeuchte außen</td><td>81%</td><td>10:14:49</td></tr>
                         <tr><td>Niedrigste Luftfeuchte außen</td><td>70%</td><td>13:35:27</td></tr>
+			<tr><td>Höchste Luftfeuchte innen</td><td>50%</td><td>17:53:27</td></tr>
+                        <tr><td>Niedrigste Luftfeuchte innen</td><td>39%</td><td>02:33:18</td></tr>
                         <tr><td>Höchster Luftdruck</td><td>1010 mbar</td><td>00:12:48</td></tr>
                         <tr><td>Niedrigster Luftdruck</td><td>1005 mbar</td><td>17:14:46</td></tr>
                         <tr><td>Heutiger Regenfall</td><td>0,3 mm</td><td></td></tr>
@@ -244,7 +309,7 @@
                     
                 </div>
 
-            </div>
+            </div> -->
             
             <div class="right" >
                 
@@ -252,12 +317,15 @@
                     <h1><i class="fa fa-line-chart m-gruen" ></i> Grafiken</h1>
                     
                     <a href="daytempdew.png"><img src="daytempdew.png" alt="temperatures" /></a>
+                    <a href="dayinside.png"><img src="dayinside.png" alt="Inside" /></a>
                     <a href="daybarometer.png"><img src="daybarometer.png" alt="barometer"/></a>
-                    <a href="dayouthumidity.png"><img src="dayouthumidity.png" alt="humidity outside"/></a>
-                    <a href="daytrain.png"><img src="dayrain.png" alt="rain" /></a>
-                    <a href="daytempchill.png"><img src="daytempchill.png" alt="heatchill" /></a>
-                    <a href="daydaywind.png"><img src="daywind.png" alt="wind" /></a>
-                    <a href="daywinddir.png"><img src="daywinddir.png" alt="Hi Wind" /></a>
+		    <a href="dayouthumidity.png"><img src="dayouthumidity.png" alt="humidity outside"/></a>
+		    <a href="dayinhumidity.png"><img src="dayinhumidity.png" alt="humidity inside"/></a>
+                    <!-- <a href="daytrain.png"><img src="dayrain.png" alt="rain" /></a> -->
+                    <!-- <a href="daytempchill.png"><img src="daytempchill.png" alt="heatchill" /></a> -->
+                    <!-- <a href="daydaywind.png"><img src="daywind.png" alt="wind" /></a> -->
+                    <!-- <a href="daywinddir.png"><img src="daywinddir.png" alt="Hi Wind" /></a> -->
+                    <a href="dayrx.png"><img src="dayrx.png" alt="day rx percent"/></a>
                 </div>
                 
 		<div class="card" >
