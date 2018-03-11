@@ -7,60 +7,60 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>So, 11 M&#228;r 2018 15:48:00 CET</pubDate>
+      <pubDate>So, 11 M&#228;r 2018 16:00:00 CET</pubDate>
 
-      <lastBuildDate>So, 11 M&#228;r 2018 15:48:00 CET</lastBuildDate>
+      <lastBuildDate>So, 11 M&#228;r 2018 16:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 11.03.2018 15:48:00</title>
+         <title>Weather Conditions at 11.03.2018 16:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 16,7&#176;C; 
+           Outside temperature: 16,9&#176;C; 
            Barometer: 1000 mbar; 
-           Wind: 0,2 m/s from 315&#176;; 
+           Wind: 0,9 m/s from 341&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>So, 11 M&#228;r 2018 15:48:00 CET</pubDate>
+         <pubDate>So, 11 M&#228;r 2018 16:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                11.03.2018 15:48:00<br/>
-             Outside Temperature: 16,7&#176;C<br/>
-             Wind Chill:          16,7&#176;C<br/>
-             Heat Index:          16,7&#176;C<br/>
-             Dewpoint:            7,6&#176;C<br/>
-             Humidity:            55%<br/>
+             Time:                11.03.2018 16:00:00<br/>
+             Outside Temperature: 16,9&#176;C<br/>
+             Wind Chill:          16,9&#176;C<br/>
+             Heat Index:          16,9&#176;C<br/>
+             Dewpoint:            7,5&#176;C<br/>
+             Humidity:            54%<br/>
              Barometer:           1000 mbar<br/>
-             Wind:                0,2 m/s from 315&#176;<br/>
+             Wind:                0,9 m/s from 341&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 11.03.2018 15:48:00</title>
+         <title>Daily Weather Summary as of 11.03.2018 16:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 5,9&#176;C at 06:34:17;
-         	Max outside temperature: 16,8&#176;C at 15:42:43;
-	        Min barometer:           1000 mbar at 15:47:44;
+         	Max outside temperature: 16,9&#176;C at 15:52:46;
+	        Min barometer:           1000 mbar at 15:57:46;
 	        Max barometer:           1005 mbar at 00:26:51;
             Max wind :               3,7 m/s from    N/A at 10:30:43;
             Rain today:              0,0 mm
          </description>
-         <pubDate>So, 11 M&#228;r 2018 15:48:00 CET</pubDate>
+         <pubDate>So, 11 M&#228;r 2018 16:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     11 M&#228;r 2018<br/>
 	         Min Outside Temperature: 5,9&#176;C at 06:34:17<br/>
-	         Max Outside Temperature: 16,8&#176;C at 15:42:43<br/>
-	         Min Barometer:           1000 mbar at 15:47:44<br/>
+	         Max Outside Temperature: 16,9&#176;C at 15:52:46<br/>
+	         Min Barometer:           1000 mbar at 15:57:46<br/>
 	         Max Barometer:           1005 mbar at 00:26:51<br/>
              Max Wind :               3,7 m/s from    N/A at 10:30:43<br/>
              Rain today:              0,0 mm<br/>
@@ -69,21 +69,21 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 11.03.2018 15:48:00</title>
+         <title>Monthly Weather Summary as of 11.03.2018 16:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
-         	Max outside temperature: 16,8&#176;C at 11.03.2018 15:42:43;
+         	Max outside temperature: 16,9&#176;C at 11.03.2018 15:52:46;
 	        Min barometer:           994 mbar at 07.03.2018 05:19:40;
 	        Max barometer:           1029 mbar at 01.03.2018 00:14:48;
             Max wind :               6,1 m/s from    N/A at 09.03.2018 11:25:17;
             Rain total for month:    14,1 mm
          </description>
-         <pubDate>So, 11 M&#228;r 2018 15:48:00 CET</pubDate>
+         <pubDate>So, 11 M&#228;r 2018 16:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2018<br/>
-	         Max Outside Temperature: 16,8&#176;C at 11.03.2018 15:42:43<br/>
+	         Max Outside Temperature: 16,9&#176;C at 11.03.2018 15:52:46<br/>
 	         Min Outside Temperature: -9,9&#176;C at 02.03.2018 06:56:06<br/>
 	         Min Barometer:           994 mbar at 07.03.2018 05:19:40<br/>
 	         Max Barometer:           1029 mbar at 01.03.2018 00:14:48<br/>
@@ -94,21 +94,21 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 11.03.2018 15:48:00</title>
+         <title>Yearly Weather Summary as of 11.03.2018 16:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
-         	Max outside temperature: 16,8&#176;C at 11.03.2018 15:42:43;
+         	Max outside temperature: 16,9&#176;C at 11.03.2018 15:52:46;
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1036 mbar at 08.01.2018 08:36:44;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     84,3 mm
          </description>
-         <pubDate>So, 11 M&#228;r 2018 15:48:00 CET</pubDate>
+         <pubDate>So, 11 M&#228;r 2018 16:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
-	         Max Outside Temperature: 16,8&#176;C at 11.03.2018 15:42:43<br/>
+	         Max Outside Temperature: 16,9&#176;C at 11.03.2018 15:52:46<br/>
 	         Min Outside Temperature: -9,9&#176;C at 02.03.2018 06:56:06<br/>
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1036 mbar at 08.01.2018 08:36:44<br/>
