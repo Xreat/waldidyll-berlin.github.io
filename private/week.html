@@ -6,26 +6,29 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <meta http-equiv="refresh" content="300">
+	<meta http-equiv="refresh" content="300">
+	<base href="../">
         
-        <title>Tegel-S&#252;d, Berlin, Germany Monatliche Übersicht</title>
+        <title>Tegel-S&#252;d, Berlin, Germany Wöchentliche Übersicht</title>
         
         <!-- Open Graph -->
-        <meta property="og:site_name" content="Tegel-S&#252;d, Berlin, Germany Monatliche Übersicht" />
-        <meta property="og:description" content="Monthly Weather Summary from Tegel-S&#252;d, Berlin, Germany - weather web site powered by weewx" />
-	<meta property="og:type" content="website" /> 
+        <meta property="og:site_name" content="Tegel-S&#252;d, Berlin, Germany Wöchentliche Übersicht" />
+        <meta property="og:description" content="Weekly Weather Summary from Tegel-S&#252;d, Berlin, Germany - weather web site powered by weewx" />
+		<meta property="og:type" content="website" /> 
 
         <!-- Icons -->
         <link rel="icon" href="favicon.ico" type="image/png">
-	<link rel="apple-touch-icon" href="touch-icon.png"/>
+		<link rel="apple-touch-icon" href="touch-icon.png"/>
         
         <!-- Styles -->
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/password.css">
         
         <!-- Skripte -->
         <script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/login.js"></script>
         
         <script type="text/javascript">
             function openNoaaFile(date)
@@ -39,13 +42,39 @@
             }
         </script>
     </head>
+    <body>>
     <body>
+    
+    <div id="login">
+        <div id="dialogWrap">
+        <div id="dialogWrapCell">
+            <div id="mainDialog">
+                <div id="dialogText">This page is password protected.</div>
+                <div id="passArea">
+                    <p id="passwordPrompt">Password</p>
+                    <input id="pass" type="password" name="pass">
+                    <div>
+                        <span id="messageWrapper">
+                            <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
+                            <span id="success" class="notifyText">Success!</span>
+                            &nbsp;
+                        </span>
+                        <button id="submitPass" type="button" onclick="login()">Submit</button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div> 
+    
+        <div id="hidden">
         <header>
             <div class="container-fix" >
                 <div class="h-left" >
                 <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
                 <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
-                <h2>Monatliche Übersicht</h2>
+                <h2>Wöchentliche Übersicht</h2>
                 <p><i class="fa fa-clock-o" ></i> 16.03.2018 18:24:00</p>
                 </div>
                 
@@ -60,13 +89,13 @@
 
                 <nav>
                     <ul>
-                        <li><a href="index.html" >Aktuell</a></li>
-                        <li><a href="week.html" >Woche</a></li>
-                        <li class="active" ><a href="month.html" >Monat</a></li>
-                        <li><a href="year.html" >Jahr</a></li>
+                        <li><a href="private/index.html" >Aktuell</a></li>
+                        <li class="active" ><a href="#" >Woche</a></li>
+                        <li><a href="private/month.html" >Monat</a></li>
+                        <li><a href="private/year.html" >Jahr</a></li>
                         <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
-                                <option>Monatliche Übersicht</option>
+                                <option>Montliche Übersicht</option>
                                     <option value="2017-04">2017-04</option>
                                     <option value="2017-05">2017-05</option>
                                     <option value="2017-06">2017-06</option>
@@ -85,7 +114,6 @@
                                     <option value="2017">2017</option>
                                     <option value="2018">2018</option>
                             </select></li>
-                        <!-- <li><a href="month-protected.html">Login</a></li> -->
                     </ul>
                 </nav>
             </div>
@@ -97,10 +125,37 @@
             <div class="left" >
                 
                 <div class="card" >
+                    <h1><i class="fa fa-cloud m-grau" ></i> Diese Woche</h1>
+                    <table class="tablespacer">
+                        <tr><td>Höchste Temperatur außen</td><td>11,9&#176;C</td><td>15:49:20 (Dienstag)</td></tr>
+                        <tr><td>Niedrigste Temperatur außen</td><td>0,9&#176;C</td><td>18:19:57 (Freitag)</td></tr>
+                        <tr><td>Höchste Temperatur innen</td><td>22,0&#176;C</td><td>00:00:39 (Montag)</td></tr>
+                        <tr><td>Niedrigste Temperatur innen</td><td>21,0&#176;C</td><td>04:47:02 (Donnerstag)</td></tr>
+                        <tr><td>Höchster Hitze-Index</td><td>11,9&#176;C</td><td>15:49:20 (Dienstag)</td></tr>
+                        <tr><td>Niedrigster Windchill</td><td>-2,1&#176;C</td><td>16:14:43 (Freitag)</td></tr>
+                        <tr><td>Höchster Taupunkt</td><td>8,0&#176;C</td><td>21:00:00 (Montag)</td></tr>
+                        <tr><td>Niedrigster Taupunkt</td><td>-7,6&#176;C</td><td>18:19:57 (Freitag)</td></tr>
+                        <tr><td>Höchste Luftfeuchte</td><td>90%</td><td>02:46:16 (Dienstag)</td></tr>
+                        <tr><td>Niedrigste Luftfeuchte</td><td>52%</td><td>17:14:58 (Freitag)</td></tr>
+                        <tr><td>Höchster Luftdruck</td><td>1015 mbar</td><td>22:40:47 (Mittwoch)</td></tr>
+                        <tr><td>Niedrigster Luftdruck</td><td>993 mbar</td><td>15:49:02 (Montag)</td></tr>
+                        <tr><td>Regen gesamt</td><td>18,3 mm</td><td></td></tr>
+                        <tr><td>Max. Regen-Rate</td><td>7,2 mm/h</td><td>17:04:12 (Montag)</td></tr>
+                        <tr><td>Max. Windgeschwindigkeit</td><td>6,5 m/s    N/A</td><td>15:34:20 (Donnerstag)</td></tr>
+                        <tr><td>Wind (Durchschnitt)</td><td>0,8 m/s</td><td></td></tr>
+                        <tr><td>Wind (RMS)</td><td>1,0 m/s</td><td></td></tr>
+                        <tr><td>Geschwindigkeit</td><td>0,1 m/s</td><td></td></tr>
+                        <tr><td>Vorwiegende Windrichtung</td><td>332&#176;</td><td></td></tr>
+                    </table>
+                </div>
+
+                <div class="card" >
                     <h1><i class="fa fa-calendar m-orange" ></i> Dieser Monat</h1>
                     <table class="tablespacer">
                         <tr><td>Höchste Temperatur außen</td><td>16,9&#176;C</td><td>11.03.2018 15:52:46</td></tr>
                         <tr><td>Niedrigste Temperatur außen</td><td>-9,9&#176;C</td><td>02.03.2018 06:56:06</td></tr>
+						<tr><td>Höchste Temperatur innen</td><td>22,1&#176;C</td><td>11.03.2018 12:56:40</td></tr>
+                        <tr><td>Niedrigste Temperatur innen</td><td>20,5&#176;C</td><td>10.03.2018 17:48:27</td></tr>
                         <tr><td>Höchster Hitze-Index</td><td>16,9&#176;C</td><td>11.03.2018 15:52:46</td></tr>
                         <tr><td>Niedrigster Windchill</td><td>-14,3&#176;C</td><td>01.03.2018 08:01:26</td></tr>
                         <tr><td>Höchster Taupunkt</td><td>8,2&#176;C</td><td>11.03.2018 11:56:18</td></tr>
@@ -115,23 +170,26 @@
                         <tr><td>Wind (Durchschnitt)</td><td>0,7 m/s</td><td></td></tr>
                         <tr><td>Wind (RMS)</td><td>0,9 m/s</td><td></td></tr>
                         <tr><td>Geschwindigkeit</td><td>0,2 m/s</td><td></td></tr>
-                        <tr><td>Vorwiegende Windrichtung</td><td>318&#176; (NW)</td><td></td></tr>
+                        <tr><td>Vorwiegende Windrichtung</td><td>318&#176;</td><td></td></tr>
                     </table>
                 </div>
+
             </div>
             
             <div class="right" >
 
                 <div class="card cc graphs" >
-                    <h1><i class="fa fa-line-chart m-gruen" ></i> Statistik und Diagramme des Monats</h1>
+                    <h1><i class="fa fa-line-chart m-gruen" ></i> Statistik und Diagramme der Woche</h1>
                     
-                    <a href="monthtempdew.png"><img src="monthtempdew.png" alt="temperatures" /></a>
-                    <a href="monthbarometer.png"><img src="monthbarometer.png" alt="barometer"/></a>
-                    <a href="monthouthumidity.png"><img src="monthouthumidity.png" alt="humidity outside" /></a>
-                    <a href="monthrain.png"><img src="monthrain.png" alt="rain" /></a>
-                    <a href="monthtempchill.png"><img src="monthtempchill.png" alt="heatchill" /></a>
-                    <a href="monthwind.png"><img src="monthwind.png" alt="wind" /></a>
-                    <a href="monthwinddir.png"><img src="monthwinddir.png" alt="Hi Wind" /></a>
+                    <img src="weektempdew.png" alt="temperatures" />
+                    <img src="weekinside.png" alt="Inside" />
+                    <img src="weekbarometer.png" alt="barometer"/>
+                    <img src="weekrain.png" alt="rain" />
+                    <img src="weektempchill.png" alt="heatchill" />
+                    <img src="weekwind.png" alt="wind" />
+                    <img src="weekwinddir.png" alt="Hi Wind" />
+                    <img src="weekwindvec.png" alt="Wind Vector" />
+                    <img src="weekrx.png" alt="week rx percent"/>
                 </div>
                 
             </div>
@@ -139,11 +197,14 @@
         </div>
         
         <footer>
-            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script> 
+            <div class="container-fix" >
+            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script>
             Hilmar
             &sdot; Design by <a href="http://blauesledersofa.de" >blaues Ledersofa</a>
             &sdot; Powered by <a href="http://weewx.com/" target="_blank" >weewx</a>
+            </div>
         </footer>
+        </div>
 
     </body>
 </html>
