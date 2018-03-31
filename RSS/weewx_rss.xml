@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</pubDate>
+      <pubDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</pubDate>
 
-      <lastBuildDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</lastBuildDate>
+      <lastBuildDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 31.03.2018 13:12:00</title>
+         <title>Weather Conditions at 31.03.2018 13:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 5,3&#176;C; 
+           Outside temperature: 5,4&#176;C; 
            Barometer: 1001 mbar; 
-           Wind: 0,0 m/s from    N/A; 
-           Rain rate: 0,0 mm/h; 
+           Wind: 1,0 m/s from 231&#176;; 
+           Rain rate: 1,2 mm/h; 
          </description>
-         <pubDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</pubDate>
+         <pubDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                31.03.2018 13:12:00<br/>
-             Outside Temperature: 5,3&#176;C<br/>
-             Wind Chill:          5,3&#176;C<br/>
-             Heat Index:          5,3&#176;C<br/>
+             Time:                31.03.2018 13:24:00<br/>
+             Outside Temperature: 5,4&#176;C<br/>
+             Wind Chill:          4,8&#176;C<br/>
+             Heat Index:          5,4&#176;C<br/>
              Dewpoint:            2,4&#176;C<br/>
              Humidity:            81%<br/>
              Barometer:           1001 mbar<br/>
-             Wind:                0,0 m/s from    N/A<br/>
-             Rain Rate:           0,0 mm/h<br/>
+             Wind:                1,0 m/s from 231&#176;<br/>
+             Rain Rate:           1,2 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 31.03.2018 13:12:00</title>
+         <title>Daily Weather Summary as of 31.03.2018 13:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 3,0&#176;C at 05:43:43;
@@ -50,9 +50,9 @@
 	        Min barometer:           1001 mbar at 12:25:09;
 	        Max barometer:           1007 mbar at 00:27:35;
             Max wind :               4,4 m/s from    N/A at 08:14:18;
-            Rain today:              1,8 mm
+            Rain today:              2,1 mm
          </description>
-         <pubDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</pubDate>
+         <pubDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -63,13 +63,13 @@
 	         Min Barometer:           1001 mbar at 12:25:09<br/>
 	         Max Barometer:           1007 mbar at 00:27:35<br/>
              Max Wind :               4,4 m/s from    N/A at 08:14:18<br/>
-             Rain today:              1,8 mm<br/>
+             Rain today:              2,1 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 31.03.2018 13:12:00</title>
+         <title>Monthly Weather Summary as of 31.03.2018 13:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -77,9 +77,9 @@
 	        Min barometer:           993 mbar at 12.03.2018 15:49:02;
 	        Max barometer:           1029 mbar at 01.03.2018 00:14:48;
             Max wind :               8,2 m/s from    N/A at 29.03.2018 11:29:17;
-            Rain total for month:    48,0 mm
+            Rain total for month:    48,3 mm
          </description>
-         <pubDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</pubDate>
+         <pubDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2018<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           993 mbar at 12.03.2018 15:49:02<br/>
 	         Max Barometer:           1029 mbar at 01.03.2018 00:14:48<br/>
              Max Wind :               8,2 m/s from    N/A at 29.03.2018 11:29:17<br/>
-             Rain total for month:    48,0 mm<br/>
+             Rain total for month:    48,3 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 31.03.2018 13:12:00</title>
+         <title>Yearly Weather Summary as of 31.03.2018 13:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -102,9 +102,9 @@
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1036 mbar at 08.01.2018 08:36:44;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
-            Rain total for year:     118,2 mm
+            Rain total for year:     118,5 mm
          </description>
-         <pubDate>Sa, 31 M&#228;r 2018 13:12:00 CEST</pubDate>
+         <pubDate>Sa, 31 M&#228;r 2018 13:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1036 mbar at 08.01.2018 08:36:44<br/>
              Max Wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20<br/>
-             Rain total for year:     118,2 mm<br/>
+             Rain total for year:     118,5 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
