@@ -7,60 +7,60 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>So, 01 Apr 2018 01:24:00 CEST</pubDate>
+      <pubDate>So, 01 Apr 2018 01:36:00 CEST</pubDate>
 
-      <lastBuildDate>So, 01 Apr 2018 01:24:00 CEST</lastBuildDate>
+      <lastBuildDate>So, 01 Apr 2018 01:36:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 01.04.2018 01:24:00</title>
+         <title>Weather Conditions at 01.04.2018 01:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 3,0&#176;C; 
+           Outside temperature: 2,9&#176;C; 
            Barometer: 1000 mbar; 
-           Wind: 0,9 m/s from 301&#176;; 
+           Wind: 0,9 m/s from 326&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>So, 01 Apr 2018 01:24:00 CEST</pubDate>
+         <pubDate>So, 01 Apr 2018 01:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                01.04.2018 01:24:00<br/>
-             Outside Temperature: 3,0&#176;C<br/>
-             Wind Chill:          2,4&#176;C<br/>
-             Heat Index:          3,0&#176;C<br/>
-             Dewpoint:            1,1&#176;C<br/>
+             Time:                01.04.2018 01:36:00<br/>
+             Outside Temperature: 2,9&#176;C<br/>
+             Wind Chill:          2,9&#176;C<br/>
+             Heat Index:          2,9&#176;C<br/>
+             Dewpoint:            0,9&#176;C<br/>
              Humidity:            87%<br/>
              Barometer:           1000 mbar<br/>
-             Wind:                0,9 m/s from 301&#176;<br/>
+             Wind:                0,9 m/s from 326&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 01.04.2018 01:24:00</title>
+         <title>Daily Weather Summary as of 01.04.2018 01:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 3,0&#176;C at 01:07:57;
+	        Min outside temperature: 2,8&#176;C at 01:33:02;
          	Max outside temperature: 3,6&#176;C at 00:02:42;
-	        Min barometer:           1000 mbar at 00:12:45;
+	        Min barometer:           1000 mbar at 01:28:00;
 	        Max barometer:           1000 mbar at 00:32:50;
             Max wind :               2,4 m/s from    N/A at 00:32:50;
             Rain today:              0,0 mm
          </description>
-         <pubDate>So, 01 Apr 2018 01:24:00 CEST</pubDate>
+         <pubDate>So, 01 Apr 2018 01:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     01 Apr 2018<br/>
-	         Min Outside Temperature: 3,0&#176;C at 01:07:57<br/>
+	         Min Outside Temperature: 2,8&#176;C at 01:33:02<br/>
 	         Max Outside Temperature: 3,6&#176;C at 00:02:42<br/>
-	         Min Barometer:           1000 mbar at 00:12:45<br/>
+	         Min Barometer:           1000 mbar at 01:28:00<br/>
 	         Max Barometer:           1000 mbar at 00:32:50<br/>
              Max Wind :               2,4 m/s from    N/A at 00:32:50<br/>
              Rain today:              0,0 mm<br/>
@@ -69,23 +69,23 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 01.04.2018 01:24:00</title>
+         <title>Monthly Weather Summary as of 01.04.2018 01:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
-	        Min outside temperature: 3,0&#176;C at 01.04.2018 01:07:57;
+	        Min outside temperature: 2,8&#176;C at 01.04.2018 01:33:02;
          	Max outside temperature: 3,6&#176;C at 01.04.2018 00:02:42;
-	        Min barometer:           1000 mbar at 01.04.2018 00:12:45;
+	        Min barometer:           1000 mbar at 01.04.2018 01:28:00;
 	        Max barometer:           1000 mbar at 01.04.2018 00:32:50;
             Max wind :               2,4 m/s from    N/A at 01.04.2018 00:32:50;
             Rain total for month:    0,0 mm
          </description>
-         <pubDate>So, 01 Apr 2018 01:24:00 CEST</pubDate>
+         <pubDate>So, 01 Apr 2018 01:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   April 2018<br/>
 	         Max Outside Temperature: 3,6&#176;C at 01.04.2018 00:02:42<br/>
-	         Min Outside Temperature: 3,0&#176;C at 01.04.2018 01:07:57<br/>
-	         Min Barometer:           1000 mbar at 01.04.2018 00:12:45<br/>
+	         Min Outside Temperature: 2,8&#176;C at 01.04.2018 01:33:02<br/>
+	         Min Barometer:           1000 mbar at 01.04.2018 01:28:00<br/>
 	         Max Barometer:           1000 mbar at 01.04.2018 00:32:50<br/>
              Max Wind :               2,4 m/s from    N/A at 01.04.2018 00:32:50<br/>
              Rain total for month:    0,0 mm<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 01.04.2018 01:24:00</title>
+         <title>Yearly Weather Summary as of 01.04.2018 01:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     119,4 mm
          </description>
-         <pubDate>So, 01 Apr 2018 01:24:00 CEST</pubDate>
+         <pubDate>So, 01 Apr 2018 01:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
