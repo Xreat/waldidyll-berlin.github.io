@@ -7,59 +7,59 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 26 Apr 2018 09:48:00 CEST</pubDate>
+      <pubDate>Do, 26 Apr 2018 10:00:00 CEST</pubDate>
 
-      <lastBuildDate>Do, 26 Apr 2018 09:48:00 CEST</lastBuildDate>
+      <lastBuildDate>Do, 26 Apr 2018 10:00:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 26.04.2018 09:48:00</title>
+         <title>Weather Conditions at 26.04.2018 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 10,9&#176;C; 
+           Outside temperature: 11,3&#176;C; 
            Barometer: 1013 mbar; 
-           Wind: 1,5 m/s from 346&#176;; 
+           Wind: 0,9 m/s from 45&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Do, 26 Apr 2018 09:48:00 CEST</pubDate>
+         <pubDate>Do, 26 Apr 2018 10:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                26.04.2018 09:48:00<br/>
-             Outside Temperature: 10,9&#176;C<br/>
-             Wind Chill:          10,9&#176;C<br/>
-             Heat Index:          10,9&#176;C<br/>
-             Dewpoint:            7,4&#176;C<br/>
-             Humidity:            79%<br/>
+             Time:                26.04.2018 10:00:00<br/>
+             Outside Temperature: 11,3&#176;C<br/>
+             Wind Chill:          11,3&#176;C<br/>
+             Heat Index:          11,3&#176;C<br/>
+             Dewpoint:            7,2&#176;C<br/>
+             Humidity:            76%<br/>
              Barometer:           1013 mbar<br/>
-             Wind:                1,5 m/s from 346&#176;<br/>
+             Wind:                0,9 m/s from 45&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 26.04.2018 09:48:00</title>
+         <title>Daily Weather Summary as of 26.04.2018 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 8,6&#176;C at 05:36:00;
-         	Max outside temperature: 11,1&#176;C at 09:47:33;
+         	Max outside temperature: 11,4&#176;C at 09:57:35;
 	        Min barometer:           1013 mbar at 00:10:24;
 	        Max barometer:           1013 mbar at 09:17:28;
             Max wind :               5,4 m/s from    N/A at 09:17:28;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Do, 26 Apr 2018 09:48:00 CEST</pubDate>
+         <pubDate>Do, 26 Apr 2018 10:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     26 Apr 2018<br/>
 	         Min Outside Temperature: 8,6&#176;C at 05:36:00<br/>
-	         Max Outside Temperature: 11,1&#176;C at 09:47:33<br/>
+	         Max Outside Temperature: 11,4&#176;C at 09:57:35<br/>
 	         Min Barometer:           1013 mbar at 00:10:24<br/>
 	         Max Barometer:           1013 mbar at 09:17:28<br/>
              Max Wind :               5,4 m/s from    N/A at 09:17:28<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 26.04.2018 09:48:00</title>
+         <title>Monthly Weather Summary as of 26.04.2018 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 0,5&#176;C at 02.04.2018 06:14:23;
@@ -79,7 +79,7 @@
             Max wind :               11,2 m/s from    N/A at 04.04.2018 21:20:10;
             Rain total for month:    35,7 mm
          </description>
-         <pubDate>Do, 26 Apr 2018 09:48:00 CEST</pubDate>
+         <pubDate>Do, 26 Apr 2018 10:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   April 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 26.04.2018 09:48:00</title>
+         <title>Yearly Weather Summary as of 26.04.2018 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     155,1 mm
          </description>
-         <pubDate>Do, 26 Apr 2018 09:48:00 CEST</pubDate>
+         <pubDate>Do, 26 Apr 2018 10:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
