@@ -7,33 +7,33 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 05 Mai 2018 04:24:00 CEST</pubDate>
+      <pubDate>Sa, 05 Mai 2018 04:36:00 CEST</pubDate>
 
-      <lastBuildDate>Sa, 05 Mai 2018 04:24:00 CEST</lastBuildDate>
+      <lastBuildDate>Sa, 05 Mai 2018 04:36:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 05.05.2018 04:24:00</title>
+         <title>Weather Conditions at 05.05.2018 04:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 9,7&#176;C; 
+           Outside temperature: 9,6&#176;C; 
            Barometer: 1028 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Sa, 05 Mai 2018 04:24:00 CEST</pubDate>
+         <pubDate>Sa, 05 Mai 2018 04:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                05.05.2018 04:24:00<br/>
-             Outside Temperature: 9,7&#176;C<br/>
-             Wind Chill:          9,7&#176;C<br/>
-             Heat Index:          9,7&#176;C<br/>
-             Dewpoint:            2,8&#176;C<br/>
-             Humidity:            62%<br/>
+             Time:                05.05.2018 04:36:00<br/>
+             Outside Temperature: 9,6&#176;C<br/>
+             Wind Chill:          9,6&#176;C<br/>
+             Heat Index:          9,6&#176;C<br/>
+             Dewpoint:            2,9&#176;C<br/>
+             Humidity:            63%<br/>
              Barometer:           1028 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
@@ -42,23 +42,23 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 05.05.2018 04:24:00</title>
+         <title>Daily Weather Summary as of 05.05.2018 04:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 9,6&#176;C at 04:21:00;
+	        Min outside temperature: 9,5&#176;C at 04:31:01;
          	Max outside temperature: 12,9&#176;C at 00:00:02;
 	        Min barometer:           1027 mbar at 00:00:02;
 	        Max barometer:           1028 mbar at 02:30:34;
             Max wind :               0,7 m/s from    N/A at 00:00:02;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Sa, 05 Mai 2018 04:24:00 CEST</pubDate>
+         <pubDate>Sa, 05 Mai 2018 04:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     05 Mai 2018<br/>
-	         Min Outside Temperature: 9,6&#176;C at 04:21:00<br/>
+	         Min Outside Temperature: 9,5&#176;C at 04:31:01<br/>
 	         Max Outside Temperature: 12,9&#176;C at 00:00:02<br/>
 	         Min Barometer:           1027 mbar at 00:00:02<br/>
 	         Max Barometer:           1028 mbar at 02:30:34<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 05.05.2018 04:24:00</title>
+         <title>Monthly Weather Summary as of 05.05.2018 04:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 8,2&#176;C at 02.05.2018 05:50:18;
@@ -79,7 +79,7 @@
             Max wind :               7,5 m/s from    N/A at 01.05.2018 09:10:43;
             Rain total for month:    0,0 mm
          </description>
-         <pubDate>Sa, 05 Mai 2018 04:24:00 CEST</pubDate>
+         <pubDate>Sa, 05 Mai 2018 04:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Mai 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 05.05.2018 04:24:00</title>
+         <title>Yearly Weather Summary as of 05.05.2018 04:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     159,3 mm
          </description>
-         <pubDate>Sa, 05 Mai 2018 04:24:00 CEST</pubDate>
+         <pubDate>Sa, 05 Mai 2018 04:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
