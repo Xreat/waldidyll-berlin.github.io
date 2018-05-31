@@ -7,31 +7,31 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 31 Mai 2018 03:24:00 CEST</pubDate>
+      <pubDate>Do, 31 Mai 2018 03:36:00 CEST</pubDate>
 
-      <lastBuildDate>Do, 31 Mai 2018 03:24:00 CEST</lastBuildDate>
+      <lastBuildDate>Do, 31 Mai 2018 03:36:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 31.05.2018 03:24:00</title>
+         <title>Weather Conditions at 31.05.2018 03:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 21,1&#176;C; 
+           Outside temperature: 21,0&#176;C; 
            Barometer: 1017 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Do, 31 Mai 2018 03:24:00 CEST</pubDate>
+         <pubDate>Do, 31 Mai 2018 03:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                31.05.2018 03:24:00<br/>
-             Outside Temperature: 21,1&#176;C<br/>
-             Wind Chill:          21,1&#176;C<br/>
-             Heat Index:          21,1&#176;C<br/>
+             Time:                31.05.2018 03:36:00<br/>
+             Outside Temperature: 21,0&#176;C<br/>
+             Wind Chill:          21,0&#176;C<br/>
+             Heat Index:          21,0&#176;C<br/>
              Dewpoint:            14,0&#176;C<br/>
              Humidity:            64%<br/>
              Barometer:           1017 mbar<br/>
@@ -42,25 +42,25 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 31.05.2018 03:24:00</title>
+         <title>Daily Weather Summary as of 31.05.2018 03:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 21,0&#176;C at 03:20:20;
+	        Min outside temperature: 20,9&#176;C at 03:35:24;
          	Max outside temperature: 22,2&#176;C at 00:04:39;
-	        Min barometer:           1017 mbar at 03:20:20;
+	        Min barometer:           1017 mbar at 03:25:21;
 	        Max barometer:           1018 mbar at 01:55:03;
             Max wind :               0,7 m/s from    N/A at 03:20:20;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Do, 31 Mai 2018 03:24:00 CEST</pubDate>
+         <pubDate>Do, 31 Mai 2018 03:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     31 Mai 2018<br/>
-	         Min Outside Temperature: 21,0&#176;C at 03:20:20<br/>
+	         Min Outside Temperature: 20,9&#176;C at 03:35:24<br/>
 	         Max Outside Temperature: 22,2&#176;C at 00:04:39<br/>
-	         Min Barometer:           1017 mbar at 03:20:20<br/>
+	         Min Barometer:           1017 mbar at 03:25:21<br/>
 	         Max Barometer:           1018 mbar at 01:55:03<br/>
              Max Wind :               0,7 m/s from    N/A at 03:20:20<br/>
              Rain today:              0,0 mm<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 31.05.2018 03:24:00</title>
+         <title>Monthly Weather Summary as of 31.05.2018 03:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 8,2&#176;C at 02.05.2018 05:50:18;
@@ -79,7 +79,7 @@
             Max wind :               7,5 m/s from    N/A at 01.05.2018 09:10:43;
             Rain total for month:    24,6 mm
          </description>
-         <pubDate>Do, 31 Mai 2018 03:24:00 CEST</pubDate>
+         <pubDate>Do, 31 Mai 2018 03:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Mai 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 31.05.2018 03:24:00</title>
+         <title>Yearly Weather Summary as of 31.05.2018 03:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     183,9 mm
          </description>
-         <pubDate>Do, 31 Mai 2018 03:24:00 CEST</pubDate>
+         <pubDate>Do, 31 Mai 2018 03:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
