@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 02 Jun 2018 18:24:00 CEST</pubDate>
+      <pubDate>Sa, 02 Jun 2018 18:36:00 CEST</pubDate>
 
-      <lastBuildDate>Sa, 02 Jun 2018 18:24:00 CEST</lastBuildDate>
+      <lastBuildDate>Sa, 02 Jun 2018 18:36:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 02.06.2018 18:24:00</title>
+         <title>Weather Conditions at 02.06.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 23,5&#176;C; 
+           Outside temperature: 23,4&#176;C; 
            Barometer: 1017 mbar; 
-           Wind: 0,9 m/s from 45&#176;; 
+           Wind: 0,2 m/s from 45&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Sa, 02 Jun 2018 18:24:00 CEST</pubDate>
+         <pubDate>Sa, 02 Jun 2018 18:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                02.06.2018 18:24:00<br/>
-             Outside Temperature: 23,5&#176;C<br/>
-             Wind Chill:          23,5&#176;C<br/>
-             Heat Index:          23,5&#176;C<br/>
-             Dewpoint:            17,2&#176;C<br/>
-             Humidity:            68%<br/>
+             Time:                02.06.2018 18:36:00<br/>
+             Outside Temperature: 23,4&#176;C<br/>
+             Wind Chill:          23,4&#176;C<br/>
+             Heat Index:          23,4&#176;C<br/>
+             Dewpoint:            17,4&#176;C<br/>
+             Humidity:            69%<br/>
              Barometer:           1017 mbar<br/>
-             Wind:                0,9 m/s from 45&#176;<br/>
+             Wind:                0,2 m/s from 45&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 02.06.2018 18:24:00</title>
+         <title>Daily Weather Summary as of 02.06.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 20,4&#176;C at 05:56:50;
          	Max outside temperature: 25,1&#176;C at 15:48:47;
 	        Min barometer:           1015 mbar at 01:30:54;
-	        Max barometer:           1017 mbar at 18:14:22;
+	        Max barometer:           1017 mbar at 18:34:28;
             Max wind :               3,1 m/s from    N/A at 15:18:44;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Sa, 02 Jun 2018 18:24:00 CEST</pubDate>
+         <pubDate>Sa, 02 Jun 2018 18:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -61,7 +61,7 @@
 	         Min Outside Temperature: 20,4&#176;C at 05:56:50<br/>
 	         Max Outside Temperature: 25,1&#176;C at 15:48:47<br/>
 	         Min Barometer:           1015 mbar at 01:30:54<br/>
-	         Max Barometer:           1017 mbar at 18:14:22<br/>
+	         Max Barometer:           1017 mbar at 18:34:28<br/>
              Max Wind :               3,1 m/s from    N/A at 15:18:44<br/>
              Rain today:              0,0 mm<br/>
         </p>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 02.06.2018 18:24:00</title>
+         <title>Monthly Weather Summary as of 02.06.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 20,4&#176;C at 02.06.2018 05:56:50;
@@ -79,7 +79,7 @@
             Max wind :               3,1 m/s from    N/A at 01.06.2018 20:39:49;
             Rain total for month:    15,9 mm
          </description>
-         <pubDate>Sa, 02 Jun 2018 18:24:00 CEST</pubDate>
+         <pubDate>Sa, 02 Jun 2018 18:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juni 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 02.06.2018 18:24:00</title>
+         <title>Yearly Weather Summary as of 02.06.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     199,8 mm
          </description>
-         <pubDate>Sa, 02 Jun 2018 18:24:00 CEST</pubDate>
+         <pubDate>Sa, 02 Jun 2018 18:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
