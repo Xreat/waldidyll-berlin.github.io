@@ -7,33 +7,33 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mo, 11 Jun 2018 22:00:00 CEST</pubDate>
+      <pubDate>Mo, 11 Jun 2018 22:12:00 CEST</pubDate>
 
-      <lastBuildDate>Mo, 11 Jun 2018 22:00:00 CEST</lastBuildDate>
+      <lastBuildDate>Mo, 11 Jun 2018 22:12:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 11.06.2018 22:00:00</title>
+         <title>Weather Conditions at 11.06.2018 22:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 21,7&#176;C; 
+           Outside temperature: 21,5&#176;C; 
            Barometer: 1011 mbar; 
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mo, 11 Jun 2018 22:00:00 CEST</pubDate>
+         <pubDate>Mo, 11 Jun 2018 22:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                11.06.2018 22:00:00<br/>
-             Outside Temperature: 21,7&#176;C<br/>
-             Wind Chill:          21,7&#176;C<br/>
-             Heat Index:          21,7&#176;C<br/>
-             Dewpoint:            11,9&#176;C<br/>
-             Humidity:            54%<br/>
+             Time:                11.06.2018 22:12:00<br/>
+             Outside Temperature: 21,5&#176;C<br/>
+             Wind Chill:          21,5&#176;C<br/>
+             Heat Index:          21,5&#176;C<br/>
+             Dewpoint:            12,2&#176;C<br/>
+             Humidity:            56%<br/>
              Barometer:           1011 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
              Rain Rate:           0,0 mm/h<br/>
@@ -42,7 +42,7 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 11.06.2018 22:00:00</title>
+         <title>Daily Weather Summary as of 11.06.2018 22:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 18,5&#176;C at 04:37:58;
@@ -52,7 +52,7 @@
             Max wind :               3,4 m/s from    N/A at 10:59:26;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Mo, 11 Jun 2018 22:00:00 CEST</pubDate>
+         <pubDate>Mo, 11 Jun 2018 22:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 11.06.2018 22:00:00</title>
+         <title>Monthly Weather Summary as of 11.06.2018 22:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 14,9&#176;C at 06.06.2018 05:32:40;
@@ -79,7 +79,7 @@
             Max wind :               4,1 m/s from    N/A at 10.06.2018 17:05:42;
             Rain total for month:    18,0 mm
          </description>
-         <pubDate>Mo, 11 Jun 2018 22:00:00 CEST</pubDate>
+         <pubDate>Mo, 11 Jun 2018 22:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juni 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 11.06.2018 22:00:00</title>
+         <title>Yearly Weather Summary as of 11.06.2018 22:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     201,9 mm
          </description>
-         <pubDate>Mo, 11 Jun 2018 22:00:00 CEST</pubDate>
+         <pubDate>Mo, 11 Jun 2018 22:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
