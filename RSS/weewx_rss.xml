@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 13 Jun 2018 22:48:00 CEST</pubDate>
+      <pubDate>Mi, 13 Jun 2018 23:00:00 CEST</pubDate>
 
-      <lastBuildDate>Mi, 13 Jun 2018 22:48:00 CEST</lastBuildDate>
+      <lastBuildDate>Mi, 13 Jun 2018 23:00:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 13.06.2018 22:48:00</title>
+         <title>Weather Conditions at 13.06.2018 23:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 16,8&#176;C; 
            Barometer: 1016 mbar; 
-           Wind: 0,1 m/s from 225&#176;; 
+           Wind: 0,2 m/s from 45&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mi, 13 Jun 2018 22:48:00 CEST</pubDate>
+         <pubDate>Mi, 13 Jun 2018 23:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                13.06.2018 22:48:00<br/>
+             Time:                13.06.2018 23:00:00<br/>
              Outside Temperature: 16,8&#176;C<br/>
              Wind Chill:          16,8&#176;C<br/>
              Heat Index:          16,8&#176;C<br/>
-             Dewpoint:            10,3&#176;C<br/>
+             Dewpoint:            10,4&#176;C<br/>
              Humidity:            66%<br/>
              Barometer:           1016 mbar<br/>
-             Wind:                0,1 m/s from 225&#176;<br/>
+             Wind:                0,2 m/s from 45&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 13.06.2018 22:48:00</title>
+         <title>Daily Weather Summary as of 13.06.2018 23:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 16,1&#176;C at 08:24:00;
@@ -52,7 +52,7 @@
             Max wind :               4,4 m/s from    N/A at 10:45:09;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Mi, 13 Jun 2018 22:48:00 CEST</pubDate>
+         <pubDate>Mi, 13 Jun 2018 23:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 13.06.2018 22:48:00</title>
+         <title>Monthly Weather Summary as of 13.06.2018 23:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 14,9&#176;C at 06.06.2018 05:32:40;
@@ -79,7 +79,7 @@
             Max wind :               4,4 m/s from    N/A at 13.06.2018 10:45:09;
             Rain total for month:    18,0 mm
          </description>
-         <pubDate>Mi, 13 Jun 2018 22:48:00 CEST</pubDate>
+         <pubDate>Mi, 13 Jun 2018 23:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juni 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 13.06.2018 22:48:00</title>
+         <title>Yearly Weather Summary as of 13.06.2018 23:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     201,9 mm
          </description>
-         <pubDate>Mi, 13 Jun 2018 22:48:00 CEST</pubDate>
+         <pubDate>Mi, 13 Jun 2018 23:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
