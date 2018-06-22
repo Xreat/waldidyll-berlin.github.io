@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fr, 22 Jun 2018 12:00:00 CEST</pubDate>
+      <pubDate>Fr, 22 Jun 2018 12:12:00 CEST</pubDate>
 
-      <lastBuildDate>Fr, 22 Jun 2018 12:00:00 CEST</lastBuildDate>
+      <lastBuildDate>Fr, 22 Jun 2018 12:12:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 22.06.2018 12:00:00</title>
+         <title>Weather Conditions at 22.06.2018 12:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 15,2&#176;C; 
-           Barometer: 1018 mbar; 
-           Wind: 1,1 m/s from 131&#176;; 
-           Rain rate: 0,0 mm/h; 
+           Outside temperature: 14,6&#176;C; 
+           Barometer: 1019 mbar; 
+           Wind: 1,2 m/s from 66&#176;; 
+           Rain rate: 0,8 mm/h; 
          </description>
-         <pubDate>Fr, 22 Jun 2018 12:00:00 CEST</pubDate>
+         <pubDate>Fr, 22 Jun 2018 12:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                22.06.2018 12:00:00<br/>
-             Outside Temperature: 15,2&#176;C<br/>
-             Wind Chill:          15,2&#176;C<br/>
-             Heat Index:          15,2&#176;C<br/>
+             Time:                22.06.2018 12:12:00<br/>
+             Outside Temperature: 14,6&#176;C<br/>
+             Wind Chill:          14,6&#176;C<br/>
+             Heat Index:          14,6&#176;C<br/>
              Dewpoint:            9,1&#176;C<br/>
-             Humidity:            67%<br/>
-             Barometer:           1018 mbar<br/>
-             Wind:                1,1 m/s from 131&#176;<br/>
-             Rain Rate:           0,0 mm/h<br/>
+             Humidity:            70%<br/>
+             Barometer:           1019 mbar<br/>
+             Wind:                1,2 m/s from 66&#176;<br/>
+             Rain Rate:           0,8 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 22.06.2018 12:00:00</title>
+         <title>Daily Weather Summary as of 22.06.2018 12:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 11,7&#176;C at 04:27:15;
          	Max outside temperature: 15,6&#176;C at 11:53:47;
 	        Min barometer:           1017 mbar at 08:38:03;
-	        Max barometer:           1018 mbar at 11:58:47;
+	        Max barometer:           1019 mbar at 12:03:47;
             Max wind :               5,1 m/s from    N/A at 01:31:35;
-            Rain today:              0,0 mm
+            Rain today:              0,6 mm
          </description>
-         <pubDate>Fr, 22 Jun 2018 12:00:00 CEST</pubDate>
+         <pubDate>Fr, 22 Jun 2018 12:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -61,15 +61,15 @@
 	         Min Outside Temperature: 11,7&#176;C at 04:27:15<br/>
 	         Max Outside Temperature: 15,6&#176;C at 11:53:47<br/>
 	         Min Barometer:           1017 mbar at 08:38:03<br/>
-	         Max Barometer:           1018 mbar at 11:58:47<br/>
+	         Max Barometer:           1019 mbar at 12:03:47<br/>
              Max Wind :               5,1 m/s from    N/A at 01:31:35<br/>
-             Rain today:              0,0 mm<br/>
+             Rain today:              0,6 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 22.06.2018 12:00:00</title>
+         <title>Monthly Weather Summary as of 22.06.2018 12:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 11,7&#176;C at 22.06.2018 04:27:15;
@@ -77,9 +77,9 @@
 	        Min barometer:           1009 mbar at 21.06.2018 12:13:36;
 	        Max barometer:           1025 mbar at 20.06.2018 05:11:43;
             Max wind :               5,4 m/s from    N/A at 21.06.2018 12:18:38;
-            Rain total for month:    20,4 mm
+            Rain total for month:    21,0 mm
          </description>
-         <pubDate>Fr, 22 Jun 2018 12:00:00 CEST</pubDate>
+         <pubDate>Fr, 22 Jun 2018 12:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juni 2018<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           1009 mbar at 21.06.2018 12:13:36<br/>
 	         Max Barometer:           1025 mbar at 20.06.2018 05:11:43<br/>
              Max Wind :               5,4 m/s from    N/A at 21.06.2018 12:18:38<br/>
-             Rain total for month:    20,4 mm<br/>
+             Rain total for month:    21,0 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 22.06.2018 12:00:00</title>
+         <title>Yearly Weather Summary as of 22.06.2018 12:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -102,9 +102,9 @@
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1036 mbar at 08.01.2018 08:36:44;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
-            Rain total for year:     204,3 mm
+            Rain total for year:     204,9 mm
          </description>
-         <pubDate>Fr, 22 Jun 2018 12:00:00 CEST</pubDate>
+         <pubDate>Fr, 22 Jun 2018 12:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1036 mbar at 08.01.2018 08:36:44<br/>
              Max Wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20<br/>
-             Rain total for year:     204,3 mm<br/>
+             Rain total for year:     204,9 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
