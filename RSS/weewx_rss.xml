@@ -7,58 +7,58 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 19 Jul 2018 04:48:00 CEST</pubDate>
+      <pubDate>Do, 19 Jul 2018 05:00:00 CEST</pubDate>
 
-      <lastBuildDate>Do, 19 Jul 2018 04:48:00 CEST</lastBuildDate>
+      <lastBuildDate>Do, 19 Jul 2018 05:00:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 19.07.2018 04:48:00</title>
+         <title>Weather Conditions at 19.07.2018 05:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 19,1&#176;C; 
+           Outside temperature: 18,9&#176;C; 
            Barometer: 1017 mbar; 
-           Wind: 0,1 m/s from 315&#176;; 
+           Wind: 0,3 m/s from 32&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Do, 19 Jul 2018 04:48:00 CEST</pubDate>
+         <pubDate>Do, 19 Jul 2018 05:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                19.07.2018 04:48:00<br/>
-             Outside Temperature: 19,1&#176;C<br/>
-             Wind Chill:          19,1&#176;C<br/>
-             Heat Index:          19,1&#176;C<br/>
-             Dewpoint:            12,8&#176;C<br/>
+             Time:                19.07.2018 05:00:00<br/>
+             Outside Temperature: 18,9&#176;C<br/>
+             Wind Chill:          18,9&#176;C<br/>
+             Heat Index:          18,9&#176;C<br/>
+             Dewpoint:            12,6&#176;C<br/>
              Humidity:            67%<br/>
              Barometer:           1017 mbar<br/>
-             Wind:                0,1 m/s from 315&#176;<br/>
+             Wind:                0,3 m/s from 32&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 19.07.2018 04:48:00</title>
+         <title>Daily Weather Summary as of 19.07.2018 05:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 19,0&#176;C at 04:44:15;
+	        Min outside temperature: 18,8&#176;C at 04:59:19;
          	Max outside temperature: 22,0&#176;C at 00:03:10;
 	        Min barometer:           1017 mbar at 00:48:23;
 	        Max barometer:           1017 mbar at 02:43:48;
             Max wind :               1,4 m/s from    N/A at 03:39:03;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Do, 19 Jul 2018 04:48:00 CEST</pubDate>
+         <pubDate>Do, 19 Jul 2018 05:00:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     19 Jul 2018<br/>
-	         Min Outside Temperature: 19,0&#176;C at 04:44:15<br/>
+	         Min Outside Temperature: 18,8&#176;C at 04:59:19<br/>
 	         Max Outside Temperature: 22,0&#176;C at 00:03:10<br/>
 	         Min Barometer:           1017 mbar at 00:48:23<br/>
 	         Max Barometer:           1017 mbar at 02:43:48<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 19.07.2018 04:48:00</title>
+         <title>Monthly Weather Summary as of 19.07.2018 05:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 12,3&#176;C at 02.07.2018 04:45:52;
@@ -79,7 +79,7 @@
             Max wind :               4,4 m/s from    N/A at 06.07.2018 17:54:30;
             Rain total for month:    45,3 mm
          </description>
-         <pubDate>Do, 19 Jul 2018 04:48:00 CEST</pubDate>
+         <pubDate>Do, 19 Jul 2018 05:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juli 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 19.07.2018 04:48:00</title>
+         <title>Yearly Weather Summary as of 19.07.2018 05:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     256,5 mm
          </description>
-         <pubDate>Do, 19 Jul 2018 04:48:00 CEST</pubDate>
+         <pubDate>Do, 19 Jul 2018 05:00:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
