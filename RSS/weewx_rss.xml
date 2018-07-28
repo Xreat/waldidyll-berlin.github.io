@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 28 Jul 2018 14:00:00 CEST</pubDate>
+      <pubDate>Sa, 28 Jul 2018 14:12:00 CEST</pubDate>
 
-      <lastBuildDate>Sa, 28 Jul 2018 14:00:00 CEST</lastBuildDate>
+      <lastBuildDate>Sa, 28 Jul 2018 14:12:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 28.07.2018 14:00:00</title>
+         <title>Weather Conditions at 28.07.2018 14:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 31,4&#176;C; 
+           Outside temperature: 31,6&#176;C; 
            Barometer: 1010 mbar; 
-           Wind: 0,3 m/s from 248&#176;; 
+           Wind: 0,9 m/s from 79&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Sa, 28 Jul 2018 14:00:00 CEST</pubDate>
+         <pubDate>Sa, 28 Jul 2018 14:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                28.07.2018 14:00:00<br/>
-             Outside Temperature: 31,4&#176;C<br/>
-             Wind Chill:          31,4&#176;C<br/>
-             Heat Index:          31,8&#176;C<br/>
-             Dewpoint:            17,0&#176;C<br/>
+             Time:                28.07.2018 14:12:00<br/>
+             Outside Temperature: 31,6&#176;C<br/>
+             Wind Chill:          31,6&#176;C<br/>
+             Heat Index:          32,1&#176;C<br/>
+             Dewpoint:            17,2&#176;C<br/>
              Humidity:            42%<br/>
              Barometer:           1010 mbar<br/>
-             Wind:                0,3 m/s from 248&#176;<br/>
+             Wind:                0,9 m/s from 79&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 28.07.2018 14:00:00</title>
+         <title>Daily Weather Summary as of 28.07.2018 14:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 22,9&#176;C at 04:46:26;
          	Max outside temperature: 31,8&#176;C at 13:28:07;
-	        Min barometer:           1010 mbar at 13:48:12;
+	        Min barometer:           1010 mbar at 14:08:18;
 	        Max barometer:           1014 mbar at 00:05:22;
             Max wind :               2,4 m/s from    N/A at 13:23:06;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Sa, 28 Jul 2018 14:00:00 CEST</pubDate>
+         <pubDate>Sa, 28 Jul 2018 14:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -60,7 +60,7 @@
              Day:                     28 Jul 2018<br/>
 	         Min Outside Temperature: 22,9&#176;C at 04:46:26<br/>
 	         Max Outside Temperature: 31,8&#176;C at 13:28:07<br/>
-	         Min Barometer:           1010 mbar at 13:48:12<br/>
+	         Min Barometer:           1010 mbar at 14:08:18<br/>
 	         Max Barometer:           1014 mbar at 00:05:22<br/>
              Max Wind :               2,4 m/s from    N/A at 13:23:06<br/>
              Rain today:              0,0 mm<br/>
@@ -69,23 +69,23 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 28.07.2018 14:00:00</title>
+         <title>Monthly Weather Summary as of 28.07.2018 14:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 12,3&#176;C at 02.07.2018 04:45:52;
          	Max outside temperature: 32,3&#176;C at 26.07.2018 15:33:28;
-	        Min barometer:           1010 mbar at 28.07.2018 13:48:12;
+	        Min barometer:           1010 mbar at 28.07.2018 14:08:18;
 	        Max barometer:           1023 mbar at 01.07.2018 08:11:28;
             Max wind :               4,4 m/s from    N/A at 06.07.2018 17:54:30;
             Rain total for month:    45,3 mm
          </description>
-         <pubDate>Sa, 28 Jul 2018 14:00:00 CEST</pubDate>
+         <pubDate>Sa, 28 Jul 2018 14:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Juli 2018<br/>
 	         Max Outside Temperature: 32,3&#176;C at 26.07.2018 15:33:28<br/>
 	         Min Outside Temperature: 12,3&#176;C at 02.07.2018 04:45:52<br/>
-	         Min Barometer:           1010 mbar at 28.07.2018 13:48:12<br/>
+	         Min Barometer:           1010 mbar at 28.07.2018 14:08:18<br/>
 	         Max Barometer:           1023 mbar at 01.07.2018 08:11:28<br/>
              Max Wind :               4,4 m/s from    N/A at 06.07.2018 17:54:30<br/>
              Rain total for month:    45,3 mm<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 28.07.2018 14:00:00</title>
+         <title>Yearly Weather Summary as of 28.07.2018 14:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     256,5 mm
          </description>
-         <pubDate>Sa, 28 Jul 2018 14:00:00 CEST</pubDate>
+         <pubDate>Sa, 28 Jul 2018 14:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
