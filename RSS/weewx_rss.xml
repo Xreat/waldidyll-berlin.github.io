@@ -7,15 +7,15 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Di, 07 Aug 2018 04:12:00 CEST</pubDate>
+      <pubDate>Di, 07 Aug 2018 04:24:00 CEST</pubDate>
 
-      <lastBuildDate>Di, 07 Aug 2018 04:12:00 CEST</lastBuildDate>
+      <lastBuildDate>Di, 07 Aug 2018 04:24:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 07.08.2018 04:12:00</title>
+         <title>Weather Conditions at 07.08.2018 04:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 20,8&#176;C; 
@@ -23,16 +23,16 @@
            Wind: 0,0 m/s from    N/A; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Di, 07 Aug 2018 04:12:00 CEST</pubDate>
+         <pubDate>Di, 07 Aug 2018 04:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                07.08.2018 04:12:00<br/>
+             Time:                07.08.2018 04:24:00<br/>
              Outside Temperature: 20,8&#176;C<br/>
              Wind Chill:          20,8&#176;C<br/>
              Heat Index:          20,8&#176;C<br/>
-             Dewpoint:            12,0&#176;C<br/>
+             Dewpoint:            11,9&#176;C<br/>
              Humidity:            57%<br/>
              Barometer:           1016 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
@@ -42,25 +42,25 @@
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 07.08.2018 04:12:00</title>
+         <title>Daily Weather Summary as of 07.08.2018 04:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 20,8&#176;C at 04:04:45;
+	        Min outside temperature: 20,7&#176;C at 04:19:49;
          	Max outside temperature: 22,5&#176;C at 00:03:48;
-	        Min barometer:           1016 mbar at 03:49:41;
+	        Min barometer:           1016 mbar at 04:14:47;
 	        Max barometer:           1018 mbar at 00:33:56;
             Max wind :               0,0 m/s from    N/A at 00:03:48;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Di, 07 Aug 2018 04:12:00 CEST</pubDate>
+         <pubDate>Di, 07 Aug 2018 04:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     07 Aug 2018<br/>
-	         Min Outside Temperature: 20,8&#176;C at 04:04:45<br/>
+	         Min Outside Temperature: 20,7&#176;C at 04:19:49<br/>
 	         Max Outside Temperature: 22,5&#176;C at 00:03:48<br/>
-	         Min Barometer:           1016 mbar at 03:49:41<br/>
+	         Min Barometer:           1016 mbar at 04:14:47<br/>
 	         Max Barometer:           1018 mbar at 00:33:56<br/>
              Max Wind :               0,0 m/s from    N/A at 00:03:48<br/>
              Rain today:              0,0 mm<br/>
@@ -69,23 +69,23 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 07.08.2018 04:12:00</title>
+         <title>Monthly Weather Summary as of 07.08.2018 04:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 18,0&#176;C at 06.08.2018 05:29:54;
          	Max outside temperature: 32,4&#176;C at 04.08.2018 16:01:39;
-	        Min barometer:           1016 mbar at 07.08.2018 03:49:41;
+	        Min barometer:           1016 mbar at 07.08.2018 04:14:47;
 	        Max barometer:           1025 mbar at 03.08.2018 08:29:08;
             Max wind :               4,4 m/s from    N/A at 05.08.2018 13:36:20;
             Rain total for month:    0,0 mm
          </description>
-         <pubDate>Di, 07 Aug 2018 04:12:00 CEST</pubDate>
+         <pubDate>Di, 07 Aug 2018 04:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   August 2018<br/>
 	         Max Outside Temperature: 32,4&#176;C at 04.08.2018 16:01:39<br/>
 	         Min Outside Temperature: 18,0&#176;C at 06.08.2018 05:29:54<br/>
-	         Min Barometer:           1016 mbar at 07.08.2018 03:49:41<br/>
+	         Min Barometer:           1016 mbar at 07.08.2018 04:14:47<br/>
 	         Max Barometer:           1025 mbar at 03.08.2018 08:29:08<br/>
              Max Wind :               4,4 m/s from    N/A at 05.08.2018 13:36:20<br/>
              Rain total for month:    0,0 mm<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 07.08.2018 04:12:00</title>
+         <title>Yearly Weather Summary as of 07.08.2018 04:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     261,9 mm
          </description>
-         <pubDate>Di, 07 Aug 2018 04:12:00 CEST</pubDate>
+         <pubDate>Di, 07 Aug 2018 04:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
