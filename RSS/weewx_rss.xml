@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Do, 09 Aug 2018 22:12:00 CEST</pubDate>
+      <pubDate>Do, 09 Aug 2018 22:24:00 CEST</pubDate>
 
-      <lastBuildDate>Do, 09 Aug 2018 22:12:00 CEST</lastBuildDate>
+      <lastBuildDate>Do, 09 Aug 2018 22:24:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 09.08.2018 22:12:00</title>
+         <title>Weather Conditions at 09.08.2018 22:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 27,0&#176;C; 
+           Outside temperature: 25,9&#176;C; 
            Barometer: 1013 mbar; 
-           Wind: 0,9 m/s from 45&#176;; 
-           Rain rate: 0,0 mm/h; 
+           Wind: 0,3 m/s from 266&#176;; 
+           Rain rate: 2,7 mm/h; 
          </description>
-         <pubDate>Do, 09 Aug 2018 22:12:00 CEST</pubDate>
+         <pubDate>Do, 09 Aug 2018 22:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                09.08.2018 22:12:00<br/>
-             Outside Temperature: 27,0&#176;C<br/>
-             Wind Chill:          27,0&#176;C<br/>
-             Heat Index:          28,1&#176;C<br/>
-             Dewpoint:            18,5&#176;C<br/>
-             Humidity:            60%<br/>
+             Time:                09.08.2018 22:24:00<br/>
+             Outside Temperature: 25,9&#176;C<br/>
+             Wind Chill:          25,9&#176;C<br/>
+             Heat Index:          25,9&#176;C<br/>
+             Dewpoint:            20,1&#176;C<br/>
+             Humidity:            70%<br/>
              Barometer:           1013 mbar<br/>
-             Wind:                0,9 m/s from 45&#176;<br/>
-             Rain Rate:           0,0 mm/h<br/>
+             Wind:                0,3 m/s from 266&#176;<br/>
+             Rain Rate:           2,7 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 09.08.2018 22:12:00</title>
+         <title>Daily Weather Summary as of 09.08.2018 22:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 22,6&#176;C at 03:20:12;
@@ -50,9 +50,9 @@
 	        Min barometer:           1010 mbar at 20:28:25;
 	        Max barometer:           1018 mbar at 08:57:09;
             Max wind :               8,8 m/s from    N/A at 21:43:47;
-            Rain today:              0,0 mm
+            Rain today:              1,5 mm
          </description>
-         <pubDate>Do, 09 Aug 2018 22:12:00 CEST</pubDate>
+         <pubDate>Do, 09 Aug 2018 22:24:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -63,13 +63,13 @@
 	         Min Barometer:           1010 mbar at 20:28:25<br/>
 	         Max Barometer:           1018 mbar at 08:57:09<br/>
              Max Wind :               8,8 m/s from    N/A at 21:43:47<br/>
-             Rain today:              0,0 mm<br/>
+             Rain today:              1,5 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 09.08.2018 22:12:00</title>
+         <title>Monthly Weather Summary as of 09.08.2018 22:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 18,0&#176;C at 06.08.2018 05:29:54;
@@ -77,9 +77,9 @@
 	        Min barometer:           1010 mbar at 09.08.2018 20:28:25;
 	        Max barometer:           1025 mbar at 03.08.2018 08:29:08;
             Max wind :               8,8 m/s from    N/A at 09.08.2018 21:43:47;
-            Rain total for month:    1,2 mm
+            Rain total for month:    2,7 mm
          </description>
-         <pubDate>Do, 09 Aug 2018 22:12:00 CEST</pubDate>
+         <pubDate>Do, 09 Aug 2018 22:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   August 2018<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           1010 mbar at 09.08.2018 20:28:25<br/>
 	         Max Barometer:           1025 mbar at 03.08.2018 08:29:08<br/>
              Max Wind :               8,8 m/s from    N/A at 09.08.2018 21:43:47<br/>
-             Rain total for month:    1,2 mm<br/>
+             Rain total for month:    2,7 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 09.08.2018 22:12:00</title>
+         <title>Yearly Weather Summary as of 09.08.2018 22:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -102,9 +102,9 @@
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1036 mbar at 08.01.2018 08:36:44;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
-            Rain total for year:     263,1 mm
+            Rain total for year:     264,6 mm
          </description>
-         <pubDate>Do, 09 Aug 2018 22:12:00 CEST</pubDate>
+         <pubDate>Do, 09 Aug 2018 22:24:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1036 mbar at 08.01.2018 08:36:44<br/>
              Max Wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20<br/>
-             Rain total for year:     263,1 mm<br/>
+             Rain total for year:     264,6 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
