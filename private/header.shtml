@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+	<meta http-equiv="refresh" content="300">
+        
+        <title>Tegel-S&#252;d, Berlin, Germany Aktuelles Wetter</title>
+
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="Tegel-S&#252;d, Berlin, Germany Current Weather Conditions" />
+        <meta property="og:description" content="Current Weather Conditions in Tegel-S&#252;d, Berlin, Germany - weather web site powered by weewx" />
+	<meta property="og:type" content="website" /> 
+
+        <!-- Icons -->
+        <link rel="icon" href="favicon.ico" type="image/png">
+	<link rel="apple-touch-icon" href="touch-icon.png"/>
+        
+        <!-- Styles -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Skripte -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/gauge.js"></script>
+        
+        <script type="text/javascript">
+            function openNoaaFile(date)
+            {
+                var url = "NOAA/NOAA-";
+                url = url + date;
+                url = url + ".txt";
+                if(date !== "Monthly summary" && date !== "Yearly summary") {
+                    window.location=url;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container-fix" >
+                <div class="h-left" >
+                <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
+                <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
+                <h2>Aktuelles Wetter</h2>
+                <p><i class="fa fa-clock-o" ></i> 10.08.2018 16:12:00</p>
+                </div>
+                
+                <div class="h-right" >
+                    <table>
+                        <tr><td><b>Station:</b></td><td>WS1080</td></tr>
+                        <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
+                        <tr><td><b>Laufzeit WeeWX:</b></td><td>1 Tag, 22 Stunden, 38 Minuten</td></tr>
+                        <tr><td><b>Laufzeit Server:</b></td><td>1 Tag, 22 Stunden, 49 Minuten</td></tr>
+                    </table>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li class="active" ><a href="index.html" >Aktuell</a></li>
+                        <li><a href="week.html" >Woche</a></li>
+                        <li><a href="month.html" >Monat</a></li>
+                        <li><a href="year.html" >Jahr</a></li>
+                        <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Monatliche Übersicht</option>
+                                    <option value="2017-04">2017-04</option>
+                                    <option value="2017-05">2017-05</option>
+                                    <option value="2017-06">2017-06</option>
+                                    <option value="2017-07">2017-07</option>
+                                    <option value="2017-08">2017-08</option>
+                                    <option value="2017-09">2017-09</option>
+                                    <option value="2017-10">2017-10</option>
+                                    <option value="2017-11">2017-11</option>
+                                    <option value="2017-12">2017-12</option>
+                                    <option value="2018-01">2018-01</option>
+                                    <option value="2018-02">2018-02</option>
+                                    <option value="2018-03">2018-03</option>
+                                    <option value="2018-04">2018-04</option>
+                                    <option value="2018-05">2018-05</option>
+                                    <option value="2018-06">2018-06</option>
+                                    <option value="2018-07">2018-07</option>
+                                    <option value="2018-08">2018-08</option>
+                            </select></li>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Jährliche Übersicht</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                            </select></li>
+			<li><a href="private/" style="color:#666">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>

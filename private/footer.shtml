@@ -1,0 +1,9 @@
+<footer>
+            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script>
+            Hilmar
+            &sdot; Design by <a href="http://blauesledersofa.de" >blaues Ledersofa</a>
+            &sdot; Powered by <a href="http://weewx.com/" target="_blank" >weewx</a>
+        </footer>
+
+    </body>
+</html>
