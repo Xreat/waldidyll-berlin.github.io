@@ -1,0 +1,47 @@
+                   MONTHLY CLIMATOLOGICAL SUMMARY for Sep 2018
+
+
+NAME: Tegel-Süd, Berlin, Germany                  
+ELEV: 48 meter    LAT: 52-34.35 N    LONG: 013-16.03 E
+
+
+                   TEMPERATURE (°C), RAIN (mm), WIND SPEED (m/s)
+
+                                         HEAT   COOL         AVG
+      MEAN                               DEG    DEG          WIND                   DOM
+DAY   TEMP   HIGH   TIME    LOW   TIME   DAYS   DAYS   RAIN  SPEED   HIGH   TIME    DIR
+---------------------------------------------------------------------------------------
+ 01   15,0   15,0  00:00   15,0  00:00    3,3    0,0    0,0    0,0    0,0  00:00     90
+ 02
+ 03
+ 04
+ 05
+ 06
+ 07
+ 08
+ 09
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+---------------------------------------------------------------------------------------
+      15,0   15,0     01   15,0     01    3,3    0,0    0,0    0,0    0,0     01     90
+    
+
