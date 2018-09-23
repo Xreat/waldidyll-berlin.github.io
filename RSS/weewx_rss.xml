@@ -7,69 +7,69 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mo, 24 Sep 2018 00:00:00 CEST</pubDate>
+      <pubDate>Mo, 24 Sep 2018 00:12:00 CEST</pubDate>
 
-      <lastBuildDate>Mo, 24 Sep 2018 00:00:00 CEST</lastBuildDate>
+      <lastBuildDate>Mo, 24 Sep 2018 00:12:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 24.09.2018 00:00:00</title>
+         <title>Weather Conditions at 24.09.2018 00:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 9,5&#176;C; 
+           Outside temperature: 9,6&#176;C; 
            Barometer: 1014 mbar; 
-           Wind: 0,2 m/s from 270&#176;; 
+           Wind: 0,3 m/s from 315&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mo, 24 Sep 2018 00:00:00 CEST</pubDate>
+         <pubDate>Mo, 24 Sep 2018 00:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                24.09.2018 00:00:00<br/>
-             Outside Temperature: 9,5&#176;C<br/>
-             Wind Chill:          9,5&#176;C<br/>
-             Heat Index:          9,5&#176;C<br/>
-             Dewpoint:            9,4&#176;C<br/>
+             Time:                24.09.2018 00:12:00<br/>
+             Outside Temperature: 9,6&#176;C<br/>
+             Wind Chill:          9,6&#176;C<br/>
+             Heat Index:          9,6&#176;C<br/>
+             Dewpoint:            9,5&#176;C<br/>
              Humidity:            99%<br/>
              Barometer:           1014 mbar<br/>
-             Wind:                0,2 m/s from 270&#176;<br/>
+             Wind:                0,3 m/s from 315&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 24.09.2018 00:00:00</title>
+         <title>Daily Weather Summary as of 24.09.2018 00:12:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-	        Min outside temperature: 9,4&#176;C at 23:33:34;
-         	Max outside temperature: 15,0&#176;C at 12:51:11;
-	        Min barometer:           1007 mbar at 18:47:31;
-	        Max barometer:           1018 mbar at 00:13:25;
-            Max wind :               3,4 m/s from    N/A at 01:38:42;
-            Rain today:              16,5 mm
+	        Min outside temperature: 9,6&#176;C at 00:03:40;
+         	Max outside temperature: 9,6&#176;C at 00:03:40;
+	        Min barometer:           1014 mbar at 00:03:40;
+	        Max barometer:           1014 mbar at 00:08:41;
+            Max wind :               1,0 m/s from    N/A at 00:03:40;
+            Rain today:              0,0 mm
          </description>
-         <pubDate>Mo, 24 Sep 2018 00:00:00 CEST</pubDate>
+         <pubDate>Mo, 24 Sep 2018 00:12:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Day:                     23 Sep 2018<br/>
-	         Min Outside Temperature: 9,4&#176;C at 23:33:34<br/>
-	         Max Outside Temperature: 15,0&#176;C at 12:51:11<br/>
-	         Min Barometer:           1007 mbar at 18:47:31<br/>
-	         Max Barometer:           1018 mbar at 00:13:25<br/>
-             Max Wind :               3,4 m/s from    N/A at 01:38:42<br/>
-             Rain today:              16,5 mm<br/>
+             Day:                     24 Sep 2018<br/>
+	         Min Outside Temperature: 9,6&#176;C at 00:03:40<br/>
+	         Max Outside Temperature: 9,6&#176;C at 00:03:40<br/>
+	         Min Barometer:           1014 mbar at 00:03:40<br/>
+	         Max Barometer:           1014 mbar at 00:08:41<br/>
+             Max Wind :               1,0 m/s from    N/A at 00:03:40<br/>
+             Rain today:              0,0 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 24.09.2018 00:00:00</title>
+         <title>Monthly Weather Summary as of 24.09.2018 00:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 9,4&#176;C at 23.09.2018 23:33:34;
@@ -79,7 +79,7 @@
             Max wind :               7,5 m/s from    N/A at 22.09.2018 11:10:44;
             Rain total for month:    23,1 mm
          </description>
-         <pubDate>Mo, 24 Sep 2018 00:00:00 CEST</pubDate>
+         <pubDate>Mo, 24 Sep 2018 00:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   September 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 24.09.2018 00:00:00</title>
+         <title>Yearly Weather Summary as of 24.09.2018 00:12:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     294,0 mm
          </description>
-         <pubDate>Mo, 24 Sep 2018 00:00:00 CEST</pubDate>
+         <pubDate>Mo, 24 Sep 2018 00:12:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
