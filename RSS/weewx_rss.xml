@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 03 Okt 2018 18:24:00 CEST</pubDate>
+      <pubDate>Mi, 03 Okt 2018 18:36:00 CEST</pubDate>
 
-      <lastBuildDate>Mi, 03 Okt 2018 18:24:00 CEST</lastBuildDate>
+      <lastBuildDate>Mi, 03 Okt 2018 18:36:00 CEST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 03.10.2018 18:24:00</title>
+         <title>Weather Conditions at 03.10.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 12,9&#176;C; 
+           Outside temperature: 12,7&#176;C; 
            Barometer: 1022 mbar; 
-           Wind: 0,6 m/s from 135&#176;; 
+           Wind: 0,8 m/s from 270&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mi, 03 Okt 2018 18:24:00 CEST</pubDate>
+         <pubDate>Mi, 03 Okt 2018 18:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                03.10.2018 18:24:00<br/>
-             Outside Temperature: 12,9&#176;C<br/>
-             Wind Chill:          12,9&#176;C<br/>
-             Heat Index:          12,9&#176;C<br/>
-             Dewpoint:            2,7&#176;C<br/>
-             Humidity:            50%<br/>
+             Time:                03.10.2018 18:36:00<br/>
+             Outside Temperature: 12,7&#176;C<br/>
+             Wind Chill:          12,7&#176;C<br/>
+             Heat Index:          12,7&#176;C<br/>
+             Dewpoint:            2,8&#176;C<br/>
+             Humidity:            51%<br/>
              Barometer:           1022 mbar<br/>
-             Wind:                0,6 m/s from 135&#176;<br/>
+             Wind:                0,8 m/s from 270&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 03.10.2018 18:24:00</title>
+         <title>Daily Weather Summary as of 03.10.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 9,9&#176;C at 05:01:12;
          	Max outside temperature: 14,8&#176;C at 16:13:45;
 	        Min barometer:           1012 mbar at 00:50:16;
-	        Max barometer:           1022 mbar at 18:19:14;
+	        Max barometer:           1022 mbar at 18:34:19;
             Max wind :               6,1 m/s from    N/A at 13:48:11;
             Rain today:              0,9 mm
          </description>
-         <pubDate>Mi, 03 Okt 2018 18:24:00 CEST</pubDate>
+         <pubDate>Mi, 03 Okt 2018 18:36:00 CEST</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -61,7 +61,7 @@
 	         Min Outside Temperature: 9,9&#176;C at 05:01:12<br/>
 	         Max Outside Temperature: 14,8&#176;C at 16:13:45<br/>
 	         Min Barometer:           1012 mbar at 00:50:16<br/>
-	         Max Barometer:           1022 mbar at 18:19:14<br/>
+	         Max Barometer:           1022 mbar at 18:34:19<br/>
              Max Wind :               6,1 m/s from    N/A at 13:48:11<br/>
              Rain today:              0,9 mm<br/>
         </p>
@@ -69,24 +69,24 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 03.10.2018 18:24:00</title>
+         <title>Monthly Weather Summary as of 03.10.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 6,0&#176;C at 02.10.2018 07:36:00;
          	Max outside temperature: 14,8&#176;C at 03.10.2018 16:13:45;
 	        Min barometer:           1012 mbar at 02.10.2018 19:13:55;
-	        Max barometer:           1022 mbar at 03.10.2018 18:19:14;
+	        Max barometer:           1022 mbar at 03.10.2018 18:34:19;
             Max wind :               6,1 m/s from    N/A at 03.10.2018 13:48:11;
             Rain total for month:    6,6 mm
          </description>
-         <pubDate>Mi, 03 Okt 2018 18:24:00 CEST</pubDate>
+         <pubDate>Mi, 03 Okt 2018 18:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Oktober 2018<br/>
 	         Max Outside Temperature: 14,8&#176;C at 03.10.2018 16:13:45<br/>
 	         Min Outside Temperature: 6,0&#176;C at 02.10.2018 07:36:00<br/>
 	         Min Barometer:           1012 mbar at 02.10.2018 19:13:55<br/>
-	         Max Barometer:           1022 mbar at 03.10.2018 18:19:14<br/>
+	         Max Barometer:           1022 mbar at 03.10.2018 18:34:19<br/>
              Max Wind :               6,1 m/s from    N/A at 03.10.2018 13:48:11<br/>
              Rain total for month:    6,6 mm<br/>
         </p>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 03.10.2018 18:24:00</title>
+         <title>Yearly Weather Summary as of 03.10.2018 18:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     301,2 mm
          </description>
-         <pubDate>Mi, 03 Okt 2018 18:24:00 CEST</pubDate>
+         <pubDate>Mi, 03 Okt 2018 18:36:00 CEST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
