@@ -7,59 +7,59 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 14 Nov 2018 10:12:00 CET</pubDate>
+      <pubDate>Mi, 14 Nov 2018 10:24:00 CET</pubDate>
 
-      <lastBuildDate>Mi, 14 Nov 2018 10:12:00 CET</lastBuildDate>
+      <lastBuildDate>Mi, 14 Nov 2018 10:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 14.11.2018 10:12:00</title>
+         <title>Weather Conditions at 14.11.2018 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 8,8&#176;C; 
-           Barometer: 1030 mbar; 
-           Wind: 0,5 m/s from 225&#176;; 
+           Outside temperature: 9,1&#176;C; 
+           Barometer: 1031 mbar; 
+           Wind: 0,8 m/s from 82&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mi, 14 Nov 2018 10:12:00 CET</pubDate>
+         <pubDate>Mi, 14 Nov 2018 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                14.11.2018 10:12:00<br/>
-             Outside Temperature: 8,8&#176;C<br/>
-             Wind Chill:          8,8&#176;C<br/>
-             Heat Index:          8,8&#176;C<br/>
-             Dewpoint:            6,4&#176;C<br/>
-             Humidity:            85%<br/>
-             Barometer:           1030 mbar<br/>
-             Wind:                0,5 m/s from 225&#176;<br/>
+             Time:                14.11.2018 10:24:00<br/>
+             Outside Temperature: 9,1&#176;C<br/>
+             Wind Chill:          9,1&#176;C<br/>
+             Heat Index:          9,1&#176;C<br/>
+             Dewpoint:            6,5&#176;C<br/>
+             Humidity:            84%<br/>
+             Barometer:           1031 mbar<br/>
+             Wind:                0,8 m/s from 82&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 14.11.2018 10:12:00</title>
+         <title>Daily Weather Summary as of 14.11.2018 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 7,0&#176;C at 07:16:12;
-         	Max outside temperature: 9,0&#176;C at 10:11:51;
+         	Max outside temperature: 9,1&#176;C at 10:16:53;
 	        Min barometer:           1028 mbar at 00:04:40;
 	        Max barometer:           1031 mbar at 09:56:48;
             Max wind :               3,4 m/s from    N/A at 02:00:05;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Mi, 14 Nov 2018 10:12:00 CET</pubDate>
+         <pubDate>Mi, 14 Nov 2018 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     14 Nov 2018<br/>
 	         Min Outside Temperature: 7,0&#176;C at 07:16:12<br/>
-	         Max Outside Temperature: 9,0&#176;C at 10:11:51<br/>
+	         Max Outside Temperature: 9,1&#176;C at 10:16:53<br/>
 	         Min Barometer:           1028 mbar at 00:04:40<br/>
 	         Max Barometer:           1031 mbar at 09:56:48<br/>
              Max Wind :               3,4 m/s from    N/A at 02:00:05<br/>
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 14.11.2018 10:12:00</title>
+         <title>Monthly Weather Summary as of 14.11.2018 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 5,7&#176;C at 01.11.2018 07:06:25;
@@ -79,7 +79,7 @@
             Max wind :               4,1 m/s from    N/A at 02.11.2018 11:37:39;
             Rain total for month:    13,5 mm
          </description>
-         <pubDate>Mi, 14 Nov 2018 10:12:00 CET</pubDate>
+         <pubDate>Mi, 14 Nov 2018 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   November 2018<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 14.11.2018 10:12:00</title>
+         <title>Yearly Weather Summary as of 14.11.2018 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
             Rain total for year:     327,9 mm
          </description>
-         <pubDate>Mi, 14 Nov 2018 10:12:00 CET</pubDate>
+         <pubDate>Mi, 14 Nov 2018 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
