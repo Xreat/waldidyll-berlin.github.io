@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 22 Dez 2018 21:24:00 CET</pubDate>
+      <pubDate>Sa, 22 Dez 2018 21:36:00 CET</pubDate>
 
-      <lastBuildDate>Sa, 22 Dez 2018 21:24:00 CET</lastBuildDate>
+      <lastBuildDate>Sa, 22 Dez 2018 21:36:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 22.12.2018 21:24:00</title>
+         <title>Weather Conditions at 22.12.2018 21:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 5,5&#176;C; 
            Barometer: 1015 mbar; 
            Wind: 0,0 m/s from    N/A; 
-           Rain rate: 1,6 mm/h; 
+           Rain rate: 1,8 mm/h; 
          </description>
-         <pubDate>Sa, 22 Dez 2018 21:24:00 CET</pubDate>
+         <pubDate>Sa, 22 Dez 2018 21:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                22.12.2018 21:24:00<br/>
+             Time:                22.12.2018 21:36:00<br/>
              Outside Temperature: 5,5&#176;C<br/>
              Wind Chill:          5,5&#176;C<br/>
              Heat Index:          5,5&#176;C<br/>
-             Dewpoint:            3,2&#176;C<br/>
-             Humidity:            85%<br/>
+             Dewpoint:            3,3&#176;C<br/>
+             Humidity:            86%<br/>
              Barometer:           1015 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
-             Rain Rate:           1,6 mm/h<br/>
+             Rain Rate:           1,8 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 22.12.2018 21:24:00</title>
+         <title>Daily Weather Summary as of 22.12.2018 21:36:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 5,4&#176;C at 20:55:22;
@@ -50,9 +50,9 @@
 	        Min barometer:           1000 mbar at 00:05:50;
 	        Max barometer:           1015 mbar at 20:55:22;
             Max wind :               7,1 m/s from    N/A at 02:51:23;
-            Rain today:              4,2 mm
+            Rain today:              4,8 mm
          </description>
-         <pubDate>Sa, 22 Dez 2018 21:24:00 CET</pubDate>
+         <pubDate>Sa, 22 Dez 2018 21:36:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -63,13 +63,13 @@
 	         Min Barometer:           1000 mbar at 00:05:50<br/>
 	         Max Barometer:           1015 mbar at 20:55:22<br/>
              Max Wind :               7,1 m/s from    N/A at 02:51:23<br/>
-             Rain today:              4,2 mm<br/>
+             Rain today:              4,8 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 22.12.2018 21:24:00</title>
+         <title>Monthly Weather Summary as of 22.12.2018 21:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 0,0&#176;C at 16.12.2018 17:41:22;
@@ -77,9 +77,9 @@
 	        Min barometer:           989 mbar at 09.12.2018 06:00:45;
 	        Max barometer:           1031 mbar at 15.12.2018 08:53:57;
             Max wind :               7,1 m/s from    N/A at 08.12.2018 12:11:39;
-            Rain total for month:    42,0 mm
+            Rain total for month:    42,6 mm
          </description>
-         <pubDate>Sa, 22 Dez 2018 21:24:00 CET</pubDate>
+         <pubDate>Sa, 22 Dez 2018 21:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Dezember 2018<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           989 mbar at 09.12.2018 06:00:45<br/>
 	         Max Barometer:           1031 mbar at 15.12.2018 08:53:57<br/>
              Max Wind :               7,1 m/s from    N/A at 08.12.2018 12:11:39<br/>
-             Rain total for month:    42,0 mm<br/>
+             Rain total for month:    42,6 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 22.12.2018 21:24:00</title>
+         <title>Yearly Weather Summary as of 22.12.2018 21:36:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -9,9&#176;C at 02.03.2018 06:56:06;
@@ -102,9 +102,9 @@
 	        Min barometer:           983 mbar at 18.01.2018 15:08:47;
 	        Max barometer:           1040 mbar at 17.11.2018 10:13:05;
             Max wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20;
-            Rain total for year:     373,8 mm
+            Rain total for year:     374,4 mm
          </description>
-         <pubDate>Sa, 22 Dez 2018 21:24:00 CET</pubDate>
+         <pubDate>Sa, 22 Dez 2018 21:36:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2018<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           983 mbar at 18.01.2018 15:08:47<br/>
 	         Max Barometer:           1040 mbar at 17.11.2018 10:13:05<br/>
              Max Wind :               11,6 m/s from    N/A at 01.01.2018 07:35:20<br/>
-             Rain total for year:     373,8 mm<br/>
+             Rain total for year:     374,4 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
