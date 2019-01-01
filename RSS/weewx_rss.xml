@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Di, 01 Jan 2019 16:36:00 CET</pubDate>
+      <pubDate>Di, 01 Jan 2019 16:48:00 CET</pubDate>
 
-      <lastBuildDate>Di, 01 Jan 2019 16:36:00 CET</lastBuildDate>
+      <lastBuildDate>Di, 01 Jan 2019 16:48:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 01.01.2019 16:36:00</title>
+         <title>Weather Conditions at 01.01.2019 16:48:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 6,4&#176;C; 
-           Barometer: 1015 mbar; 
-           Wind: 1,6 m/s from 350&#176;; 
+           Outside temperature: 6,3&#176;C; 
+           Barometer: 1014 mbar; 
+           Wind: 1,9 m/s from 12&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Di, 01 Jan 2019 16:36:00 CET</pubDate>
+         <pubDate>Di, 01 Jan 2019 16:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                01.01.2019 16:36:00<br/>
-             Outside Temperature: 6,4&#176;C<br/>
-             Wind Chill:          5,8&#176;C<br/>
-             Heat Index:          6,4&#176;C<br/>
-             Dewpoint:            3,2&#176;C<br/>
-             Humidity:            80%<br/>
-             Barometer:           1015 mbar<br/>
-             Wind:                1,6 m/s from 350&#176;<br/>
+             Time:                01.01.2019 16:48:00<br/>
+             Outside Temperature: 6,3&#176;C<br/>
+             Wind Chill:          5,1&#176;C<br/>
+             Heat Index:          6,3&#176;C<br/>
+             Dewpoint:            2,9&#176;C<br/>
+             Humidity:            79%<br/>
+             Barometer:           1014 mbar<br/>
+             Wind:                1,9 m/s from 12&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 01.01.2019 16:36:00</title>
+         <title>Daily Weather Summary as of 01.01.2019 16:48:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 6,3&#176;C at 16:00:05;
@@ -52,7 +52,7 @@
             Max wind :               7,8 m/s from    N/A at 12:49:31;
             Rain today:              1,2 mm
          </description>
-         <pubDate>Di, 01 Jan 2019 16:36:00 CET</pubDate>
+         <pubDate>Di, 01 Jan 2019 16:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 01.01.2019 16:36:00</title>
+         <title>Monthly Weather Summary as of 01.01.2019 16:48:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 6,3&#176;C at 01.01.2019 16:00:05;
@@ -79,7 +79,7 @@
             Max wind :               7,8 m/s from    N/A at 01.01.2019 12:49:31;
             Rain total for month:    1,2 mm
          </description>
-         <pubDate>Di, 01 Jan 2019 16:36:00 CET</pubDate>
+         <pubDate>Di, 01 Jan 2019 16:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2019<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 01.01.2019 16:36:00</title>
+         <title>Yearly Weather Summary as of 01.01.2019 16:48:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: 6,3&#176;C at 01.01.2019 16:00:05;
@@ -104,7 +104,7 @@
             Max wind :               7,8 m/s from    N/A at 01.01.2019 12:49:31;
             Rain total for year:     1,2 mm
          </description>
-         <pubDate>Di, 01 Jan 2019 16:36:00 CET</pubDate>
+         <pubDate>Di, 01 Jan 2019 16:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
