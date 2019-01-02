@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mi, 02 Jan 2019 08:12:00 CET</pubDate>
+      <pubDate>Mi, 02 Jan 2019 08:24:00 CET</pubDate>
 
-      <lastBuildDate>Mi, 02 Jan 2019 08:12:00 CET</lastBuildDate>
+      <lastBuildDate>Mi, 02 Jan 2019 08:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 02.01.2019 08:12:00</title>
+         <title>Weather Conditions at 02.01.2019 08:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 4,0&#176;C; 
+           Outside temperature: 4,1&#176;C; 
            Barometer: 1021 mbar; 
-           Wind: 1,7 m/s from 291&#176;; 
+           Wind: 2,1 m/s from 68&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mi, 02 Jan 2019 08:12:00 CET</pubDate>
+         <pubDate>Mi, 02 Jan 2019 08:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                02.01.2019 08:12:00<br/>
-             Outside Temperature: 4,0&#176;C<br/>
-             Wind Chill:          2,6&#176;C<br/>
-             Heat Index:          4,0&#176;C<br/>
-             Dewpoint:            -4,3&#176;C<br/>
-             Humidity:            55%<br/>
+             Time:                02.01.2019 08:24:00<br/>
+             Outside Temperature: 4,1&#176;C<br/>
+             Wind Chill:          2,3&#176;C<br/>
+             Heat Index:          4,1&#176;C<br/>
+             Dewpoint:            -4,0&#176;C<br/>
+             Humidity:            56%<br/>
              Barometer:           1021 mbar<br/>
-             Wind:                1,7 m/s from 291&#176;<br/>
+             Wind:                2,1 m/s from 68&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 02.01.2019 08:12:00</title>
+         <title>Daily Weather Summary as of 02.01.2019 08:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 3,1&#176;C at 05:32:49;
          	Max outside temperature: 4,4&#176;C at 00:01:47;
 	        Min barometer:           1016 mbar at 00:06:49;
-	        Max barometer:           1021 mbar at 08:08:25;
-            Max wind :               5,1 m/s from    N/A at 00:31:55;
+	        Max barometer:           1022 mbar at 08:23:29;
+            Max wind :               5,4 m/s from    N/A at 08:18:28;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Mi, 02 Jan 2019 08:12:00 CET</pubDate>
+         <pubDate>Mi, 02 Jan 2019 08:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -61,15 +61,15 @@
 	         Min Outside Temperature: 3,1&#176;C at 05:32:49<br/>
 	         Max Outside Temperature: 4,4&#176;C at 00:01:47<br/>
 	         Min Barometer:           1016 mbar at 00:06:49<br/>
-	         Max Barometer:           1021 mbar at 08:08:25<br/>
-             Max Wind :               5,1 m/s from    N/A at 00:31:55<br/>
+	         Max Barometer:           1022 mbar at 08:23:29<br/>
+             Max Wind :               5,4 m/s from    N/A at 08:18:28<br/>
              Rain today:              0,3 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 02.01.2019 08:12:00</title>
+         <title>Monthly Weather Summary as of 02.01.2019 08:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 3,1&#176;C at 02.01.2019 05:32:49;
@@ -79,7 +79,7 @@
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
             Rain total for month:    1,5 mm
          </description>
-         <pubDate>Mi, 02 Jan 2019 08:12:00 CET</pubDate>
+         <pubDate>Mi, 02 Jan 2019 08:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2019<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 02.01.2019 08:12:00</title>
+         <title>Yearly Weather Summary as of 02.01.2019 08:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: 3,1&#176;C at 02.01.2019 05:32:49;
@@ -104,7 +104,7 @@
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
             Rain total for year:     1,5 mm
          </description>
-         <pubDate>Mi, 02 Jan 2019 08:12:00 CET</pubDate>
+         <pubDate>Mi, 02 Jan 2019 08:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
