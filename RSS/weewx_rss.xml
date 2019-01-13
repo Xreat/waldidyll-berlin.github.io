@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>So, 13 Jan 2019 10:12:00 CET</pubDate>
+      <pubDate>So, 13 Jan 2019 10:24:00 CET</pubDate>
 
-      <lastBuildDate>So, 13 Jan 2019 10:12:00 CET</lastBuildDate>
+      <lastBuildDate>So, 13 Jan 2019 10:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 13.01.2019 10:12:00</title>
+         <title>Weather Conditions at 13.01.2019 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 6,4&#176;C; 
            Barometer: 1001 mbar; 
-           Wind: 1,9 m/s from 45&#176;; 
-           Rain rate: 0,0 mm/h; 
+           Wind: 0,9 m/s from 279&#176;; 
+           Rain rate: 1,2 mm/h; 
          </description>
-         <pubDate>So, 13 Jan 2019 10:12:00 CET</pubDate>
+         <pubDate>So, 13 Jan 2019 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                13.01.2019 10:12:00<br/>
+             Time:                13.01.2019 10:24:00<br/>
              Outside Temperature: 6,4&#176;C<br/>
-             Wind Chill:          5,1&#176;C<br/>
+             Wind Chill:          6,2&#176;C<br/>
              Heat Index:          6,4&#176;C<br/>
              Dewpoint:            4,9&#176;C<br/>
              Humidity:            90%<br/>
              Barometer:           1001 mbar<br/>
-             Wind:                1,9 m/s from 45&#176;<br/>
-             Rain Rate:           0,0 mm/h<br/>
+             Wind:                0,9 m/s from 279&#176;<br/>
+             Rain Rate:           1,2 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 13.01.2019 10:12:00</title>
+         <title>Daily Weather Summary as of 13.01.2019 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 5,6&#176;C at 04:06:46;
          	Max outside temperature: 6,4&#176;C at 09:58:00;
-	        Min barometer:           1001 mbar at 10:08:02;
+	        Min barometer:           1001 mbar at 10:23:04;
 	        Max barometer:           1005 mbar at 03:31:39;
             Max wind :               6,8 m/s from    N/A at 02:01:25;
-            Rain today:              0,6 mm
+            Rain today:              0,9 mm
          </description>
-         <pubDate>So, 13 Jan 2019 10:12:00 CET</pubDate>
+         <pubDate>So, 13 Jan 2019 10:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -60,16 +60,16 @@
              Day:                     13 Jan 2019<br/>
 	         Min Outside Temperature: 5,6&#176;C at 04:06:46<br/>
 	         Max Outside Temperature: 6,4&#176;C at 09:58:00<br/>
-	         Min Barometer:           1001 mbar at 10:08:02<br/>
+	         Min Barometer:           1001 mbar at 10:23:04<br/>
 	         Max Barometer:           1005 mbar at 03:31:39<br/>
              Max Wind :               6,8 m/s from    N/A at 02:01:25<br/>
-             Rain today:              0,6 mm<br/>
+             Rain today:              0,9 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 13.01.2019 10:12:00</title>
+         <title>Monthly Weather Summary as of 13.01.2019 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -0,6&#176;C at 03.01.2019 21:36:38;
@@ -77,9 +77,9 @@
 	        Min barometer:           999 mbar at 08.01.2019 13:47:13;
 	        Max barometer:           1036 mbar at 03.01.2019 21:11:31;
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
-            Rain total for month:    31,5 mm
+            Rain total for month:    31,8 mm
          </description>
-         <pubDate>So, 13 Jan 2019 10:12:00 CET</pubDate>
+         <pubDate>So, 13 Jan 2019 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2019<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           999 mbar at 08.01.2019 13:47:13<br/>
 	         Max Barometer:           1036 mbar at 03.01.2019 21:11:31<br/>
              Max Wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09<br/>
-             Rain total for month:    31,5 mm<br/>
+             Rain total for month:    31,8 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 13.01.2019 10:12:00</title>
+         <title>Yearly Weather Summary as of 13.01.2019 10:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -0,6&#176;C at 03.01.2019 21:36:38;
@@ -102,9 +102,9 @@
 	        Min barometer:           999 mbar at 08.01.2019 13:47:13;
 	        Max barometer:           1036 mbar at 03.01.2019 21:11:31;
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
-            Rain total for year:     31,5 mm
+            Rain total for year:     31,8 mm
          </description>
-         <pubDate>So, 13 Jan 2019 10:12:00 CET</pubDate>
+         <pubDate>So, 13 Jan 2019 10:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           999 mbar at 08.01.2019 13:47:13<br/>
 	         Max Barometer:           1036 mbar at 03.01.2019 21:11:31<br/>
              Max Wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09<br/>
-             Rain total for year:     31,5 mm<br/>
+             Rain total for year:     31,8 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
