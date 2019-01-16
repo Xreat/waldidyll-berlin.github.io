@@ -22,7 +22,7 @@
         
         <!-- Styles -->
         <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/password.css">
         
@@ -76,15 +76,15 @@
                 <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
                 <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
                 <h2>Aktuelles Wetter</h2>
-                <p><i class="fa fa-clock-o" ></i> 16.01.2019 19:00:00</p>
+                <p><i class="fa fa-clock-o" ></i> 16.01.2019 19:12:00</p>
                 </div>
                 
                 <div class="h-right" >
                     <table>
                         <tr><td><b>Station:</b></td><td>WS1080</td></tr>
                         <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
-                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 6 Stunden, 13 Minuten</td></tr>
-                        <tr><td><b>Laufzeit Server:</b></td><td>17 Tage, 3 Stunden, 2 Minuten</td></tr>
+                        <tr><td><b>Laufzeit WeeWX:</b></td><td>0 Tage, 6 Stunden, 28 Minuten</td></tr>
+                        <tr><td><b>Laufzeit Server:</b></td><td>17 Tage, 3 Stunden, 17 Minuten</td></tr>
 			<tr><td><b>Batteriestatus:</b></td><td>0,000000</td></tr>
                     </table>
                 </div>
@@ -136,8 +136,24 @@
             
             <div class="left" >
             	<div class="card cc">
-            		<h1><i class="fa fa-home m-grau"></i> Innen</h1>
+            		<h1><i class="fa fa-thermometer-half m-red"></i> Temperatur</h1>
 
+			<canvas id="gauge1"
+			data-type="canv-gauge"
+			data-title="außen"
+			data-min-value="-20"
+			data-max-value="50"
+			data-major-ticks="-20 -10 0 10 20 30 40 50"
+			data-stroke-ticks="true"
+			data-units="&deg;C"
+			data-value-format="1.1"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue('21,6&#176;C');}, 1000);"
+			></canvas> 
+			
 			<canvas id="gauge2"
 			data-type="canv-gauge"
 			data-title="Temperatur"
@@ -151,49 +167,17 @@
 			data-colors-needle="#f00 #00f"
 			data-valuebox-visible="false"
 			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge2').setValue('21,6&#176;C');}, 1000);"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge2').setValue('6,6&#176;C');}, 1000);"
 			></canvas> 
-			
-			<canvas id="gauge4"
-			data-type="canv-gauge"
-			data-title="Luftfeuchte"
-			data-min-value="0"
-			data-max-value="100"
-			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
-			data-stroke-ticks="true"
-			data-units="%"
-			data-value-format="1.0"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge4').setValue('48%');}, 1000);"
-			></canvas>
-			
+
             	</div>
 
 		<div class="card cc">
-            		<h1><i class="fa fa-sun-o m-orange"></i> Außen</h1>
+            		<h1><i class="fa fa-percent m-green"></i> relative Luftfeuchtigkeit</h1>
 
-			<canvas id="gauge1"
+			<canvas id="gauge3"
 			data-type="canv-gauge"
-			data-title="Temperatur"
-			data-min-value="-20"
-			data-max-value="50"
-			data-major-ticks="-20 -10 0 10 20 30 40 50"
-			data-stroke-ticks="true"
-			data-units="&deg;C"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue('6,6&#176;C');}, 1000);"
-			></canvas> 
-
-			<canvas id="gauge5"
-			data-type="canv-gauge"
-			data-title="Luftfeuchte"
+			data-title="innen"
 			data-min-value="0"
 			data-max-value="100"
 			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
@@ -204,94 +188,63 @@
 			data-colors-needle="#f00 #00f"
 			data-valuebox-visible="false"
 			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge5').setValue('72%');}, 1000);"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue('48%');}, 1000);"
+			></canvas>
+			
+			<canvas id="gauge4"
+			data-type="canv-gauge"
+			data-title="außen"
+			data-min-value="0"
+			data-max-value="100"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
+			data-stroke-ticks="true"
+			data-units="%"
+			data-value-format="1.0"
+			data-glow="true"
+			data-colors-needle="#f00 #00f"
+			data-valuebox-visible="false"
+			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge4').setValue('72%');}, 1000);"
 			></canvas>
 			
             	</div>
                 
-		<!--	<canvas id="gauge3"
+		<div class="card cc">
+            		<h1><i class="fa fa-percent m-green"></i> absolute Luftfeuchtigkeit</h1>
+
+			<canvas id="gauge5"
 			data-type="canv-gauge"
-			data-title="Luftdruck"
-			data-min-value="900"
-			data-max-value="1060"
-			data-major-ticks="900 920 940 960 980 1000 1020 1040 1060"
+			data-title="innen"
+			data-min-value="0"
+			data-max-value="100"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
 			data-stroke-ticks="true"
-			data-units="mbar"
+			data-units="%"
 			data-value-format="1.0"
 			data-glow="true"
 			data-colors-needle="#f00 #00f"
 			data-valuebox-visible="false"
-			data-highlights="900 940 #eee, 940 980 #ccc, 980 1020 #aaa, 1020 1060 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue('1006 mbar');}, 1000);"
-			></canvas> 
+			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge5').setValue('98,023079');}, 1000);"
+			></canvas>
 			
 			<canvas id="gauge6"
 			data-type="canv-gauge"
-			data-title="Regen"
+			data-title="außen"
 			data-min-value="0"
-			data-max-value="90"
-			data-major-ticks="0 10 20 30 40 50 60 70 80 90"
+			data-max-value="100"
+			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
 			data-stroke-ticks="true"
-			data-units="mm/h"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 20 #eee, 20 40 #ccc, 40 60 #aaa, 60 90 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge6').setValue('0,0 mm/h');}, 1000);"
-			></canvas> 
-			
-			<canvas id="gauge7"
-			data-type="canv-gauge"
-			data-title="Windgeschw."
-			data-min-value="0"
-			data-max-value="50"
-			data-major-ticks="0 10 20 30 40 50"
-			data-stroke-ticks="true"
-			data-units="m/s"
+			data-units="%"
 			data-value-format="1.0"
 			data-glow="true"
 			data-colors-needle="#f00 #00f"
 			data-valuebox-visible="false"
-			data-highlights="0 10 #eee, 10 20 #ccc, 20 30 #aaa, 30 50 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge7').setValue('2,4 m/s');}, 1000);"
-			></canvas>  
+			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+			data-onready="setInterval( function() { Gauge.Collection.get('gauge6').setValue('44,000879');}, 1000);"
+			></canvas>
 			
-			<canvas id="gauge8"
-			data-type="canv-gauge"
-			data-title="Windrichtung"
-			data-colors-valuetext-foreground="rgba(0, 0, 0, 0)"
-			data-min-value="0"
-			data-max-value="360"
-			data-major-ticks="S SW W NW N NO O SO S"
-			data-stroke-ticks="true"
-			data-value-format="1.0"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="false"
-			data-minor-ticks="2"
-			data-ticks-angle="360"
-			data-start-angle="180"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge8').setValue('230&#176;');}, 1000);"
-			></canvas> -->
-
-                <!-- <div class="card" >
-                    <h1><i class="fa fa-sun-o m-orange" ></i> Aktuelles Wetter</h1>
-                    <table class="tablespacer">
-                        <tr><td>Temperatur außen</td><td>6,6&#176;C</td></tr>
-                        <tr><td>Temperatur innen</td><td>21,6&#176;C</td></tr>
-                        <tr><td>Windchill</td><td>4,9&#176;C</td></tr>
-                        <tr><td>Hitze-Index</td><td>6,6&#176;C</td></tr>
-                        <tr><td>Taupunkt</td><td>1,9&#176;C</td></tr>
-                        <tr><td>Luftfeuchte außen</td><td>72%</td></tr>
-                        <tr><td>Luftfeuchte innen</td><td>48%</td></tr>
-                        <tr><td>Luftdruck</td><td>1006 mbar</td></tr>
-                        <tr><td>Luftdruck Trend (3 Stunden)</td><td>-1 mbar</td></tr>
-                        <tr><td>Wind</td><td>2,4 m/s SW (230&#176;)</td></tr>
-                        <tr><td>Regen-Rate</td><td>0,0 mm/h</td></tr>
-                    </table>
-                </div> -->
+            	</div>
 
                 <div class="card" >
                     <h1><i class="fa fa-moon-o m-grau" ></i> Höchst- und Tiefstwerte des Tages</h1>
@@ -303,20 +256,20 @@
                         <tr><td>Höchster Hitze-Index</td><td>7,5&#176;C</td><td>13:04:05</td></tr>
                         <tr><td>Niedrigste Windchill</td><td>4,3&#176;C</td><td>18:25:52</td></tr>
                         <tr><td>Höchster Taupunkt</td><td>5,0&#176;C</td><td>04:42:09</td></tr>
-                        <tr><td>Niedrigster Taupunkt</td><td>1,9&#176;C</td><td>18:51:02</td></tr>
+                        <tr><td>Niedrigster Taupunkt</td><td>1,6&#176;C</td><td>19:06:06</td></tr>
                         <tr><td>Höchste Luftfeuchte außen</td><td>89%</td><td>00:01:11</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte außen</td><td>72%</td><td>13:04:05</td></tr>
+                        <tr><td>Niedrigste Luftfeuchte außen</td><td>71%</td><td>19:06:06</td></tr>
 			<tr><td>Höchste Luftfeuchte innen</td><td>48%</td><td>12:23:02</td></tr>
                         <tr><td>Niedrigste Luftfeuchte innen</td><td>46%</td><td>08:58:07</td></tr>
                         <tr><td>Höchster Luftdruck</td><td>1010 mbar</td><td>08:22:58</td></tr>
-                        <tr><td>Niedrigster Luftdruck</td><td>1006 mbar</td><td>18:56:04</td></tr>
+                        <tr><td>Niedrigster Luftdruck</td><td>1006 mbar</td><td>19:06:06</td></tr>
                         <tr><td>Heutiger Regenfall</td><td>0,3 mm</td><td></td></tr>
                         <tr><td>Max. Regen-Rate</td><td>1,2 mm/h</td><td>04:27:06</td></tr>
                         <tr><td>Max. Wind</td><td>5,8 m/s    N/A</td><td>02:06:34</td></tr>
                         <tr><td>Wind (Durchschnitt)</td><td>1,7 m/s</td><td></td></tr>
                         <tr><td>Wind (RMS)</td><td>1,8 m/s</td><td></td></tr>
                         <tr><td>Wind Geschwindigkeit</td><td>0,5 m/s</td><td></td></tr>
-                        <tr><td>Vorwiegende Windrichtung</td><td>60&#176; (ONO)</td><td></td></tr>
+                        <tr><td>Vorwiegende Windrichtung</td><td>63&#176; (ONO)</td><td></td></tr>
                     </table>
                 </div>
                 
