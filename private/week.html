@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <base href="../">
+        <title> Wöchentliche Übersicht</title>
+        
+        <!-- Open Graph -->
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+		<meta property="og:type" content="website" /> 
+
+        <!-- Icons -->
+        <link rel="icon" href="favicon.ico" type="image/png">
+		<link rel="apple-touch-icon" href="touch-icon.png"/>
+        
+        <!-- Styles -->
+        <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/addon.css">
+        
+        <!-- Skripte -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/md5.min.js"></script>
+        <script src="js/values.js"></script>
+        <script src="js/gauge.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+    
+        <div style="position: absolute; top: 100px; color: grey; font-size: 500%; transform: rotate(-45deg);">Testseite</div>
+        <div class="login-page">
+          <div class="form">
+              <p>Diese Seite ist passwortgeschützt</p>
+              <input type="password" placeholder="Passwort"/>
+              <p class="message">Ungültiges Passwort</p>
+              <button>login</button>
+          </div>
+        </div>
+    
+        <div class="hidden">
+        <header>
+            <div class="container-fix" >
+                <div class="h-left" >
+                <h1><i class="fa fa-cloud" ></i> <span id="station.location"></span></h1>
+                <p><span id="station.latitude"></span> | <span id="station.longitude"></span> | <span id="station.altitude"></span> | 
+                <a href="https://www.google.com/maps/?q=" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
+                <h2>Aktuelles Wetter</h2>
+                <p><i class="fa fa-clock-o" ></i> <span id="current.dateTime"></span></p>
+                </div>
+                
+                <div class="h-right" >
+                    <table>
+                        <tr><td><b>Station:</b><td id="station.hardware">
+                        <tr><td><b>Software:</b><td><a href="http://weewx.com/" target="_blank" >weewx v<span id="station.version"></span></a>
+                        <tr><td><b>Laufzeit WeeWX:</b><td id="station.uptime">
+                        <tr><td><b>Laufzeit Server:</b><td id="station.os_uptime">
+                    </table>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="private/index.html" >Aktuell</a>
+                        <li class="active"><a href="private/week.html" >Woche</a>
+                        <li><a href="private/month.html" >Monat</a>
+                        <li><a href="private/year.html" >Jahr</a>
+                        <li><a href="RSS/weewx_rss.xml" >RSS</a>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Monatliche Übersicht</option>
+                            </select>
+                        <li><select name="noaaselect" onchange="openNoaaFile(value)">
+                                <option>Jährliche Übersicht</option>
+                            </select>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="container main" >
+            <div class="left" >
+                <div class="card" >
+                    <h1><i class="fa fa-cloud m-grau" ></i> Diese Woche</h1>
+                    <table class="tablespacer">
+                        <tr><td>Höchste Temperatur außen<td id="week.outTemp.max"><td id="week.outTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur außen<td id="week.outTemp.min"><td id="week.outTemp.mintime">
+                        <tr><td>Höchste Temperatur innen<td id="week.inTemp.max"><td id="week.inTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur innen<td id="week.inTemp.min"><td id="week.inTemp.mintime">
+                        <tr><td>Höchster Hitze-Index<td id="week.heatindex.max"><td id="week.heatindex.maxtime">
+                        <tr><td>Niedrigste Windchill<td id="week.windchill.min"><td id="week.windchill.mintime">
+                        <tr><td>Höchster Taupunkt<td id="week.dewpoint.max"><td id="week.dewpoint.maxtime">
+                        <tr><td>Niedrigster Taupunkt<td id="week.dewpoint.min"><td id="week.dewpoint.mintime">
+                        <tr><td>Höchste Luftfeuchte innen<td id="week.inHumidity.max"><td id="week.inHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte innen<td id="week.inHumidity.min"><td id="week.inHumidity.mintime">
+                        <tr><td>Höchste Luftfeuchte außen<td id="week.outHumidity.max"><td id="week.outHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte außen<td id="week.outHumidity.min"><td id="week.outHumidity.mintime">
+                        <tr><td>Höchster Luftdruck<td id="week.barometer.max"><td id="week.barometer.maxtime">
+                        <tr><td>Niedrigster Luftdruck<td id="week.barometer.min"><td id="week.barometer.mintime">
+                        <tr><td>Heutiger Regenfall<td id="week.rain.sum"><td>
+                        <tr><td>Max. Regen-Rate<td id="week.rainRate.max"><td id="week.rainRate.maxtime">
+                        <tr><td>Max. Wind<td><span id="week.wind.max"></span><span id="week.wind.gustdir"></span><td id="week.wind.maxtime">
+                        <tr><td>Wind (Durchschnitt)<td id="week.wind.avg"><td>
+                        <tr><td>Wind (RMS)<td id="week.wind.rms"><td>
+                        <tr><td>Wind Geschwindigkeit<td id="week.wind.vecavg"><td>
+                        <tr><td>Vorwiegende Windrichtung<td><span id="week.wind.vecdir"></span> (<span id="week.wind.vecdir.ordinal_compass"></span>)
+                    </table>
+                </div>
+            </div>
+            
+            <div class="right" >
+                <div class="card cc graphs" >
+                    <h1><i class="fa fa-line-chart m-gruen" ></i> Statistik und Diagramme der Woche</h1>
+                    
+                    <img src="weektempdew.png" alt="temperatures" />
+                    <img src="weekinside.png" alt="Inside" />
+                    <img src="weekbarometer.png" alt="barometer"/>
+                    <img src="weekrain.png" alt="rain" />
+                    <img src="weektempchill.png" alt="heatchill" />
+                    <img src="weekwind.png" alt="wind" />
+                    <img src="weekwinddir.png" alt="Hi Wind" />
+                    <img src="weekwindvec.png" alt="Wind Vector" />
+                    <img src="weekrx.png" alt="week rx percent"/>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script>
+            <span id="Extras.you"></span>
+            &sdot; Design by <a href="http://blauesledersofa.de" >blaues Ledersofa</a>
+            &sdot; Powered by <a href="http://weewx.com/" target="_blank" >weewx</a>
+            &sdot; auto-refresh <label class="switch"><input type="checkbox" checked><span class="slider round"></span></label>
+        </footer>
+        </div>
+    </body>
+</html>
+
