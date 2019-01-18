@@ -6,14 +6,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-	<meta http-equiv="refresh" content="300">
-	<base href="../">
-        
-        <title>Tegel-S&#252;d, Berlin, Germany Monatliche Übersicht</title>
+        <base href="../">
+        <title> Monatliche Übersicht</title>
         
         <!-- Open Graph -->
-        <meta property="og:site_name" content="Tegel-S&#252;d, Berlin, Germany Monatliche Übersicht" />
-        <meta property="og:description" content="Monthly Weather Summary from Tegel-S&#252;d, Berlin, Germany - weather web site powered by weewx" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
 		<meta property="og:type" content="website" /> 
 
         <!-- Icons -->
@@ -22,201 +20,126 @@
         
         <!-- Styles -->
         <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/password.css">
+        <link rel="stylesheet" href="css/addon.css">
         
         <!-- Skripte -->
         <script src="js/modernizr-2.6.2.min.js"></script>
-	<script src="js/login.js"></script>
-	<script src="js/md5.min.js"></script>
-        
-        <script type="text/javascript">
-            function openNoaaFile(date)
-            {
-                var url = "NOAA/NOAA-";
-                url = url + date;
-                url = url + ".txt";
-                if(date !== "Monthly summary" && date !== "Yearly summary") {
-                    window.location=url;
-                }
-            }
-        </script>
+        <script src="js/md5.min.js"></script>
+        <script src="js/values.js"></script>
+        <script src="js/gauge.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
     
-    <div id="login">
-        <div id="dialogWrap">
-        <div id="dialogWrapCell">
-            <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
-                <div id="passArea">
-                    <p id="passwordPrompt">Password</p>
-                    <input id="pass" type="password" name="pass">
-                    <div>
-                        <span id="messageWrapper">
-                            <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
-                            <span id="success" class="notifyText">Success!</span>
-                            &nbsp;
-                        </span>
-                        <button id="submitPass" type="button" onclick="login()">Submit</button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-            </div>
+        <div style="position: absolute; top: 100px; color: grey; font-size: 500%; transform: rotate(-45deg);">Testseite</div>
+        <div class="login-page">
+          <div class="form">
+              <p>Diese Seite ist passwortgeschützt</p>
+              <input type="password" placeholder="Passwort"/>
+              <p class="message">Ungültiges Passwort</p>
+              <button>login</button>
+          </div>
         </div>
-        </div>
-    </div> 
     
-        <div id="hidden">
+        <div class="hidden">
         <header>
             <div class="container-fix" >
                 <div class="h-left" >
-                <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
-                <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
-                <h2>Monatliche Übersicht</h2>
-                <p><i class="fa fa-clock-o" ></i> 18.01.2019 22:36:00</p>
+                <h1><i class="fa fa-cloud" ></i> <span id="station.location"></span></h1>
+                <p><span id="station.latitude"></span> | <span id="station.longitude"></span> | <span id="station.altitude"></span> | 
+                <a href="https://www.google.com/maps/?q=" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
+                <h2>Aktuelles Wetter</h2>
+                <p><i class="fa fa-clock-o" ></i> <span id="current.dateTime"></span></p>
                 </div>
                 
                 <div class="h-right" >
                     <table>
-                        <tr><td><b>Station:</b></td><td>WS1080</td></tr>
-                        <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
-                        <tr><td><b>Laufzeit WeeWX:</b></td><td>1 Tag, 22 Stunden, 48 Minuten</td></tr>
-                        <tr><td><b>Laufzeit Server:</b></td><td>19 Tage, 6 Stunden, 37 Minuten</td></tr>
+                        <tr><td><b>Station:</b><td id="station.hardware">
+                        <tr><td><b>Software:</b><td><a href="http://weewx.com/" target="_blank" >weewx v<span id="station.version"></span></a>
+                        <tr><td><b>Laufzeit WeeWX:</b><td id="station.uptime">
+                        <tr><td><b>Laufzeit Server:</b><td id="station.os_uptime">
                     </table>
                 </div>
 
                 <nav>
                     <ul>
-                        <li><a href="private/index.html" >Aktuell</a></li>
-                        <li><a href="private/week.html" >Woche</a></li>
-                        <li class="active" ><a href="" >Monat</a></li>
-                        <li><a href="private/year.html" >Jahr</a></li>
-                        <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
+                        <li><a href="private/index.html" >Aktuell</a>
+                        <li><a href="private/week.html" >Woche</a>
+                        <li class="active"><a href="private/month.html" >Monat</a>
+                        <li><a href="private/year.html" >Jahr</a>
+                        <li><a href="RSS/weewx_rss.xml" >RSS</a>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
-                                <option>Montliche Übersicht</option>
-                                    <option value="2017-04">2017-04</option>
-                                    <option value="2017-05">2017-05</option>
-                                    <option value="2017-06">2017-06</option>
-                                    <option value="2017-07">2017-07</option>
-                                    <option value="2017-08">2017-08</option>
-                                    <option value="2017-09">2017-09</option>
-                                    <option value="2017-10">2017-10</option>
-                                    <option value="2017-11">2017-11</option>
-                                    <option value="2017-12">2017-12</option>
-                                    <option value="2018-01">2018-01</option>
-                                    <option value="2018-02">2018-02</option>
-                                    <option value="2018-03">2018-03</option>
-                                    <option value="2018-04">2018-04</option>
-                                    <option value="2018-05">2018-05</option>
-                                    <option value="2018-06">2018-06</option>
-                                    <option value="2018-07">2018-07</option>
-                                    <option value="2018-08">2018-08</option>
-                                    <option value="2018-09">2018-09</option>
-                                    <option value="2018-10">2018-10</option>
-                                    <option value="2018-11">2018-11</option>
-                                    <option value="2018-12">2018-12</option>
-                                    <option value="2019-01">2019-01</option>
-                            </select></li>
+                                <option>Monatliche Übersicht</option>
+                            </select>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
                                 <option>Jährliche Übersicht</option>
-                                    <option value="2017">2017</option>
-                                    <option value="2018">2018</option>
-                                    <option value="2019">2019</option>
-                            </select></li>
+                            </select>
                     </ul>
                 </nav>
             </div>
         </header>
         
-        <div class="main" >
-        <div class="container" >
+        <div class="container main" >
             
             <div class="left" >
                 
                 <div class="card" >
                     <h1><i class="fa fa-calendar m-orange" ></i> Dieser Monat</h1>
                     <table class="tablespacer">
-                        <tr><td>Höchste Temperatur außen</td><td>8,6&#176;C</td><td>01.01.2019 13:54:42</td></tr>
-                        <tr><td>Niedrigste Temperatur außen</td><td>-0,6&#176;C</td><td>03.01.2019 21:36:38</td></tr>
-                        <tr><td>Höchste Temperatur innen</td><td>22,4&#176;C</td><td>03.01.2019 23:22:02</td></tr>
-                        <tr><td>Niedrigste Temperatur innen</td><td>21,4&#176;C</td><td>07.01.2019 02:24:27</td></tr>
-                        <tr><td>Höchster Hitze-Index</td><td>8,6&#176;C</td><td>01.01.2019 13:54:42</td></tr>
-                        <tr><td>Niedrigster Windchill</td><td>-2,5&#176;C</td><td>03.01.2019 01:52:14</td></tr>
-                        <tr><td>Höchster Taupunkt</td><td>6,2&#176;C</td><td>01.01.2019 00:36:46</td></tr>
-                        <tr><td>Niedrigster Taupunkt</td><td>-9,5&#176;C</td><td>02.01.2019 17:55:31</td></tr>
-                        <tr><td>Höchste Luftfeuchte</td><td>92%</td><td>05.01.2019 04:48:23</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte</td><td>41%</td><td>02.01.2019 17:40:28</td></tr>
-                        <tr><td>Höchster Luftdruck</td><td>1036 mbar</td><td>03.01.2019 21:11:31</td></tr>
-                        <tr><td>Niedrigster Luftdruck</td><td>989 mbar</td><td>13.01.2019 19:40:06</td></tr>
-                        <tr><td>Regen gesamt</td><td>42,6 mm</td><td></td></tr>
-                        <tr><td>Max. Regen-Rate</td><td>7,2 mm/h</td><td>13.01.2019 18:59:57</td></tr>
-                        <tr><td>Max. Windgeschwindigkeit</td><td>9,2 m/s    N/A</td><td>01.01.2019 20:56:09</td></tr>
-                        <tr><td>Wind (Durchschnitt)</td><td>1,1 m/s</td><td></td></tr>
-                        <tr><td>Wind (RMS)</td><td>1,3 m/s</td><td></td></tr>
-                        <tr><td>Geschwindigkeit</td><td>0,4 m/s</td><td></td></tr>
-                        <tr><td>Vorwiegende Windrichtung</td><td>64&#176;</td><td></td></tr>
+                        <tr><td>Höchste Temperatur außen<td id="month.outTemp.max"><td id="month.outTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur außen<td id="month.outTemp.min"><td id="month.outTemp.mintime">
+                        <tr><td>Höchste Temperatur innen<td id="month.inTemp.max"><td id="month.inTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur innen<td id="month.inTemp.min"><td id="month.inTemp.mintime">
+                        <tr><td>Höchster Hitze-Index<td id="month.heatindex.max"><td id="month.heatindex.maxtime">
+                        <tr><td>Niedrigste Windchill<td id="month.windchill.min"><td id="month.windchill.mintime">
+                        <tr><td>Höchster Taupunkt<td id="month.dewpoint.max"><td id="month.dewpoint.maxtime">
+                        <tr><td>Niedrigster Taupunkt<td id="month.dewpoint.min"><td id="month.dewpoint.mintime">
+                        <tr><td>Höchste Luftfeuchte innen<td id="month.inHumidity.max"><td id="month.inHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte innen<td id="month.inHumidity.min"><td id="month.inHumidity.mintime">
+                        <tr><td>Höchste Luftfeuchte außen<td id="month.outHumidity.max"><td id="month.outHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte außen<td id="month.outHumidity.min"><td id="month.outHumidity.mintime">
+                        <tr><td>Höchster Luftdruck<td id="month.barometer.max"><td id="month.barometer.maxtime">
+                        <tr><td>Niedrigster Luftdruck<td id="month.barometer.min"><td id="month.barometer.mintime">
+                        <tr><td>Heutiger Regenfall<td id="month.rain.sum"><td>
+                        <tr><td>Max. Regen-Rate<td id="month.rainRate.max"><td id="month.rainRate.maxtime">
+                        <tr><td>Max. Wind<td><span id="month.wind.max"></span><span id="month.wind.gustdir"></span><td id="month.wind.maxtime">
+                        <tr><td>Wind (Durchschnitt)<td id="month.wind.avg"><td>
+                        <tr><td>Wind (RMS)<td id="month.wind.rms"><td>
+                        <tr><td>Wind Geschwindigkeit<td id="month.wind.vecavg"><td>
+                        <tr><td>Vorwiegende Windrichtung<td><span id="month.wind.vecdir"></span> (<span id="month.wind.vecdir.ordinal_compass"></span>)
                     </table>
                 </div>
-
-                <div class="card" >
-                    <h1><i class="fa fa-calendar-o m-rot" ></i> Kalendarisches Jahr</h1>
-                    <table class="tablespacer">
-                        <tr><td>Höchste Temperatur außen</td><td>8,6&#176;C</td><td>01.01.2019 13:54:42</td></tr>
-                        <tr><td>Niedrigste Temperatur außen</td><td>-0,6&#176;C</td><td>03.01.2019 21:36:38</td></tr>
-			<tr><td>Höchste Temperatur innen</td><td>22,4&#176;C</td><td>03.01.2019 23:22:02</td></tr>
-                        <tr><td>Niedrigste Temperatur innen</td><td>21,4&#176;C</td><td>07.01.2019 02:24:27</td></tr>
-                        <tr><td>Höchster Hitze-Index</td><td>8,6&#176;C</td><td>01.01.2019 13:54:42</td></tr>
-                        <tr><td>Niedrigster Windchill</td><td>-2,5&#176;C</td><td>03.01.2019 01:52:14</td></tr>
-                        <tr><td>Höchster Taupunkt</td><td>6,2&#176;C</td><td>01.01.2019 00:36:46</td></tr>
-                        <tr><td>Niedrigster Taupunkt</td><td>-9,5&#176;C</td><td>02.01.2019 17:55:31</td></tr>
-                        <tr><td>Höchste Luftfeuchte</td><td>92%</td><td>05.01.2019 04:48:23</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte</td><td>41%</td><td>02.01.2019 17:40:28</td></tr>
-                        <tr><td>Höchster Luftdruck</td><td>1036 mbar</td><td>03.01.2019 21:11:31</td></tr>
-                        <tr><td>Niedrigster Luftdruck</td><td>989 mbar</td><td>13.01.2019 19:40:06</td></tr>
-                        <tr><td>Regen gesamt</td><td>42,6 mm</td><td></td></tr>
-                        <tr><td>Max. Regen-Rate</td><td>7,2 mm/h</td><td>13.01.2019 18:59:57</td></tr>
-                        <tr><td>Max. Windgeschwindigkeit</td><td>9,2 m/s    N/A</td><td>01.01.2019 20:56:09</td></tr>
-                        <tr><td>Wind (Durchschnitt)</td><td>1,1 m/s</td><td></td></tr>
-                        <tr><td>Wind (RMS)</td><td>1,3 m/s</td><td></td></tr>
-                        <tr><td>Geschwindigkeit</td><td>0,4 m/s</td><td></td></tr>
-                        <tr><td>Vorwiegende Windrichtung</td><td>64&#176;</td><td></td></tr>
-                    </table>
-                </div>
-
             </div>
             
             <div class="right" >
-
                 <div class="card cc graphs" >
                     <h1><i class="fa fa-line-chart m-gruen" ></i> Statistik und Diagramme des Monats</h1>
                     
-                    <img src="monthtempdew.png" alt="temperatures" />
-                    <img src="monthinside.png" alt="Inside" />
-                    <img src="monthbarometer.png" alt="barometer"/>
-                    <img src="monthrain.png" alt="rain" />
-                    <img src="monthtempchill.png" alt="heatchill" />
-                    <img src="monthwind.png" alt="wind" />
-                    <img src="monthwinddir.png" alt="Hi Wind" />
-                    <img src="monthwindvec.png" alt="Wind Vector" />
-                    <img src="monthrx.png" alt="month rx percent"/>
+                    <a href="monthtempdew.png"><img src="monthtempdew.png" alt="temperatures" /></a>
+                    <a href="monthinside.png"><img src="monthinside.png" alt="Inside" /></a>
+                    <a href="monthbarometer.png"><img src="monthbarometer.png" alt="barometer"/></a>
+                    <a href="monthinhumidity.png"><img src="monthinhumidity.png" alt="humidity inside"/></a>
+                    <a href="monthouthumidity.png"><img src="monthouthumidity.png" alt="humidity outside"/></a>
+                    <a href="monthrain.png"><img src="monthrain.png" alt="rain" /></a>
+                    <a href="monthtempchill.png"><img src="monthtempchill.png" alt="heatchill" /></a>
+                    <a href="monthwind.png"><img src="monthwind.png" alt="wind" /></a>
+                    <a href="monthwinddir.png"><img src="monthwinddir.png" alt="Hi Wind" /></a>
+                    <a href="monthwindvec.png"><img src="monthwindvec.png" alt="Wind Vector" /></a>
+                    <a href="monthrx.png"><img src="monthrx.png" alt="month rx percent"/></a>
                 </div>
-                
             </div>
-        </div>
         </div>
         
         <footer>
-            <div class="container-fix" >
-            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script> 
-            Hilmar
+            All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script>
+            <span id="Extras.you"></span>
             &sdot; Design by <a href="http://blauesledersofa.de" >blaues Ledersofa</a>
             &sdot; Powered by <a href="http://weewx.com/" target="_blank" >weewx</a>
-            </div>
+            &sdot; auto-refresh <label class="switch"><input type="checkbox" checked><span class="slider round"></span></label>
         </footer>
         </div>
-
     </body>
 </html>
 

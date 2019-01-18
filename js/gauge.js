@@ -767,7 +767,11 @@ var Gauge = function (config) {
         ctx.font = 24 * (max / 200) + "px Arial";
         ctx.fillStyle = config.colors.title;
         ctx.textAlign = "center";
-        ctx.fillText(config.title, 0, -max / 4.25);
+        //ctx.fillText(config.title, 0, -max / 4.25);
+        //break lines
+        let lines = config.title.split("<br>");
+        let lineHeight = ctx.measureText("M").width * 1.2;
+        for (let i = 0; i < lines.length; i++) { ctx.fillText(lines[i], 0, -max / 4 + i*lineHeight); }
         ctx.restore();
     }
 

@@ -6,341 +6,242 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-	<meta http-equiv="refresh" content="300">
-	<base href="../">
+        <base href="../">
+        <title> Tägliche Übersicht</title>
         
-        <title>Tegel-S&#252;d, Berlin, Germany Aktuelles Wetter</title>
-
         <!-- Open Graph -->
-        <meta property="og:site_name" content="Tegel-S&#252;d, Berlin, Germany Current Weather Conditions" />
-        <meta property="og:description" content="Current Weather Conditions in Tegel-S&#252;d, Berlin, Germany - weather web site powered by weewx" />
-	<meta property="og:type" content="website" /> 
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+		<meta property="og:type" content="website" /> 
 
         <!-- Icons -->
         <link rel="icon" href="favicon.ico" type="image/png">
-	<link rel="apple-touch-icon" href="touch-icon.png"/>
+		<link rel="apple-touch-icon" href="touch-icon.png"/>
         
         <!-- Styles -->
         <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/password.css">
+        <link rel="stylesheet" href="css/addon.css">
         
         <!-- Skripte -->
         <script src="js/modernizr-2.6.2.min.js"></script>
-	<script src="js/gauge.js"></script>
-	<script src="js/login.js"></script>
-	<script src="js/md5.min.js"></script>
-        
-        <script type="text/javascript">
-            function openNoaaFile(date)
-            {
-                var url = "NOAA/NOAA-";
-                url = url + date;
-                url = url + ".txt";
-                if(date !== "Monthly summary" && date !== "Yearly summary") {
-                    window.location=url;
-                }
-            }
-        </script>
+        <script src="js/md5.min.js"></script>
+        <script src="js/values.js"></script>
+        <script src="js/gauge.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
     
-    <div id="login">
-        <div id="dialogWrap">
-        <div id="dialogWrapCell">
-            <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
-                <div id="passArea">
-                    <p id="passwordPrompt">Password</p>
-                    <input id="pass" type="password" name="pass">
-                    <div>
-                        <span id="messageWrapper">
-                            <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
-                            <span id="success" class="notifyText">Success!</span>
-                            &nbsp;
-                        </span>
-                        <button id="submitPass" type="button" onclick="login()">Submit</button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-            </div>
+        <div style="position: absolute; top: 100px; color: grey; font-size: 500%; transform: rotate(-45deg);">Testseite</div>
+        <div class="login-page">
+          <div class="form">
+              <p>Diese Seite ist passwortgeschützt</p>
+              <input type="password" placeholder="Passwort"/>
+              <p class="message">Ungültiges Passwort</p>
+              <button>login</button>
+          </div>
         </div>
-        </div>
-    </div> 
     
-        <div id="hidden">
+        <div class="hidden">
         <header>
             <div class="container-fix" >
                 <div class="h-left" >
-                <h1><i class="fa fa-cloud" ></i> Tegel-S&#252;d, Berlin, Germany</h1>
-                <p>52&deg; 34.35' N | 013&deg; 16.03' E | 48 meter | <a href="https://www.google.com/maps/?q=Tegel-S&#252;d, Berlin, Germany" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
+                <h1><i class="fa fa-cloud" ></i> <span id="station.location"></span></h1>
+                <p><span id="station.latitude"></span> | <span id="station.longitude"></span> | <span id="station.altitude"></span> | 
+                <a href="https://www.google.com/maps/?q=" target="_blank" ><i class="fa fa-map-marker" ></i> Auf der Karte anzeigen</a></p>
                 <h2>Aktuelles Wetter</h2>
-                <p><i class="fa fa-clock-o" ></i> 18.01.2019 22:36:00</p>
+                <p><i class="fa fa-clock-o" ></i> <span id="current.dateTime"></span></p>
                 </div>
                 
                 <div class="h-right" >
                     <table>
-                        <tr><td><b>Station:</b></td><td>WS1080</td></tr>
-                        <tr><td><b>Software:</b></td><td><a href="http://weewx.com/" target="_blank" >weewx v3.7.1</a></td></tr>
-                        <tr><td><b>Laufzeit WeeWX:</b></td><td>1 Tag, 22 Stunden, 48 Minuten</td></tr>
-                        <tr><td><b>Laufzeit Server:</b></td><td>19 Tage, 6 Stunden, 37 Minuten</td></tr>
-			<tr><td><b>Batteriestatus:</b></td><td>0,000000</td></tr>
+                        <tr><td><b>Station:</b><td id="station.hardware">
+                        <tr><td><b>Software:</b><td><a href="http://weewx.com/" target="_blank" >weewx v<span id="station.version"></span></a>
+                        <tr><td><b>Laufzeit WeeWX:</b><td id="station.uptime">
+                        <tr><td><b>Laufzeit Server:</b><td id="station.os_uptime">
                     </table>
                 </div>
 
                 <nav>
                     <ul>
-                        <li class="active"><a href="#" >Aktuell</a></li>
-                        <li><a href="private/week.html" >Woche</a></li>
-                        <li><a href="private/month.html" >Monat</a></li>
-                        <li><a href="private/year.html" >Jahr</a></li>
-                        <li><a href="RSS/weewx_rss.xml" >RSS</a></li>
+                        <li class="active"><a href="private/index.html" >Aktuell</a>
+                        <li><a href="private/week.html" >Woche</a>
+                        <li><a href="private/month.html" >Monat</a>
+                        <li><a href="private/year.html" >Jahr</a>
+                        <li><a href="RSS/weewx_rss.xml" >RSS</a>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
                                 <option>Monatliche Übersicht</option>
-                                    <option value="2017-04">2017-04</option>
-                                    <option value="2017-05">2017-05</option>
-                                    <option value="2017-06">2017-06</option>
-                                    <option value="2017-07">2017-07</option>
-                                    <option value="2017-08">2017-08</option>
-                                    <option value="2017-09">2017-09</option>
-                                    <option value="2017-10">2017-10</option>
-                                    <option value="2017-11">2017-11</option>
-                                    <option value="2017-12">2017-12</option>
-                                    <option value="2018-01">2018-01</option>
-                                    <option value="2018-02">2018-02</option>
-                                    <option value="2018-03">2018-03</option>
-                                    <option value="2018-04">2018-04</option>
-                                    <option value="2018-05">2018-05</option>
-                                    <option value="2018-06">2018-06</option>
-                                    <option value="2018-07">2018-07</option>
-                                    <option value="2018-08">2018-08</option>
-                                    <option value="2018-09">2018-09</option>
-                                    <option value="2018-10">2018-10</option>
-                                    <option value="2018-11">2018-11</option>
-                                    <option value="2018-12">2018-12</option>
-                                    <option value="2019-01">2019-01</option>
-                            </select></li>
+                            </select>
                         <li><select name="noaaselect" onchange="openNoaaFile(value)">
                                 <option>Jährliche Übersicht</option>
-                                    <option value="2017">2017</option>
-                                    <option value="2018">2018</option>
-                                    <option value="2019">2019</option>
-                            </select></li>
+                            </select>
                     </ul>
                 </nav>
             </div>
         </header>
         
-        <div class="main container" >
-            
+        <div class="container main" >
             <div class="left" >
-            	<div class="card cc">
+                <div class="card cc">
             		<h1><i class="fa fa-thermometer-half m-red"></i> Temperatur</h1>
-
-			<canvas id="gauge1"
-			data-type="canv-gauge"
-			data-title="innen"
-			data-min-value="-20"
-			data-max-value="50"
-			data-major-ticks="-20 -10 0 10 20 30 40 50"
-			data-stroke-ticks="true"
-			data-units="&deg;C"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge1').setValue('22,1&#176;C');}, 1000);"
-			></canvas> 
-			
-			<canvas id="gauge2"
-			data-type="canv-gauge"
-			data-title="außen"
-			data-min-value="-20"
-			data-max-value="50"
-			data-major-ticks="-20 -10 0 10 20 30 40 50"
-			data-stroke-ticks="true"
-			data-units="&deg;C"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge2').setValue('2,1&#176;C');}, 1000);"
-			></canvas> 
-
-            	</div>
-
-		<div class="card cc">
-            		<h1><i class="fa fa-percent m-green"></i> relative Luftfeuchtigkeit</h1>
-
-			<canvas id="gauge3"
-			data-type="canv-gauge"
-			data-title="innen"
-			data-min-value="0"
-			data-max-value="100"
-			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
-			data-stroke-ticks="true"
-			data-units="%"
-			data-value-format="1.0"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge3').setValue('43%');}, 1000);"
-			></canvas>
-			
-			<canvas id="gauge4"
-			data-type="canv-gauge"
-			data-title="außen"
-			data-min-value="0"
-			data-max-value="100"
-			data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
-			data-stroke-ticks="true"
-			data-units="%"
-			data-value-format="1.0"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge4').setValue('74%');}, 1000);"
-			></canvas>
-			
-            	</div>
-                
-		<div class="card cc">
-            		<h1><i class="fa fa-shower m-grey"></i> absolute Luftfeuchtigkeit</h1>
-
-			<canvas id="gauge5"
-			data-type="canv-gauge"
-			data-title="innen"
-			data-min-value="0"
-			data-max-value="30"
-			data-major-ticks="0 10 20 30"
-			data-stroke-ticks="true"
-			data-units="g/m&sup3;"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 10 #eee, 10 15 #ccc, 15 20 #aaa, 20 30 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge5').setValue('8,394032');}, 1000);"
-			></canvas>
-			
-			<canvas id="gauge6"
-			data-type="canv-gauge"
-			data-title="außen"
-			data-min-value="0"
-			data-max-value="30"
-			data-major-ticks="0 10 20 30"
-			data-stroke-ticks="true"
-			data-units="g/m&sup3;"
-			data-value-format="1.1"
-			data-glow="true"
-			data-colors-needle="#f00 #00f"
-			data-valuebox-visible="false"
-			data-highlights="0 10 #eee, 10 15 #ccc, 15 20 #aaa, 20 30 #eaa"
-			data-onready="setInterval( function() { Gauge.Collection.get('gauge6').setValue('4,130766');}, 1000);"
-			></canvas>
-			
-            	</div>
+                    <canvas id="gauge1"
+                    data-type="canv-gauge"
+                    data-title="innen"
+                    data-min-value="-20"
+                    data-max-value="50"
+                    data-major-ticks="-20 -10 0 10 20 30 40 50"
+                    data-stroke-ticks="true"
+                    data-units="&deg;C"
+                    data-value-format="1.1"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
+                    data-tag="current.inTemp"
+                    ></canvas> 
+                    <canvas id="gauge2"
+                    data-type="canv-gauge"
+                    data-title="außen"
+                    data-min-value="-20"
+                    data-max-value="50"
+                    data-major-ticks="-20 -10 0 10 20 30 40 50"
+                    data-stroke-ticks="true"
+                    data-units="&deg;C"
+                    data-value-format="1.1"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="-20 0 #88f, 0 30 #ccc, 30 50 #eaa"
+                    data-tag="current.outTemp"
+                    ></canvas> 
+                </div>
+                <div class="card cc">
+                    <h1><i class="fa fa-percent m-green"></i> relative Luftfeuchtigkeit</h1>
+                    <canvas id="gauge3"
+                    data-type="canv-gauge"
+                    data-title="innen"
+                    data-min-value="0"
+                    data-max-value="100"
+                    data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
+                    data-stroke-ticks="true"
+                    data-units="%"
+                    data-value-format="1.0"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+                    data-tag="current.inHumidity"
+                    ></canvas>
+                    <canvas id="gauge4"
+                    data-type="canv-gauge"
+                    data-title="außen"
+                    data-min-value="0"
+                    data-max-value="100"
+                    data-major-ticks="0 10 20 30 40 50 60 70 80 90 100"
+                    data-stroke-ticks="true"
+                    data-units="%"
+                    data-value-format="1.0"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="0 25 #eee, 25 50 #ccc, 50 75 #aaa, 75 100 #eaa"
+                    data-tag="current.outHumidity"
+                    ></canvas>
+                </div>
+                        
+                <div class="card cc">
+                    <h1><i class="fa fa-shower m-grey"></i> absolute Luftfeuchtigkeit</h1>
+                    <canvas id="gauge5"
+                    data-type="canv-gauge"
+                    data-title="innen"
+                    data-min-value="0"
+                    data-max-value="30"
+                    data-major-ticks="0 10 20 30"
+                    data-stroke-ticks="true"
+                    data-units="g/m&sup3;"
+                    data-value-format="1.1"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="0 10 #eee, 10 15 #ccc, 15 20 #aaa, 20 30 #eaa"
+                    data-tag="current.absHumidityIn"
+                    ></canvas>
+                    <canvas id="gauge6"
+                    data-type="canv-gauge"
+                    data-title="außen"
+                    data-min-value="0"
+                    data-max-value="30"
+                    data-major-ticks="0 10 20 30"
+                    data-stroke-ticks="true"
+                    data-units="g/m&sup3;"
+                    data-value-format="1.1"
+                    data-glow="true"
+                    data-colors-needle="#f00 #00f"
+                    data-valuebox-visible="false"
+                    data-highlights="0 10 #eee, 10 15 #ccc, 15 20 #aaa, 20 30 #eaa"
+                    data-tag="current.absHumidityOut"
+                    ></canvas>
+                </div>
 
                 <div class="card" >
                     <h1><i class="fa fa-moon-o m-grau" ></i> Höchst- und Tiefstwerte des Tages</h1>
                     <table class="tablespacer">
-                        <tr><td>Höchste Temperatur außen</td><td>3,6&#176;C</td><td>14:44:59</td></tr>
-                        <tr><td>Niedrigste Temperatur außen</td><td>0,0&#176;C</td><td>08:38:40</td></tr>
-                        <tr><td>Höchste Temperatur innen</td><td>22,1&#176;C</td><td>21:26:19</td></tr>
-                        <tr><td>Niedrigste Temperatur innen</td><td>21,6&#176;C</td><td>15:50:09</td></tr>
-                        <tr><td>Höchster Hitze-Index</td><td>3,6&#176;C</td><td>14:44:59</td></tr>
-                        <tr><td>Niedrigste Windchill</td><td>-1,6&#176;C</td><td>09:08:49</td></tr>
-                        <tr><td>Höchster Taupunkt</td><td>0,0&#176;C</td><td>00:01:41</td></tr>
-                        <tr><td>Niedrigster Taupunkt</td><td>-5,6&#176;C</td><td>08:58:46</td></tr>
-                        <tr><td>Höchste Luftfeuchte außen</td><td>81%</td><td>01:21:59</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte außen</td><td>57%</td><td>14:50:01</td></tr>
-			<tr><td>Höchste Luftfeuchte innen</td><td>51%</td><td>00:01:41</td></tr>
-                        <tr><td>Niedrigste Luftfeuchte innen</td><td>42%</td><td>15:50:09</td></tr>
-                        <tr><td>Höchster Luftdruck</td><td>1022 mbar</td><td>22:26:31</td></tr>
-                        <tr><td>Niedrigster Luftdruck</td><td>1005 mbar</td><td>00:01:41</td></tr>
-                        <tr><td>Heutiger Regenfall</td><td>1,2 mm</td><td></td></tr>
-                        <tr><td>Max. Regen-Rate</td><td>1,2 mm/h</td><td>00:01:41</td></tr>
-                        <tr><td>Max. Wind</td><td>4,8 m/s    N/A</td><td>00:21:45</td></tr>
-                        <tr><td>Wind (Durchschnitt)</td><td>0,8 m/s</td><td></td></tr>
-                        <tr><td>Wind (RMS)</td><td>1,0 m/s</td><td></td></tr>
-                        <tr><td>Wind Geschwindigkeit</td><td>0,5 m/s</td><td></td></tr>
-                        <tr><td>Vorwiegende Windrichtung</td><td>64&#176; (ONO)</td><td></td></tr>
+                        <tr><td>Höchste Temperatur außen<td id="day.outTemp.max"><td id="day.outTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur außen<td id="day.outTemp.min"><td id="day.outTemp.mintime">
+                        <tr><td>Höchste Temperatur innen<td id="day.inTemp.max"><td id="day.inTemp.maxtime">
+                        <tr><td>Niedrigste Temperatur innen<td id="day.inTemp.min"><td id="day.inTemp.mintime">
+                        <tr><td>Höchster Hitze-Index<td id="day.heatindex.max"><td id="day.heatindex.maxtime">
+                        <tr><td>Niedrigste Windchill<td id="day.windchill.min"><td id="day.windchill.mintime">
+                        <tr><td>Höchster Taupunkt<td id="day.dewpoint.max"><td id="day.dewpoint.maxtime">
+                        <tr><td>Niedrigster Taupunkt<td id="day.dewpoint.min"><td id="day.dewpoint.mintime">
+                        <tr><td>Höchste Luftfeuchte innen<td id="day.inHumidity.max"><td id="day.inHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte innen<td id="day.inHumidity.min"><td id="day.inHumidity.mintime">
+                        <tr><td>Höchste Luftfeuchte außen<td id="day.outHumidity.max"><td id="day.outHumidity.maxtime">
+                        <tr><td>Niedrigste Luftfeuchte außen<td id="day.outHumidity.min"><td id="day.outHumidity.mintime">
+                        <tr><td>Höchster Luftdruck<td id="day.barometer.max"><td id="day.barometer.maxtime">
+                        <tr><td>Niedrigster Luftdruck<td id="day.barometer.min"><td id="day.barometer.mintime">
+                        <tr><td>Heutiger Regenfall<td id="day.rain.sum"><td>
+                        <tr><td>Max. Regen-Rate<td id="day.rainRate.max"><td id="day.rainRate.maxtime">
+                        <tr><td>Max. Wind<td><span id="day.wind.max"></span><span id="day.wind.gustdir"></span><td id="day.wind.maxtime">
+                        <tr><td>Wind (Durchschnitt)<td id="day.wind.avg"><td>
+                        <tr><td>Wind (RMS)<td id="day.wind.rms"><td>
+                        <tr><td>Wind Geschwindigkeit<td id="day.wind.vecavg"><td>
+                        <tr><td>Vorwiegende Windrichtung<td><span id="day.wind.vecdir"></span> (<span id="day.wind.vecdir.ordinal_compass"></span>)
                     </table>
                 </div>
                 
-           <!-- 
-                <div class="card" >                    
-                    <a href="http://www.dwd.de" target="_blank">
-                    <img src="http://www.dwd.de/DWD/wetter/radar/rad_brd_akt.jpg" alt="Radar" id="radar" class="space small" />
-                    </a>
-                    
-                    <h3>
-                        
-                        <a id="btn1" class="cpointer" >Image / Animation</a>
-                        <script>    
-                            function changeRadar() {
-                                if(document.getElementById("radar").src == "http://www.dwd.de/DWD/wetter/radar/rad_brd_akt.jpg") {
-                                    document.getElementById("radar").src = "http://www.dwd.de/DWD/wetter/radar/radfilm_brd_akt.gif";
-                                } else {
-                                    document.getElementById("radar").src = "http://www.dwd.de/DWD/wetter/radar/rad_brd_akt.jpg";
-                                }
-                            }
-                            
-                            var el = document.getElementById('btn1');
-                            el.onclick = changeRadar;
-                        </script>
-                    
-                        | <a href="http://meteox.com/meteox-maps.aspx?a=1&z=7&lat=52.572598&lon=13.266759" target="_blank" >Meteox Europe Radar</a>
-                    </h3>
-                    
-                </div>
-            -->
-                
-                <div class="card" >
+               <div class="card" >
                     <h1><i class="fa fa-star-o m-rot" ></i> Jahrbuch / Kalender / Almanac</h1>
                     <table>
-                        <tr><td>Sonnenaufgang:</td><td>08:07:43</td></tr>
-                        <tr><td>Sonnenuntergang:</td><td>16:26:47</td></tr>
-                        <tr><td>Mond Phase:</td><td>zweites Viertel<br/>(90% voll)</td></tr>
+                        <tr><td>Sonnenaufgang:<td id="almanac.sunrise">
+                        <tr><td>Sonnenuntergang:<td id="almanac.sunset">
+                        <tr><td>Mond Phase:<td><span id="almanac.moon_phase"></span><br/>(<span id="almanac.moon_fullness"></span>% voll)
                     </table>
                 </div>
-
+                
             </div>
             
             <div class="right" >
-                
                 <div class="card cc graphs" >
                     <h1><i class="fa fa-line-chart m-gruen" ></i> Grafiken</h1>
-                    
-                    <a href="dayinside.png"><img src="dayinside.png" alt="Inside" /></a>
-                    <a href="dayinhumidity.png"><img src="dayinhumidity.png" alt="humidity inside"/></a>
                     <a href="daytempdew.png"><img src="daytempdew.png" alt="temperatures" /></a>
-                    <a href="dayouthumidity.png"><img src="dayouthumidity.png" alt="humidity outside"/></a>
+                    <a href="dayinside.png"><img src="dayinside.png" alt="Inside" /></a>
                     <a href="daybarometer.png"><img src="daybarometer.png" alt="barometer"/></a>
-                    <!-- <a href="daytrain.png"><img src="dayrain.png" alt="rain" /></a> -->
-                    <!-- <a href="daytempchill.png"><img src="daytempchill.png" alt="heatchill" /></a> -->
-                    <!-- <a href="daydaywind.png"><img src="daywind.png" alt="wind" /></a> -->
-                    <!-- <a href="daywinddir.png"><img src="daywinddir.png" alt="Hi Wind" /></a> -->
+                    <a href="dayinhumidity.png"><img src="dayinhumidity.png" alt="humidity inside"/></a>
+                    <a href="dayouthumidity.png"><img src="dayouthumidity.png" alt="humidity outside"/></a>
                     <a href="dayrx.png"><img src="dayrx.png" alt="day rx percent"/></a>
                 </div>
-
-            </div> 
-                
+            </div>
         </div>
-        
+
         <footer>
             All rights reserved. &copy; 2017 - <script>document.write(new Date().getFullYear())</script>
-            Hilmar
+            <span id="Extras.you"></span>
             &sdot; Design by <a href="http://blauesledersofa.de" >blaues Ledersofa</a>
             &sdot; Powered by <a href="http://weewx.com/" target="_blank" >weewx</a>
+            &sdot; auto-refresh <label class="switch"><input type="checkbox" checked><span class="slider round"></span></label>
         </footer>
         </div>
-
     </body>
 </html>
-
