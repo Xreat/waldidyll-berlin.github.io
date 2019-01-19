@@ -47,7 +47,7 @@ let refresh = window.setInterval(injectData, refreshInterval);
 function injectData(event) {
 	loadJSON(function(response) {
 		// Parse JSON string into object
-		let db = JSON.parse(response);
+		const db = JSON.parse(response);
 		document.querySelectorAll('*[id]').forEach(e => {
 			let id = e.getAttribute("id");
 			if (e.tagName === "CANVAS") { setGaugeValue(id, db[e.getAttribute("data-tag")]) }
