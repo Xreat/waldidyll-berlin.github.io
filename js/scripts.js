@@ -37,7 +37,7 @@ function login() {
 }
 
 function setGaugeValue(gauge, value) {
-	if (value) setInterval( function() { Gauge.Collection.get(gauge).setValue(value)}, 1000);
+	if (value) setTimeout( function() { Gauge.Collection.get(gauge).setValue(value)}, 1000);
 }
 
 document.addEventListener("DOMContentLoaded", injectData);
