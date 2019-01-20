@@ -40,9 +40,52 @@ function setGaugeValue(gauge, value) {
 	if (value) setTimeout( function() { Gauge.Collection.get(gauge).setValue(value)}, 1000);
 }
 
-document.addEventListener("DOMContentLoaded", injectData);
 const refreshInterval = 300000;
 let refresh = window.setInterval(injectData, refreshInterval);
+
+document.addEventListener("DOMContentLoaded", function() {
+	// only execute this once when the DOM has loaded
+	injectData();
+	document.querySelector("input[type=checkbox]").onchange = function(evt) {
+		if (evt.target.checked && !refresh) {
+			refresh = window.setInterval(injectData, refreshInterval);
+		} 
+		else if (!evt.target.checked && refresh) {
+			window.clearInterval(refresh);
+			refresh = 0;
+		}
+	}
+		
+	let m = document.querySelectorAll("select")[0];
+	db["months"].forEach(e => {
+		let row = document.createElement('option');
+		row.innerHTML = e;
+		row.value = e;
+		m.appendChild(row);
+	});
+	let y = document.querySelectorAll("select")[1];
+	db["years"].forEach(e => {
+		let row = document.createElement('option');
+		row.innerHTML = e;
+		row.value = e;
+		y.appendChild(row);
+	});
+	
+	const loc = db["station.location"] || "";
+	document.querySelector("header p a").src = "https://www.google.com/maps/?q=" + loc;
+	// document.title = loc + " " + document.title;
+	document.querySelector("[property='og:site_name']").content = loc;
+	document.querySelector("[property='og:description']").content = `Weekly Weather Summary from ${loc} - weather web site powered by weewx`;
+	
+	if (document.querySelector(".login-page")) {
+		document.querySelector(".login-page button").onclick = login;
+		document.querySelector(".login-page input").onkeyup = function(evt) {
+			if (evt.keyCode === 13) {
+				document.querySelector(".login-page button").click();
+			}
+		}
+	}
+});
 
 function injectData(event) {
 	loadJSON(function(response) {
@@ -53,46 +96,6 @@ function injectData(event) {
 			if (e.tagName === "CANVAS") { setGaugeValue(id, db[e.getAttribute("data-tag")]) }
 			else if (db[id]) { e.innerHTML = db[id]; }
 		});
-		
-		let m = document.querySelectorAll("select")[0];
-		db["months"].forEach(e => {
-			let row = document.createElement('option');
-			row.innerHTML = e;
-			row.value = e;
-			m.appendChild(row);
-		});
-		let y = document.querySelectorAll("select")[1];
-		db["years"].forEach(e => {
-			let row = document.createElement('option');
-			row.innerHTML = e;
-			row.value = e;
-			y.appendChild(row);
-		});
-		
-		document.querySelector("input[type=checkbox]").onchange = function(evt) {
-			if (evt.target.checked && !refresh) {
-				refresh = window.setInterval(injectData, refreshInterval);
-			} 
-			else if (!evt.target.checked && refresh) {
-				window.clearInterval(refresh);
-				refresh = 0;
-			}
-		}
-		
-		const loc = db["station.location"] || "";
-		document.querySelector("header p a").src = "https://www.google.com/maps/?q=" + loc;
-		// document.title = loc + " " + document.title;
-		document.querySelector("[property='og:site_name']").content = loc;
-		document.querySelector("[property='og:description']").content = `Weekly Weather Summary from ${loc} - weather web site powered by weewx`;
-		
-		if (document.querySelector(".login-page")) {
-			document.querySelector(".login-page button").onclick = login;
-			document.querySelector(".login-page input").onkeyup = function(evt) {
-				if (evt.keyCode === 13) {
-					document.querySelector(".login-page button").click();
-				}
-			}
-		}
 	});
 }
 
