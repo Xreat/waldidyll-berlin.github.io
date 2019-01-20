@@ -55,28 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
 			refresh = 0;
 		}
 	}
-		
-	let m = document.querySelectorAll("select")[0];
-	db["months"].forEach(e => {
-		let row = document.createElement('option');
-		row.innerHTML = e;
-		row.value = e;
-		m.appendChild(row);
-	});
-	let y = document.querySelectorAll("select")[1];
-	db["years"].forEach(e => {
-		let row = document.createElement('option');
-		row.innerHTML = e;
-		row.value = e;
-		y.appendChild(row);
-	});
-	
-	const loc = db["station.location"] || "";
-	document.querySelector("header p a").src = "https://www.google.com/maps/?q=" + loc;
-	// document.title = loc + " " + document.title;
-	document.querySelector("[property='og:site_name']").content = loc;
-	document.querySelector("[property='og:description']").content = `Weekly Weather Summary from ${loc} - weather web site powered by weewx`;
-	
 	if (document.querySelector(".login-page")) {
 		document.querySelector(".login-page button").onclick = login;
 		document.querySelector(".login-page input").onkeyup = function(evt) {
@@ -96,6 +74,28 @@ function injectData(event) {
 			if (e.tagName === "CANVAS") { setGaugeValue(id, db[e.getAttribute("data-tag")]) }
 			else if (db[id]) { e.innerHTML = db[id]; }
 		});
+		
+		let m = document.querySelectorAll("select")[0];
+		db["months"].forEach(e => {
+			let row = document.createElement('option');
+			row.innerHTML = e;
+			row.value = e;
+			m.appendChild(row);
+		});
+		let y = document.querySelectorAll("select")[1];
+		db["years"].forEach(e => {
+			let row = document.createElement('option');
+			row.innerHTML = e;
+			row.value = e;
+			y.appendChild(row);
+		});
+		
+		const loc = db["station.location"] || "";
+		document.querySelector("header p a").src = "https://www.google.com/maps/?q=" + loc;
+		// document.title = loc + " " + document.title;
+		document.querySelector("[property='og:site_name']").content = loc;
+		document.querySelector("[property='og:description']").content = `Weekly Weather Summary from ${loc} - weather web site powered by weewx`;
+	
 	});
 }
 
