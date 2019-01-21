@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Mo, 21 Jan 2019 09:48:00 CET</pubDate>
+      <pubDate>Mo, 21 Jan 2019 10:00:00 CET</pubDate>
 
-      <lastBuildDate>Mo, 21 Jan 2019 09:48:00 CET</lastBuildDate>
+      <lastBuildDate>Mo, 21 Jan 2019 10:00:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 21.01.2019 09:48:00</title>
+         <title>Weather Conditions at 21.01.2019 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: -1,8&#176;C; 
+           Outside temperature: -1,7&#176;C; 
            Barometer: 1025 mbar; 
-           Wind: 0,5 m/s from 45&#176;; 
+           Wind: 0,5 m/s from 24&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Mo, 21 Jan 2019 09:48:00 CET</pubDate>
+         <pubDate>Mo, 21 Jan 2019 10:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                21.01.2019 09:48:00<br/>
-             Outside Temperature: -1,8&#176;C<br/>
-             Wind Chill:          -1,8&#176;C<br/>
-             Heat Index:          -1,8&#176;C<br/>
-             Dewpoint:            -6,0&#176;C<br/>
+             Time:                21.01.2019 10:00:00<br/>
+             Outside Temperature: -1,7&#176;C<br/>
+             Wind Chill:          -1,7&#176;C<br/>
+             Heat Index:          -1,7&#176;C<br/>
+             Dewpoint:            -5,9&#176;C<br/>
              Humidity:            73%<br/>
              Barometer:           1025 mbar<br/>
-             Wind:                0,5 m/s from 45&#176;<br/>
+             Wind:                0,5 m/s from 24&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 21.01.2019 09:48:00</title>
+         <title>Daily Weather Summary as of 21.01.2019 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: -2,4&#176;C at 06:12:00;
@@ -52,7 +52,7 @@
             Max wind :               2,0 m/s from    N/A at 06:13:18;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Mo, 21 Jan 2019 09:48:00 CET</pubDate>
+         <pubDate>Mo, 21 Jan 2019 10:00:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -69,7 +69,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 21.01.2019 09:48:00</title>
+         <title>Monthly Weather Summary as of 21.01.2019 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -2,8&#176;C at 20.01.2019 08:34:55;
@@ -79,7 +79,7 @@
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
             Rain total for month:    42,9 mm
          </description>
-         <pubDate>Mo, 21 Jan 2019 09:48:00 CET</pubDate>
+         <pubDate>Mo, 21 Jan 2019 10:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2019<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 21.01.2019 09:48:00</title>
+         <title>Yearly Weather Summary as of 21.01.2019 10:00:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -2,8&#176;C at 20.01.2019 08:34:55;
@@ -104,7 +104,7 @@
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
             Rain total for year:     42,9 mm
          </description>
-         <pubDate>Mo, 21 Jan 2019 09:48:00 CET</pubDate>
+         <pubDate>Mo, 21 Jan 2019 10:00:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
