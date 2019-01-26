@@ -7,52 +7,52 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 26 Jan 2019 20:12:00 CET</pubDate>
+      <pubDate>Sa, 26 Jan 2019 20:24:00 CET</pubDate>
 
-      <lastBuildDate>Sa, 26 Jan 2019 20:12:00 CET</lastBuildDate>
+      <lastBuildDate>Sa, 26 Jan 2019 20:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 26.01.2019 20:12:00</title>
+         <title>Weather Conditions at 26.01.2019 20:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
            Outside temperature: 2,2&#176;C; 
-           Barometer: 1003 mbar; 
+           Barometer: 1002 mbar; 
            Wind: 0,0 m/s from    N/A; 
-           Rain rate: 1,2 mm/h; 
+           Rain rate: 0,6 mm/h; 
          </description>
-         <pubDate>Sa, 26 Jan 2019 20:12:00 CET</pubDate>
+         <pubDate>Sa, 26 Jan 2019 20:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                26.01.2019 20:12:00<br/>
+             Time:                26.01.2019 20:24:00<br/>
              Outside Temperature: 2,2&#176;C<br/>
              Wind Chill:          2,2&#176;C<br/>
              Heat Index:          2,2&#176;C<br/>
              Dewpoint:            0,3&#176;C<br/>
              Humidity:            87%<br/>
-             Barometer:           1003 mbar<br/>
+             Barometer:           1002 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
-             Rain Rate:           1,2 mm/h<br/>
+             Rain Rate:           0,6 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 26.01.2019 20:12:00</title>
+         <title>Daily Weather Summary as of 26.01.2019 20:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: -2,3&#176;C at 00:43:49;
          	Max outside temperature: 2,5&#176;C at 13:51:20;
-	        Min barometer:           1002 mbar at 19:47:41;
+	        Min barometer:           1002 mbar at 20:17:46;
 	        Max barometer:           1011 mbar at 00:03:40;
             Max wind :               2,7 m/s from    N/A at 03:34:24;
-            Rain today:              5,1 mm
+            Rain today:              5,4 mm
          </description>
-         <pubDate>Sa, 26 Jan 2019 20:12:00 CET</pubDate>
+         <pubDate>Sa, 26 Jan 2019 20:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -60,16 +60,16 @@
              Day:                     26 Jan 2019<br/>
 	         Min Outside Temperature: -2,3&#176;C at 00:43:49<br/>
 	         Max Outside Temperature: 2,5&#176;C at 13:51:20<br/>
-	         Min Barometer:           1002 mbar at 19:47:41<br/>
+	         Min Barometer:           1002 mbar at 20:17:46<br/>
 	         Max Barometer:           1011 mbar at 00:03:40<br/>
              Max Wind :               2,7 m/s from    N/A at 03:34:24<br/>
-             Rain today:              5,1 mm<br/>
+             Rain today:              5,4 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 26.01.2019 20:12:00</title>
+         <title>Monthly Weather Summary as of 26.01.2019 20:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -5,2&#176;C at 23.01.2019 07:54:44;
@@ -77,9 +77,9 @@
 	        Min barometer:           989 mbar at 13.01.2019 19:40:06;
 	        Max barometer:           1036 mbar at 03.01.2019 21:11:31;
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
-            Rain total for month:    48,0 mm
+            Rain total for month:    48,3 mm
          </description>
-         <pubDate>Sa, 26 Jan 2019 20:12:00 CET</pubDate>
+         <pubDate>Sa, 26 Jan 2019 20:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Januar 2019<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           989 mbar at 13.01.2019 19:40:06<br/>
 	         Max Barometer:           1036 mbar at 03.01.2019 21:11:31<br/>
              Max Wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09<br/>
-             Rain total for month:    48,0 mm<br/>
+             Rain total for month:    48,3 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 26.01.2019 20:12:00</title>
+         <title>Yearly Weather Summary as of 26.01.2019 20:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -5,2&#176;C at 23.01.2019 07:54:44;
@@ -102,9 +102,9 @@
 	        Min barometer:           989 mbar at 13.01.2019 19:40:06;
 	        Max barometer:           1036 mbar at 03.01.2019 21:11:31;
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
-            Rain total for year:     48,0 mm
+            Rain total for year:     48,3 mm
          </description>
-         <pubDate>Sa, 26 Jan 2019 20:12:00 CET</pubDate>
+         <pubDate>Sa, 26 Jan 2019 20:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           989 mbar at 13.01.2019 19:40:06<br/>
 	         Max Barometer:           1036 mbar at 03.01.2019 21:11:31<br/>
              Max Wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09<br/>
-             Rain total for year:     48,0 mm<br/>
+             Rain total for year:     48,3 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
