@@ -7,11 +7,11 @@
 "station.altitude": "48 meter",
 "station.hardware": "WS1080",
 "station.version": "3.7.1",
-"station.uptime": "4 Tage, 9 Stunden, 32 Minuten",
-"station.os_uptime": "4 Tage, 8 Stunden, 52 Minuten",
+"station.uptime": "4 Tage, 9 Stunden, 47 Minuten",
+"station.os_uptime": "4 Tage, 9 Stunden, 7 Minuten",
 "station.rain_year_str": "Jan",
 
-"current.dateTime": "01.02.2019 23:48:00",
+"current.dateTime": "02.02.2019 00:00:00",
 "current.barometer": "998 mbar",
 "current.rainRate": "0,0 mm/h",
 "current.windSpeed": "0,0 m/s",
@@ -28,10 +28,10 @@
 "Extras.radar_gif": "http://www.dwd.de/DWD/wetter/radar/radfilm_brd_akt.gif",
 "Extras.you": "Hilmar",
 
-"almanac.sunrise": "07:48:56",
-"almanac.sunset": "16:51:58",
+"almanac.sunrise": "07:47:19",
+"almanac.sunset": "16:53:51",
 "almanac.moon_phase": "letztes Viertel",
-"almanac.moon_fullness": "16",
+"almanac.moon_fullness": "9",
 
 "rainyear.rain.sum": "54,3 mm",
 "rainyear.rainRate.max": "7,2 mm/h",
