@@ -7,11 +7,11 @@
 "station.altitude": "48 meter",
 "station.hardware": "WS1080",
 "station.version": "3.7.1",
-"station.uptime": "4 Tage, 16 Stunden, 9 Minuten",
-"station.os_uptime": "4 Tage, 15 Stunden, 29 Minuten",
+"station.uptime": "4 Tage, 16 Stunden, 19 Minuten",
+"station.os_uptime": "4 Tage, 15 Stunden, 39 Minuten",
 "station.rain_year_str": "Jan",
 
-"current.dateTime": "02.02.2019 06:24:00",
+"current.dateTime": "02.02.2019 06:36:00",
 "current.barometer": "996 mbar",
 "current.rainRate": "0,0 mm/h",
 "current.windSpeed": "0,0 m/s",
@@ -20,7 +20,7 @@
 "current.outTemp": "1,2&#176;C",
 "current.inHumidity": "42%",
 "current.outHumidity": "83%",
-"current.absHumidityIn": "8,055881 g/m<sup>3</sup>",
+"current.absHumidityIn": "8,104976 g/m<sup>3</sup>",
 "current.absHumidityOut": "4,367435 g/m<sup>3</sup>",
 
 "Extras.radar_url": "http://www.dwd.de",
