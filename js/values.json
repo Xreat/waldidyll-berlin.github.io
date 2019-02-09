@@ -7,15 +7,15 @@
 "station.altitude": "48 meter",
 "station.hardware": "WS1080",
 "station.version": "3.7.1",
-"station.uptime": "12 Tage, 8 Stunden, 20 Minuten",
-"station.os_uptime": "12 Tage, 7 Stunden, 39 Minuten",
+"station.uptime": "12 Tage, 8 Stunden, 35 Minuten",
+"station.os_uptime": "12 Tage, 7 Stunden, 54 Minuten",
 "station.rain_year_str": "Jan",
 
-"current.dateTime": "09.02.2019 22:36:00",
+"current.dateTime": "09.02.2019 22:48:00",
 "current.barometer": "1009 mbar",
 "current.rainRate": "0,0 mm/h",
-"current.windSpeed": "2,0 m/s",
-"current.windDir": "110&#176;",
+"current.windSpeed": "1,5 m/s",
+"current.windDir": "28&#176;",
 "current.inTemp": "22,1&#176;C",
 "current.outTemp": "7,6&#176;C",
 "current.inHumidity": "45%",
@@ -187,6 +187,6 @@
 "year.wind.avg": "0,8 m/s",
 "year.wind.rms": "1,1 m/s",
 "year.wind.vecavg": "0,3 m/s",
-"year.wind.vecdir": "34&#176;",
+"year.wind.vecdir": "33&#176;",
 "year.wind.vecdir.ordinal_compass": "NNO"
 }
