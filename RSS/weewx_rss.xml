@@ -7,59 +7,59 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sa, 16 Feb 2019 15:12:00 CET</pubDate>
+      <pubDate>Sa, 16 Feb 2019 15:24:00 CET</pubDate>
 
-      <lastBuildDate>Sa, 16 Feb 2019 15:12:00 CET</lastBuildDate>
+      <lastBuildDate>Sa, 16 Feb 2019 15:24:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 16.02.2019 15:12:00</title>
+         <title>Weather Conditions at 16.02.2019 15:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 15,7&#176;C; 
+           Outside temperature: 16,0&#176;C; 
            Barometer: 1026 mbar; 
-           Wind: 1,8 m/s from 51&#176;; 
+           Wind: 1,1 m/s from 330&#176;; 
            Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Sa, 16 Feb 2019 15:12:00 CET</pubDate>
+         <pubDate>Sa, 16 Feb 2019 15:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                16.02.2019 15:12:00<br/>
-             Outside Temperature: 15,7&#176;C<br/>
-             Wind Chill:          15,7&#176;C<br/>
-             Heat Index:          15,7&#176;C<br/>
-             Dewpoint:            -4,4&#176;C<br/>
-             Humidity:            25%<br/>
+             Time:                16.02.2019 15:24:00<br/>
+             Outside Temperature: 16,0&#176;C<br/>
+             Wind Chill:          16,0&#176;C<br/>
+             Heat Index:          16,0&#176;C<br/>
+             Dewpoint:            -2,8&#176;C<br/>
+             Humidity:            28%<br/>
              Barometer:           1026 mbar<br/>
-             Wind:                1,8 m/s from 51&#176;<br/>
+             Wind:                1,1 m/s from 330&#176;<br/>
              Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 16.02.2019 15:12:00</title>
+         <title>Daily Weather Summary as of 16.02.2019 15:24:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 2,2&#176;C at 08:12:19;
-         	Max outside temperature: 15,8&#176;C at 15:08:46;
+         	Max outside temperature: 16,0&#176;C at 15:13:47;
 	        Min barometer:           1026 mbar at 15:08:46;
 	        Max barometer:           1031 mbar at 00:00:39;
             Max wind :               3,7 m/s from    N/A at 11:07:58;
             Rain today:              0,0 mm
          </description>
-         <pubDate>Sa, 16 Feb 2019 15:12:00 CET</pubDate>
+         <pubDate>Sa, 16 Feb 2019 15:24:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     16 Feb 2019<br/>
 	         Min Outside Temperature: 2,2&#176;C at 08:12:19<br/>
-	         Max Outside Temperature: 15,8&#176;C at 15:08:46<br/>
+	         Max Outside Temperature: 16,0&#176;C at 15:13:47<br/>
 	         Min Barometer:           1026 mbar at 15:08:46<br/>
 	         Max Barometer:           1031 mbar at 00:00:39<br/>
              Max Wind :               3,7 m/s from    N/A at 11:07:58<br/>
@@ -69,21 +69,21 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 16.02.2019 15:12:00</title>
+         <title>Monthly Weather Summary as of 16.02.2019 15:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: -1,5&#176;C at 01.02.2019 06:46:03;
-         	Max outside temperature: 15,8&#176;C at 16.02.2019 15:08:46;
+         	Max outside temperature: 16,0&#176;C at 16.02.2019 15:13:47;
 	        Min barometer:           992 mbar at 10.02.2019 19:17:09;
 	        Max barometer:           1037 mbar at 14.02.2019 10:51:48;
             Max wind :               8,5 m/s from    N/A at 09.02.2019 16:56:11;
             Rain total for month:    20,7 mm
          </description>
-         <pubDate>Sa, 16 Feb 2019 15:12:00 CET</pubDate>
+         <pubDate>Sa, 16 Feb 2019 15:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   Februar 2019<br/>
-	         Max Outside Temperature: 15,8&#176;C at 16.02.2019 15:08:46<br/>
+	         Max Outside Temperature: 16,0&#176;C at 16.02.2019 15:13:47<br/>
 	         Min Outside Temperature: -1,5&#176;C at 01.02.2019 06:46:03<br/>
 	         Min Barometer:           992 mbar at 10.02.2019 19:17:09<br/>
 	         Max Barometer:           1037 mbar at 14.02.2019 10:51:48<br/>
@@ -94,21 +94,21 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 16.02.2019 15:12:00</title>
+         <title>Yearly Weather Summary as of 16.02.2019 15:24:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -5,2&#176;C at 23.01.2019 07:54:44;
-         	Max outside temperature: 15,8&#176;C at 16.02.2019 15:08:46;
+         	Max outside temperature: 16,0&#176;C at 16.02.2019 15:13:47;
 	        Min barometer:           989 mbar at 27.01.2019 18:17:26;
 	        Max barometer:           1037 mbar at 14.02.2019 10:51:48;
             Max wind :               9,2 m/s from    N/A at 01.01.2019 20:56:09;
             Rain total for year:     75,0 mm
          </description>
-         <pubDate>Sa, 16 Feb 2019 15:12:00 CET</pubDate>
+         <pubDate>Sa, 16 Feb 2019 15:24:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
-	         Max Outside Temperature: 15,8&#176;C at 16.02.2019 15:08:46<br/>
+	         Max Outside Temperature: 16,0&#176;C at 16.02.2019 15:13:47<br/>
 	         Min Outside Temperature: -5,2&#176;C at 23.01.2019 07:54:44<br/>
 	         Min Barometer:           989 mbar at 27.01.2019 18:17:26<br/>
 	         Max Barometer:           1037 mbar at 14.02.2019 10:51:48<br/>
