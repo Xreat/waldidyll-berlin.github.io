@@ -7,42 +7,42 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>So, 10 M&#228;r 2019 17:36:00 CET</pubDate>
+      <pubDate>So, 10 M&#228;r 2019 17:48:00 CET</pubDate>
 
-      <lastBuildDate>So, 10 M&#228;r 2019 17:36:00 CET</lastBuildDate>
+      <lastBuildDate>So, 10 M&#228;r 2019 17:48:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>12,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 10.03.2019 17:36:00</title>
+         <title>Weather Conditions at 10.03.2019 17:48:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 6,2&#176;C; 
+           Outside temperature: 6,1&#176;C; 
            Barometer: 999 mbar; 
            Wind: 0,0 m/s from    N/A; 
-           Rain rate: 1,6 mm/h; 
+           Rain rate: 3,3 mm/h; 
          </description>
-         <pubDate>So, 10 M&#228;r 2019 17:36:00 CET</pubDate>
+         <pubDate>So, 10 M&#228;r 2019 17:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                10.03.2019 17:36:00<br/>
-             Outside Temperature: 6,2&#176;C<br/>
-             Wind Chill:          6,2&#176;C<br/>
-             Heat Index:          6,2&#176;C<br/>
+             Time:                10.03.2019 17:48:00<br/>
+             Outside Temperature: 6,1&#176;C<br/>
+             Wind Chill:          6,1&#176;C<br/>
+             Heat Index:          6,1&#176;C<br/>
              Dewpoint:            3,2&#176;C<br/>
              Humidity:            81%<br/>
              Barometer:           999 mbar<br/>
              Wind:                0,0 m/s from    N/A<br/>
-             Rain Rate:           1,6 mm/h<br/>
+             Rain Rate:           3,3 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 10.03.2019 17:36:00</title>
+         <title>Daily Weather Summary as of 10.03.2019 17:48:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 4,8&#176;C at 03:19:28;
@@ -50,9 +50,9 @@
 	        Min barometer:           999 mbar at 16:57:30;
 	        Max barometer:           1010 mbar at 01:44:06;
             Max wind :               5,8 m/s from    N/A at 01:29:03;
-            Rain today:              3,0 mm
+            Rain today:              3,6 mm
          </description>
-         <pubDate>So, 10 M&#228;r 2019 17:36:00 CET</pubDate>
+         <pubDate>So, 10 M&#228;r 2019 17:48:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
@@ -63,13 +63,13 @@
 	         Min Barometer:           999 mbar at 16:57:30<br/>
 	         Max Barometer:           1010 mbar at 01:44:06<br/>
              Max Wind :               5,8 m/s from    N/A at 01:29:03<br/>
-             Rain today:              3,0 mm<br/>
+             Rain today:              3,6 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 10.03.2019 17:36:00</title>
+         <title>Monthly Weather Summary as of 10.03.2019 17:48:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 1,8&#176;C at 06.03.2019 06:33:09;
@@ -77,9 +77,9 @@
 	        Min barometer:           990 mbar at 04.03.2019 15:08:35;
 	        Max barometer:           1018 mbar at 02.03.2019 01:27:26;
             Max wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59;
-            Rain total for month:    22,2 mm
+            Rain total for month:    22,8 mm
          </description>
-         <pubDate>So, 10 M&#228;r 2019 17:36:00 CET</pubDate>
+         <pubDate>So, 10 M&#228;r 2019 17:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2019<br/>
@@ -88,13 +88,13 @@
 	         Min Barometer:           990 mbar at 04.03.2019 15:08:35<br/>
 	         Max Barometer:           1018 mbar at 02.03.2019 01:27:26<br/>
              Max Wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59<br/>
-             Rain total for month:    22,2 mm<br/>
+             Rain total for month:    22,8 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 10.03.2019 17:36:00</title>
+         <title>Yearly Weather Summary as of 10.03.2019 17:48:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -5,2&#176;C at 23.01.2019 07:54:44;
@@ -102,9 +102,9 @@
 	        Min barometer:           989 mbar at 27.01.2019 18:17:26;
 	        Max barometer:           1046 mbar at 23.02.2019 00:37:48;
             Max wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59;
-            Rain total for year:     102,0 mm
+            Rain total for year:     102,6 mm
          </description>
-         <pubDate>So, 10 M&#228;r 2019 17:36:00 CET</pubDate>
+         <pubDate>So, 10 M&#228;r 2019 17:48:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
@@ -113,7 +113,7 @@
 	         Min Barometer:           989 mbar at 27.01.2019 18:17:26<br/>
 	         Max Barometer:           1046 mbar at 23.02.2019 00:37:48<br/>
              Max Wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59<br/>
-             Rain total for year:     102,0 mm<br/>
+             Rain total for year:     102,6 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
