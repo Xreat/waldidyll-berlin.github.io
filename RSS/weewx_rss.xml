@@ -7,69 +7,69 @@
       <link>https://www.waldidyll-berlin.github.io</link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Fr, 29 M&#228;r 2019 09:00:00 CET</pubDate>
+      <pubDate>Fr, 29 M&#228;r 2019 09:30:00 CET</pubDate>
 
-      <lastBuildDate>Fr, 29 M&#228;r 2019 09:00:00 CET</lastBuildDate>
+      <lastBuildDate>Fr, 29 M&#228;r 2019 09:30:00 CET</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 3.7.1</generator>
       <ttl>30,000000 Minuten</ttl>
       
       <item>
-         <title>Weather Conditions at 29.03.2019 09:00:00</title>
+         <title>Weather Conditions at 29.03.2019 09:30:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
-           Outside temperature: 10,3&#176;C; 
+           Outside temperature: 10,6&#176;C; 
            Barometer: 1034 mbar; 
-           Wind: 0,0 m/s from 45&#176;; 
-           Rain rate: 0,5 mm/h; 
+           Wind: 0,3 m/s from 142&#176;; 
+           Rain rate: 0,0 mm/h; 
          </description>
-         <pubDate>Fr, 29 M&#228;r 2019 09:00:00 CET</pubDate>
+         <pubDate>Fr, 29 M&#228;r 2019 09:30:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                29.03.2019 09:00:00<br/>
-             Outside Temperature: 10,3&#176;C<br/>
-             Wind Chill:          10,3&#176;C<br/>
-             Heat Index:          10,3&#176;C<br/>
-             Dewpoint:            9,4&#176;C<br/>
-             Humidity:            94%<br/>
+             Time:                29.03.2019 09:30:00<br/>
+             Outside Temperature: 10,6&#176;C<br/>
+             Wind Chill:          10,6&#176;C<br/>
+             Heat Index:          10,6&#176;C<br/>
+             Dewpoint:            9,5&#176;C<br/>
+             Humidity:            92%<br/>
              Barometer:           1034 mbar<br/>
-             Wind:                0,0 m/s from 45&#176;<br/>
-             Rain Rate:           0,5 mm/h<br/>
+             Wind:                0,3 m/s from 142&#176;<br/>
+             Rain Rate:           0,0 mm/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 29.03.2019 09:00:00</title>
+         <title>Daily Weather Summary as of 29.03.2019 09:30:00</title>
          <link>https://www.waldidyll-berlin.github.io</link>
          <description>
 	        Min outside temperature: 9,3&#176;C at 05:36:54;
-         	Max outside temperature: 10,5&#176;C at 08:57:43;
+         	Max outside temperature: 10,7&#176;C at 09:17:47;
 	        Min barometer:           1034 mbar at 04:21:27;
 	        Max barometer:           1035 mbar at 00:01:13;
-            Max wind :               1,0 m/s from    N/A at 08:57:43;
+            Max wind :               2,0 m/s from    N/A at 09:27:52;
             Rain today:              0,3 mm
          </description>
-         <pubDate>Fr, 29 M&#228;r 2019 09:00:00 CET</pubDate>
+         <pubDate>Fr, 29 M&#228;r 2019 09:30:00 CET</pubDate>
 	     <geo:lat>52.572486</geo:lat>
     	 <geo:long>13.267148</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     29 M&#228;r 2019<br/>
 	         Min Outside Temperature: 9,3&#176;C at 05:36:54<br/>
-	         Max Outside Temperature: 10,5&#176;C at 08:57:43<br/>
+	         Max Outside Temperature: 10,7&#176;C at 09:17:47<br/>
 	         Min Barometer:           1034 mbar at 04:21:27<br/>
 	         Max Barometer:           1035 mbar at 00:01:13<br/>
-             Max Wind :               1,0 m/s from    N/A at 08:57:43<br/>
+             Max Wind :               2,0 m/s from    N/A at 09:27:52<br/>
              Rain today:              0,3 mm<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 29.03.2019 09:00:00</title>
+         <title>Monthly Weather Summary as of 29.03.2019 09:30:00</title>
          <link>https://www.waldidyll-berlin.github.io/month.html</link>
          <description>
 	        Min outside temperature: 1,8&#176;C at 06.03.2019 06:33:09;
@@ -79,7 +79,7 @@
             Max wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59;
             Rain total for month:    49,2 mm
          </description>
-         <pubDate>Fr, 29 M&#228;r 2019 09:00:00 CET</pubDate>
+         <pubDate>Fr, 29 M&#228;r 2019 09:30:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   M&#228;rz 2019<br/>
@@ -94,7 +94,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 29.03.2019 09:00:00</title>
+         <title>Yearly Weather Summary as of 29.03.2019 09:30:00</title>
          <link>https://www.waldidyll-berlin.github.io/year.html</link>
          <description>
 	        Min outside temperature: -5,2&#176;C at 23.01.2019 07:54:44;
@@ -104,7 +104,7 @@
             Max wind :               11,6 m/s from    N/A at 04.03.2019 12:17:59;
             Rain total for year:     129,0 mm
          </description>
-         <pubDate>Fr, 29 M&#228;r 2019 09:00:00 CET</pubDate>
+         <pubDate>Fr, 29 M&#228;r 2019 09:30:00 CET</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2019<br/>
