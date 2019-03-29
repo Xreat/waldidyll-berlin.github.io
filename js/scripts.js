@@ -91,7 +91,7 @@ function injectData(event) {
 		});
 		
 		const loc = db["station.location"] || "";
-		document.querySelector("header p a").src = "https://www.google.com/maps/?q=" + loc;
+		document.querySelector("header p a").href = "https://www.google.com/maps/?q=" + loc;
 		// document.title = loc + " " + document.title;
 		document.querySelector("[property='og:site_name']").content = loc;
 		document.querySelector("[property='og:description']").content = `Weekly Weather Summary from ${loc} - weather web site powered by weewx`;
